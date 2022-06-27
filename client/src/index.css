@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --background: rgb(203, 196, 188);
+    --font: rgb(0, 0, 0);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: var(--background);
+    width: 100vw;
+    color: black;
 }
+
+/* Navigation component */
+
+.Navigation {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color:rgb(228, 223, 216, 0.4);
+    /* border-bottom: 2px solid black; */
+    z-index: 1;
+}
+
+.Navigation a {
+    margin-left: 40px;
+    color: var(--font);
+}
+
+.Navigation > * {
+    text-decoration: none;
+}
+
+/* Map component */
+
+.Map {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map-content {
+    width: 100vw;
+    height: 100vh;
+}
+
+

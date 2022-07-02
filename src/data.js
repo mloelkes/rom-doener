@@ -1,6 +1,11 @@
 const interviews = [
     {
         id: "rogerfritz",
+        coordinates: {
+            lng: 8.680000,
+            lat: 50.110000
+        },
+        color: "rgb(238, 238, 30)",
         title: "Wir sind dort einfach hingegangen, haben die Kamera aufgestellt, schnell gedreht und sind dann wieder weg",
         subtitle: "Der Regisseur Roger Fritz über seinen Film 'Frankfurt Kaiserstraße'",
         tag: "Frankfurt als Nachtasyl",
@@ -43,7 +48,7 @@ const interviews = [
             "'Frankfurt Kaiserstraße' war Ihr letzter Spielfilm, warum?",
             "Ich habe noch öfter über weitere Spielfilme nachgedacht. Bei mir liegen auch ein paar Drehbücher herum. Eines hatte ich gemeinsam mit Ulf Miehe verfasst. Einmal kam es sogar noch zum Dreh, während dem allerdings relativ schnell die Produktionsfirma pleite ging. Und dann hatte ich auf einmal zwei Lokale in München, die ich eigentlich gar nicht haben wollte."
         ]
-    }
+    },
 ];
 
 module.exports = { interviews }

@@ -1,20 +1,12 @@
 import React from "react";
 import { useEffect } from "react";
 import mapboxgl from 'mapbox-gl';
+import { interviews } from "../data.js";
 
 function Map(props) {
     function initializeMap() {
         const mapboxMap = createMap();
-        createMarker(mapboxMap);
-    }
-
-    function clickMarker(e) {
-        props.clickMarker(e);
-        e.stopPropagation();
-    }
-
-    function clickMap() {
-        props.clickMap();
+        createMarkers(mapboxMap);
     }
 
     function createMap() {
@@ -34,15 +26,31 @@ function Map(props) {
         return mapboxMap;
     }
 
-    function createMarker(mapboxMap) {
-        let marker = new mapboxgl.Marker({
-            color: "rgb(238, 238, 30)"
-        }).setLngLat({lng: 8.680000, lat: 50.110000})
-        .addTo(mapboxMap)
+    function createMarkers(mapboxMap) {
+        interviews.forEach(interview => {
+            createMarker(mapboxMap, interview.coordinates);
+        })   
+    }
 
-        marker.getElement().addEventListener("click", (e) => {
+    function createMarker(mapboxMap, coordinates) {
+        const el = document.createElement("div");
+        el.addEventListener("click", (e) => {
             clickMarker(e);
         })
+        el.className = "marker";
+
+        new mapboxgl.Marker(el)
+        .setLngLat(coordinates)
+        .addTo(mapboxMap)
+    }
+
+    function clickMarker(e) {
+        props.clickMarker(e);
+        e.stopPropagation();
+    }
+
+    function clickMap() {
+        props.clickMap();
     }
 
     useEffect(() => {

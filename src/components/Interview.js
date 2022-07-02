@@ -1,9 +1,42 @@
-function Interview() {
+import { useState, useEffect, useRef } from "react";
+import { interviews } from "../data.js";
+import Map from "./Map.js";
+
+function Interview(props) {
+
+    // const isInitialMount = useRef(true);
+    const [interviewContent, setInterviewContent] = useState(undefined);
+    const [showInterview, setShowInterview] = useState(false);
+
+    function clickMarker() {
+        setInterviewContent(props.interviewContent)
+        setShowInterview(true);
+    }
+
+    useEffect(() => {
+        if (props.interviewContent) {
+            clickMarker();
+        }
+    }, [props.interviewContent])
+
     return (
         <div className="Interview">
-            <div className="col-1"></div>
+            <div className="col-1">
+                <div className="content"></div>
+            </div>
             <div className="col-2">
-                <div className="content"><p>Das Verbot meiner Selbstausstellung griff damals das „stern“-Magazin auf, und zur Illustration des Artikels schickte man einen Fotografen zu den Ausstellungshallen am Funkturm, wo wir heimlich im Depot ein Foto mit mir im Glaskasten machten. Dieses Bild fand über eine Presseagentur weltweite Verbreitung. Infolge dieser Publizität wurde auch die mittlerweile legendäre Frankfurter Produzentengalerie Patio auf mich aufmerksam und bot mir an, meine Aktion dort zu wiederholen. Diese Galerie war zu jenem Zeitpunkt einer der avanciertesten Orte für Kunst, nicht nur in Frankfurt, der große experimentelle Freiheit erlaubte; Stanley Brown beispielsweise, der Konzeptkünstler aus Amsterdam, präsentierte sich hier erstmals in der Bundesrepublik.</p></div>
+                {showInterview && <div className="content">
+                    <h3>{interviewContent?.tag}</h3>
+                    <h1>{interviewContent?.title}</h1>
+                    <h2>{interviewContent?.subtitle}</h2>
+                    <p className="intro">{interviewContent?.intro}</p>
+                    {interviewContent?.interview.map((text, i) => (
+                        i % 2 === 0 ?
+                        <p className="question" key={i}>{text}</p>
+                        :
+                        <p className="answer" key={i}>{text}</p>
+                    ))}
+                </div>}
             </div>
         </div>
     )

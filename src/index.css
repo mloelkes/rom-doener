@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 :root {
     --background: rgb(203, 196, 188);
@@ -15,6 +17,32 @@ body {
     font-size: 22px;
     background-color: var(--background);
     color: var(--font);
+}
+
+/* Default */
+
+h1 {
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'EB Garamond', serif;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+}
+
+h2 {
+    font-size: 22px;
+    /* text-transform: uppercase; */
+    /* text-decoration: underline; */
+    font-weight: 400;
+    margin: 0 0 30px 0;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+    margin: 0 0 20px 0;
 }
 
 /* Home page */
@@ -35,19 +63,28 @@ body {
     position: fixed;
     top: 0;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     /* background-color:rgb(228, 223, 216, 0.4); */
     border-bottom: 2px solid var(--border);
     z-index: 1;
 }
 
-.Navigation a {
-    margin-left: 40px;
-    color: var(--font);
+.Navigation .links:first-child {
+    margin-left: 60px;
 }
 
-.Navigation > * {
+.Navigation .links a:not(:first-child) {
+    margin-left: 40px;
+}
+
+.Navigation .links > * {
+    color: var(--font);
     text-decoration: none;
+}
+
+.Navigation p {
+    margin-right: 60px;
 }
 
 /* Map component */
@@ -75,24 +112,38 @@ body {
 }
 
 .Interview .col-1 {
+    margin-top: 60px;
     flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .Interview .col-2 {
+    margin-top: 60px;
     flex: 2;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .Interview .col-2 .content {
-    position: relative;
-    top: 30px;
-    width: 75%;
-    height: 65%;
+    width: 70%;
+    height: 70%;
     padding: 30px 60px;
+    margin-right: 60px;
     z-index: 1;
     background-color: rgb(238, 238, 30);
     border: 2px solid var(--border);
+    overflow-y: scroll;
+}
+
+.Interview .col-2 .content .intro {
+    font-size: 22px;
+}
+
+.Interview .col-2 .content .question {
+    /* font-weight: 500; */
+    text-decoration: underline;
 }
 

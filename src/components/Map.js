@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import mapboxgl from 'mapbox-gl';
 
-function Map() {
+function Map(props) {
     const [map, setMap] = useState(undefined);
 
     function initializeMap() {
@@ -11,7 +11,7 @@ function Map() {
     }
 
     function clickMarker() {
-        console.log("clicked");
+        props.clickMarker();
     }
 
     function createMap() {

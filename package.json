@@ -30,7 +30,9 @@
       ">0.2%",
       "not ie 11",
       "not dead",
-      "not chrome 49",
+      "not chrome < 51",
+      "not safari < 10",
+      "not android < 51",
       "not op_mini all"
     ],
     "development": [

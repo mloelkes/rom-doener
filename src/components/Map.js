@@ -1,17 +1,20 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import mapboxgl from 'mapbox-gl';
 
 function Map(props) {
-    const [map, setMap] = useState(undefined);
-
     function initializeMap() {
         const mapboxMap = createMap();
         createMarker(mapboxMap);
     }
 
-    function clickMarker() {
-        props.clickMarker();
+    function clickMarker(e) {
+        props.clickMarker(e);
+        e.stopPropagation();
+    }
+
+    function clickMap() {
+        props.clickMap();
     }
 
     function createMap() {
@@ -26,7 +29,8 @@ function Map(props) {
         const nav = new mapboxgl.NavigationControl();
         mapboxMap.addControl(nav, "bottom-right");
 
-        setMap(mapboxMap);
+        mapboxMap.on("click", clickMap);
+
         return mapboxMap;
     }
 
@@ -37,7 +41,7 @@ function Map(props) {
         .addTo(mapboxMap)
 
         marker.getElement().addEventListener("click", (e) => {
-            clickMarker();
+            clickMarker(e);
         })
     }
 

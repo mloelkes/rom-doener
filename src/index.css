@@ -148,7 +148,11 @@ h3 {
     background-color: rgb(238, 238, 30);
     border: 2px solid var(--border);
     overflow-y: scroll;
-    
+    scrollbar-width: none;
+}
+
+.Interview .col-2 .content::-webkit-scrollbar {
+    display: none;
 }
 
 .Interview .col-2 .content .intro {

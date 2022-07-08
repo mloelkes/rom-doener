@@ -27,20 +27,22 @@ function Map(props) {
     }
 
     function createMarkers(mapboxMap) {
-        interviews.forEach(interview => {
-            createMarker(mapboxMap, interview.coordinates);
-        })   
+        for (let key in interviews) {
+            createMarker(mapboxMap, interviews[key]);
+        } 
     }
 
-    function createMarker(mapboxMap, coordinates) {
+    function createMarker(mapboxMap, interview) {
         const el = document.createElement("div");
+        el.id = interview.id;
+        el.className = "marker";
+        el.style.backgroundColor = interview.color
         el.addEventListener("click", (e) => {
             clickMarker(e);
         })
-        el.className = "marker";
 
         new mapboxgl.Marker(el)
-        .setLngLat(coordinates)
+        .setLngLat(interview.coordinates)
         .addTo(mapboxMap)
     }
 

@@ -1,26 +1,34 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Map from "../components/Map.js";
 import Interview from "../components/Interview.js";
+import About from "../components/About.js";
 import { interviews } from "../data.js";
 
-function Home() {
+function Home(props) {
+    const [showInterview, setShowInterview] = useState(true);
+    const [showInterviews, setShowInterviews] = useState(false);
+    const [showTopics, setShowTopics] = useState(false);
+    const [showAbout, setShowAbout] = useState(false);
+
     const [interviewContent, setInterviewContent] = useState(undefined);
-    const [showInterview, setShowInterview] = useState(false);
+    const [showInterviewContent, setShowInterviewContent] = useState(false);
 
     function clickMarker(e) {
-        console.log(e);
-        setInterviewContent(interviews[0]);
-        setShowInterview(true);
+        const id = e.target.id;
+
+        setInterviewContent(interviews[id]);
+        setShowInterviewContent(true);
     }
 
     function clickMap() {
-        setShowInterview(false);
+        setShowInterviewContent(false);
     }
 
     return (
         <div className="Home">
             <Map clickMarker={clickMarker} clickMap={clickMap}/>
-            <Interview interviewContent={interviewContent} showInterview={showInterview}/>
+            {showInterview && <Interview interviewContent={interviewContent} showInterviewContent={showInterviewContent}/>}
+            {showAbout && <About/>}
         </div>
     )
 }

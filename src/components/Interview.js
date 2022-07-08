@@ -3,15 +3,15 @@ import { useState, useEffect } from "react";
 function Interview(props) {
 
     const [interviewContent, setInterviewContent] = useState(undefined);
-    const [showInterview, setShowInterview] = useState(false);
+    const [showInterviewContent, setShowInterviewContent] = useState(false);
 
     useEffect(() => {
         setInterviewContent(props.interviewContent)
     }, [props.interviewContent])
 
     useEffect(() => {
-        setShowInterview(props.showInterview);
-    }, [props.showInterview])
+        setShowInterviewContent(props.showInterviewContent);
+    }, [props.showInterviewContent])
 
     return (
         <div className="Interview">
@@ -20,7 +20,7 @@ function Interview(props) {
                 </div>
             </div>
             <div className="col-2">
-                <div className={showInterview ? "content visible" : "content invisible"}>
+                <div style={{ backgroundColor: interviewContent?.color }} className={showInterviewContent ? "content visible" : "content invisible"}>
                     <h3>{interviewContent?.tag}</h3>
                     <h1>{interviewContent?.title}</h1>
                     <h2>{interviewContent?.subtitle}</h2>

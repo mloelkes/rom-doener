@@ -16,6 +16,7 @@ body {
     font-size: 22px;
     background-color: var(--background);
     color: var(--font);
+    line-height: 1.6;
 }
 
 /* Default */
@@ -45,7 +46,7 @@ h3 {
 
 .visible {
     opacity: 1;
-    z-index: 2;
+    z-index: 1;
     transition: opacity 0.4s linear;
 }
 
@@ -75,8 +76,8 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color:rgb(228, 223, 216, 0.4); */
-    border-bottom: 2px solid var(--border);
+    background-color:rgb(228, 223, 216, 0.4);
+    /* border-bottom: 2px solid var(--border); */
     z-index: 2;
 }
 
@@ -113,7 +114,7 @@ h3 {
 .marker {
     width: 30px;
     height: 30px;
-    background-color:rgb(238, 238, 30);
+    /* background-color:rgb(238, 238, 30); */
     border-radius: 50%;
     cursor: pointer;
 }
@@ -145,10 +146,9 @@ h3 {
 .Interview .col-2 .content {
     width: 70%;
     height: 70%;
-    padding: 30px 60px;
+    padding: 50px 60px 30px 60px;
     margin-right: 60px;
-    background-color: rgb(238, 238, 30);
-    border: 2px solid var(--border);
+    /* border: 2px solid var(--border); */
     overflow-y: scroll;
     scrollbar-width: none;
 }
@@ -164,5 +164,21 @@ h3 {
 .Interview .col-2 .content .question {
     /* font-weight: 500; */
     text-decoration: underline;
+}
+
+/* About component */
+
+.About {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: 1;
+}
+
+.About .content {
+    margin: 60px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 

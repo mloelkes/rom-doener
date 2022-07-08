@@ -20,7 +20,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-### push to github pages
+### `npm run deploy`
 
-Push the app to github pages with the command
-npm run deploy
+Deploy the app on github pages

@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
 import Map from "../components/Map.js";
-import Interview from "../components/Interview.js";
-import About from "../components/About.js";
+import Interviews from "../components/Interviews.js";
+import Karte from "../components/Karte.js";
+import Register from "../components/Register.js";
+import Ueber from "../components/Ueber.js";
 import { interviews } from "../data.js";
 
 function Home(props) {
-    const [showInterview, setShowInterview] = useState(true);
     const [showInterviews, setShowInterviews] = useState(false);
-    const [showTopics, setShowTopics] = useState(false);
-    const [showAbout, setShowAbout] = useState(false);
+    const [showKarte, setShowKarte] = useState(true);
+    const [showRegister, setShowRegister] = useState(false);
+    const [showUeber, setShowUeber] = useState(false);
 
     const [interviewContent, setInterviewContent] = useState(undefined);
     const [showInterviewContent, setShowInterviewContent] = useState(false);
@@ -24,11 +26,29 @@ function Home(props) {
         setShowInterviewContent(false);
     }
 
+    useEffect(() => {
+        setShowInterviews(props.showInterviews);
+    }, [props.showInterviews])
+
+    useEffect(() => {
+        setShowKarte(props.showKarte);
+    }, [props.showKarte])
+
+    useEffect(() => {
+        setShowRegister(props.showRegister);
+    }, [props.showRegister])
+
+    useEffect(() => {
+        setShowUeber(props.showUeber);
+    }, [props.showUeber])
+
     return (
         <div className="Home">
             <Map clickMarker={clickMarker} clickMap={clickMap}/>
-            {showInterview && <Interview interviewContent={interviewContent} showInterviewContent={showInterviewContent}/>}
-            {showAbout && <About/>}
+            {showInterviews && <Interviews/>}
+            {showKarte && <Karte interviewContent={interviewContent} showInterviewContent={showInterviewContent}/>}
+            {showRegister && <Register/>}
+            {showUeber && <Ueber/>}
         </div>
     )
 }

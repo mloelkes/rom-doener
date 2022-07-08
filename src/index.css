@@ -44,16 +44,30 @@ h3 {
     margin: 0 0 20px 0;
 }
 
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--font);
+    text-decoration: none;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
 .visible {
     opacity: 1;
     z-index: 1;
-    transition: opacity 0.2s linear;
+    transition: opacity 0.05s linear;
 }
 
 .invisible {
     opacity: 0;
     z-index: 0;
-    transition: opacity 0.1s linear, z-index 0.1s step-end;
+    transition: opacity 0.05s linear, z-index 0.05s step-end;
 }
 
 /* Home page */
@@ -72,7 +86,7 @@ h3 {
     width: 100%;
     height: 60px;
     position: fixed;
-    top: 0;
+    top: 0; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,13 +99,8 @@ h3 {
     margin-left: 60px;
 }
 
-.Navigation .links a:not(:first-child) {
+.Navigation .links button:not(:first-child) {
     margin-left: 40px;
-}
-
-.Navigation .links > * {
-    color: var(--font);
-    text-decoration: none;
 }
 
 .Navigation p {
@@ -119,15 +128,39 @@ h3 {
     cursor: pointer;
 }
 
-/* Interview component */
+/* Interviews component */
 
-.Interview {
+.Interviews {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.Interviews .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 60px 0 0 60px;
+}
+
+.Interviews .content > * {
+    margin: 30px 0 0 0;
+}
+
+/* .Interviews .content span {
+    margin-right: 10px;
+} */
+
+
+/* Karte component */
+
+.Karte {
     width: 100vw;
     height: 100vh;
     display: flex;
 }
 
-.Interview .col-1 {
+.Karte .col-1 {
     margin-top: 60px;
     flex: 1;
     display: flex;
@@ -135,7 +168,7 @@ h3 {
     align-items: center;
 }
 
-.Interview .col-2 {
+.Karte .col-2 {
     margin-top: 60px;
     flex: 2;
     display: flex;
@@ -143,7 +176,7 @@ h3 {
     align-items: center;
 }
 
-.Interview .col-2 .content {
+.Karte .col-2 .content {
     width: 70%;
     height: 70%;
     padding: 50px 60px 30px 60px;
@@ -151,32 +184,45 @@ h3 {
     /* border: 2px solid var(--border); */
     overflow-y: scroll;
     scrollbar-width: none;
-    transition: background-color 0.1s linear;
+    background-color:rgb(203, 196, 188);
 }
 
-.Interview .col-2 .content::-webkit-scrollbar {
+.Karte .col-2 .content::-webkit-scrollbar {
     display: none;
 }
 
-.Interview .col-2 .content .intro {
+.Karte .col-2 .content .intro {
     font-size: 22px;
 }
 
-.Interview .col-2 .content .question {
+.Karte .col-2 .content .question {
     /* font-weight: 500; */
     text-decoration: underline;
 }
 
-/* About component */
+/* Register component */
 
-.About {
+.Register {
     width: 100vw;
     height: 100vh;
     display: flex;
     z-index: 1;
 }
 
-.About .content {
+.Register .content {
+    margin: 60px 0 0 60px;
+}
+
+/* Ueber component */
+
+.Ueber {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: 1;
+}
+
+.Ueber .content {
     margin: 60px 60px;
     display: flex;
     justify-content: center;

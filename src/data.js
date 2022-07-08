@@ -1,6 +1,7 @@
 const interviews = {
     rogerfritz: {
         id: "rogerfritz",
+        person: "Roger Fritz",
         coordinates: {
             lng: 8.680000,
             lat: 50.110000
@@ -51,12 +52,13 @@ const interviews = {
     },
     timmulrichs: {
         id: "timmulrichs",
+        person: "Timm Ulrichs",
         coordinates: {
             lng: 8.700000,
             lat: 50.100000
         },
         color: "rgb(160, 110, 230)",
-        title: "Sie schenkte mir Adornos 'Minima Moralia' mit ihrem Lippenabdruck auf dem Umschlag.",
+        title: "Sie schenkte mir Adornos 'Minima Moralia' mit ihrem Lippenabdruck auf dem Umschlag",
         subtitle: "Der Künstler Timm Ulrichs über seine Kunst in Frankfurt und Frankfurt im Kontext seiner Kunst",
         tag: "Frankfurt als Kunststadt",
         intro: "Timm Ulrichs' Werk ist kaum zu überblicken. Anstatt einen unverwechselbaren Stil auszubilden, wechselt er ihn immerzu, findet zu immer neuen Ideen und bespielt dabei alle Disziplinen der Bildenden Kunst. Oft fand seine Konzeptkunst erfolgreiche Nachahmer. Nicht selten wurde er dabei verschwiegen. Als Documenta-Teilnehmer weiß Ulrichs bereits zu Lebzeiten um ein von ihm gestaltetes Grabmal auf der Kasseler Künstler-Nekropole. Seine Arbeit 'Versunkenes Dorf' wurde zum Kunst-am-Bau-Projekt der Münchner Allianzarena. Nackt lief er mit Blitzableiter bei Gewitter über ein Feld, mit Blindenbrille, Blindenstock und gelber Armbinde trug er ein Schild mit dem Schriftzug 'Ich kann keine Kunst mehr sehen!' – viele seiner inszenierten Bilder sind längst ikonisch. Im letzten Jahr erhielt der mittlerweile Achtzigjährige den Käthe-Kollwitz-Preis der Akademie der Künste Berlin für sein Lebenswerk. Die Stadt Frankfurt spielt dabei gerade zu Beginn seiner Karriere eine wichtige Rolle. Im Gespräch erzählt Timm Ulrichs von der Mainmetropole als zeitweiligem Umzugsziel, wo man Adornos 'Minima Moralia' für ihn küsste, Kunst in seine Haut ging und eine verdeckte Beschattung seiner Person an der Straßenbahnhaltestelle endete.",
@@ -89,6 +91,7 @@ const interviews = {
     },
     udonieper: {
         id: "udonieper",
+        person: "Udo Nieper",
         coordinates: {
             lng: 8.720000,
             lat: 50.120000

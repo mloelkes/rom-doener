@@ -18,8 +18,8 @@ function Map(props) {
             zoom: 12
         })
 
-        const nav = new mapboxgl.NavigationControl();
-        mapboxMap.addControl(nav, "bottom-right");
+        // const nav = new mapboxgl.NavigationControl();
+        // mapboxMap.addControl(nav, "bottom-right");
 
         mapboxMap.on("click", clickMap);
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function Interview(props) {
+function Karte(props) {
 
     const [interviewContent, setInterviewContent] = useState(undefined);
     const [showInterviewContent, setShowInterviewContent] = useState(false);
@@ -14,7 +14,7 @@ function Interview(props) {
     }, [props.showInterviewContent])
 
     return (
-        <div className="Interview">
+        <div className="Karte">
             <div className="col-1">
                 <div className="content">
                 </div>
@@ -37,4 +37,4 @@ function Interview(props) {
     )
 }
 
-export default Interview;
+export default Karte;

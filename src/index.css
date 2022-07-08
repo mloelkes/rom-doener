@@ -47,13 +47,13 @@ h3 {
 .visible {
     opacity: 1;
     z-index: 1;
-    transition: opacity 0.4s linear;
+    transition: opacity 0.2s linear;
 }
 
 .invisible {
     opacity: 0;
     z-index: 0;
-    transition: opacity 0.4s linear, z-index 0.4s step-end;
+    transition: opacity 0.1s linear, z-index 0.1s step-end;
 }
 
 /* Home page */
@@ -151,6 +151,7 @@ h3 {
     /* border: 2px solid var(--border); */
     overflow-y: scroll;
     scrollbar-width: none;
+    transition: background-color 0.1s linear;
 }
 
 .Interview .col-2 .content::-webkit-scrollbar {

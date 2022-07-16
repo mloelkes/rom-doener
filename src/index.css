@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 
 :root {
     --background: rgb(203, 196, 188);
@@ -13,7 +17,7 @@ body {
     width: 100vw;
     font-family: 'Jost', sans-serif;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     background-color: var(--background);
     color: var(--font);
     line-height: 1.6;
@@ -22,26 +26,34 @@ body {
 /* Default */
 
 h1 {
-    font-family: 'EB Garamond', serif;
-    font-size: 26px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 60px;
     font-weight: 500;
     margin: 0 0 30px 0;
+    color: rgb(160, 110, 230);
+    margin-bottom: 50px;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 15px;
     /* text-transform: uppercase; */
     /* text-decoration: underline; */
     font-weight: 400;
-    margin: 0 0 30px 0;
+    /* margin: 0 0 30px 0; */
+    color:rgb(160, 110, 230);
+    font-family: 'Krona One', sans-serif;
 }
 
 h3 {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     /* text-decoration: underline; */
     margin: 0 0 20px 0;
+    color:rgb(160, 110, 230);
+    padding: 12px;
+    border: 3px solid rgb(160, 110, 230);
+    margin-bottom: 42px;
 }
 
 button {
@@ -70,14 +82,91 @@ button {
     transition: opacity 0.05s linear, z-index 0.05s step-end;
 }
 
-/* Home page */
+/* Karte page */
 
-.Home {
+.Karte {
     width: 100vw;
     height: 100vh;
     display: flex;
+}
+
+.Karte .container {
+    display: flex;
+    width: 100vw;
+    /* align-items: center; */
+    /* padding: 120px 60px 120px 60px; */
+    overflow-x: hidden;
+    background-color: #fff
+}
+
+.Karte .container .header {
+    /* background-color:rgb(160, 110, 230); */
+    color: black;
+    padding: 120px 120px 30px 120px;  
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+    line-height: 1.4;
+    /* background-image: url("./assets/images/timm.png"); */
+}
+
+.Karte .container .picture {
+    width: 100vw;
+    margin: 0;
+    line-height: 0;
+    /* border-bottom: 3px solid #fff; */
+    /* padding: 0 120px; */
+}
+
+
+.Karte .container .body {
+    padding: 30px 120px 0 120px;
+}
+
+.Karte .container .body img {
+    width: 100vw;
+}
+
+.Karte .container .foto-info {
+    margin: 0;
+    padding: 16px 120px 10px 120px;
+    background-color:rgb(160, 110, 230);
+    color: #fff;
+    /* border-bottom: 2px solid #fff; */
+    border-top: 2px solid #fff;
+    font-size: 12px;
+    text-align: end;
+}
+
+.Karte .container .intro {
+    font-size: 20px;
+    line-height: 1.8;
+    /* font-family: 'Krona One', sans-serif; */
+    color: #fff;
+    padding: 46px 120px 60px 120px;
+    margin: 0;
+    background-color:rgb(160, 110, 230);
+}
+
+.Karte .container .question {
+    font-weight: 500;
+    /* text-decoration: underline; */
+    color:rgb(160, 110, 230);
+    font-size: 16px;
+    font-family: 'Krona One', sans-serif;
+    line-height: 1.8;
+}
+
+.Karte .container .date {
+    margin: 30px 120px 40px 120px;
+
+}
+
+.Karte .container .footer {
+    height: 60px;
+    background-color:rgb(160, 110, 230);
 }
 
 /* Navigation component */
@@ -90,8 +179,8 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(228, 223, 216, 0.4);
-    /* border-bottom: 2px solid var(--border); */
+    background-color:white;
+    /* border-bottom: 3px solid black; */
     z-index: 2;
 }
 
@@ -99,12 +188,30 @@ button {
     margin-left: 60px;
 }
 
-.Navigation .links button:not(:first-child) {
+.Navigation .links .link:not(:first-child) {
     margin-left: 40px;
 }
 
-.Navigation p {
+.Navigation .link {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--font);
+    text-decoration: none;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+.Navigation .home {
     margin-right: 60px;
+    /* background-color: #000; */
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    /* text-decoration: underline; */
+    padding: 12px;
+    /* border: 3px solid black; */
 }
 
 /* Map component */
@@ -128,19 +235,22 @@ button {
     cursor: pointer;
 }
 
-/* Interviews component */
+/* Interviews page */
 
 .Interviews {
-    width: 100vw;
     height: 100vh;
-    z-index: 1;
+    width: 100vw;
+    display: flex;
 }
 
 .Interviews .content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: flex-start;
-    margin: 60px 0 0 60px;
+    padding: 0 60px;
+    margin-top: 60px;
+    z-index: 2;
 }
 
 .Interviews .content > * {
@@ -151,75 +261,35 @@ button {
     margin-right: 10px;
 } */
 
-
-/* Karte component */
-
-.Karte {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-}
-
-.Karte .col-1 {
-    margin-top: 60px;
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.Karte .col-2 {
-    margin-top: 60px;
-    flex: 2;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.Karte .col-2 .content {
-    width: 70%;
-    height: 70%;
-    padding: 50px 60px 30px 60px;
-    margin-right: 60px;
-    /* border: 2px solid var(--border); */
-    overflow-y: scroll;
-    scrollbar-width: none;
-    background-color:rgb(203, 196, 188);
-}
-
-.Karte .col-2 .content::-webkit-scrollbar {
-    display: none;
-}
-
-.Karte .col-2 .content .intro {
-    font-size: 22px;
-}
-
-.Karte .col-2 .content .question {
-    /* font-weight: 500; */
-    text-decoration: underline;
-}
-
-/* Register component */
+/* Register page */
 
 .Register {
+    border: 2px solid yellow;
     width: 100vw;
     height: 100vh;
     display: flex;
-    z-index: 1;
+    z-index: 2;
 }
 
 .Register .content {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 60px;
+    margin-top: 60px;
+    z-index: 2;
     margin: 60px 0 0 60px;
 }
 
-/* Ueber component */
+/* Ueber page */
 
 .Ueber {
     width: 100vw;
     height: 100vh;
     display: flex;
-    z-index: 1;
+    z-index: 2;
 }
 
 .Ueber .content {

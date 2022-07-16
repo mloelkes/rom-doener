@@ -1,36 +1,17 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-function Navigation(props) {
-    function clickShowInterviews(e) {
-        e.preventDefault();
-        props.clickShowInterviews();
-    }
-
-    function clickShowKarte(e) {
-        e.preventDefault();
-        props.clickShowKarte();
-    }
-
-    function clickShowRegister(e) {
-        e.preventDefault();
-        props.clickShowRegister();
-    }
-
-    function clickShowUeber(e) {
-        e.preventDefault();
-        props.clickShowUeber();
-    }
-
+function Navigation(props) { 
     return (
         <div className="Navigation">
             <div className="links">
-                <button onClick={clickShowInterviews}>Interviews</button>
-                <button onClick={clickShowKarte}>Karte</button>
-                <button onClick={clickShowRegister}>Register</button>
-                <button onClick={clickShowUeber}>Über</button>
+                <Link className="link" to="/interviews">Interviews</Link>
+                <Link className="link" to="/karte">Karte</Link>
+                <Link className="link" to="/register">Register</Link>
+                <Link className="link" to="/ueber">Über</Link>
             </div>
 
-            <p>Frankfurt Interviews</p>
+            <Link className="link home" to="/">Frankfurt Interviews</Link>
         </div>
     )
 }

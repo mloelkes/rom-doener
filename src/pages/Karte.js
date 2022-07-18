@@ -40,7 +40,10 @@ function Karte(props) {
                     <div className="date">
                         <p>Berlin, August 2020</p>
                     </div>
-                    <div className="footer"></div>
+                    <div className="footer">
+                        <p>Copyright © 2022 Kenneth Hujer. All rights reserved</p>
+                        <span><p>Datenschutz</p><p>Impressum</p></span>
+                    </div>
                 </div>
             </div>
         </div>

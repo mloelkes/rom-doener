@@ -267,7 +267,7 @@ button {
     overflow-x: hidden;
 }
 
-.Interviews .content .row {
+.Interviews .content .InterviewsRow {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -292,6 +292,9 @@ button {
     margin: 30px 0 30px 0;
     font-family: 'Krona One', sans-serif;
     font-size: 50px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* .Interviews .content span {

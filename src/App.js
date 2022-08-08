@@ -1,47 +1,40 @@
 import React, { useState } from 'react';
 import { Routes, Route } from "react-router-dom";
+import Interviews from './pages/Interviews.js';
+import Karte from './pages/Karte.js';
+import Register from './pages/Register.js';
+import Ueber from './pages/Ueber.js';
+import Map from "./components/Map.js";
 import Navigation from "./components/Navigation.js";
-import Home from "./pages/Home.js";
+import { interviews } from "./data.js";
+
 
 function App() {
-    const [showInterviews, setShowInterviews] = useState(false);
-    const [showKarte, setShowKarte] = useState(true);
-    const [showRegister, setShowRegister] = useState(false);
-    const [showUeber, setShowUeber] = useState(false);
+    const [interviewContent, setInterviewContent] = useState(interviews["timmulrichs"]);
+    const [showInterviewContent, setShowInterviewContent] = useState(true);
 
-    function clickShowInterviews() {
-        setShowKarte(false);
-        setShowRegister(false);
-        setShowUeber(false);
-        setShowInterviews(true);
+    function clickMarker(e) {
+        const id = e.target.id;
+
+        setInterviewContent(interviews[id]);
+        setShowInterviewContent(true);
     }
 
-    function clickShowKarte() {
-        setShowInterviews(false);
-        setShowRegister(false);
-        setShowUeber(false);
-        setShowKarte(true);
-    }
-
-    function clickShowRegister() {
-        setShowInterviews(false);
-        setShowKarte(false);
-        setShowUeber(false);
-        setShowRegister(true);
-    }
-
-    function clickShowUeber() {
-        setShowInterviews(false);
-        setShowKarte(false);
-        setShowRegister(false);
-        setShowUeber(true);
+    function clickMap() {
+        setShowInterviewContent(false);
     }
 
     return (
         <div className="App">
-            <Navigation clickShowInterviews={clickShowInterviews} clickShowKarte={clickShowKarte} clickShowRegister={clickShowRegister} clickShowUeber={clickShowUeber}></Navigation>
+            <Navigation></Navigation>
+            {/* <Map clickMarker={clickMarker} clickMap={clickMap}/> */}
             <Routes>
-                <Route path="/frankfurt-interviews" element={<Home showInterviews={showInterviews} showKarte={showKarte} showRegister={showRegister} showUeber={showUeber}/>} />
+                {/* <Route path="/frankfurt-interviews" element={<Home showInterviews={showInterviews} showKarte={showKarte} showRegister={showRegister} showUeber={showUeber}/>} /> */}
+                <Route path="/frankfurt-interviews" element={<Karte interviewContent={interviewContent} showInterviewContent={showInterviewContent}/>}/>
+                <Route path="/interviews" element={<Interviews/>}/>
+                <Route path="/karte" element={<Karte interviewContent={interviewContent} showInterviewContent={showInterviewContent}/>}/>
+                <Route path="/register" element={<Register/>}/>
+                <Route path="/ueber" element={<Ueber/>}/>
             </Routes>
         </div>
     );

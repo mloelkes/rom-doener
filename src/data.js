@@ -58,7 +58,7 @@ const interviews = {
             lat: 50.100000
         },
         color: "rgb(160, 110, 230)",
-        title: "Sie schenkte mir Adornos 'Minima Moralia' mit ihrem Lippenabdruck auf dem Umschlag",
+        title: "«Sie schenkte mir Adornos 'Minima Moralia' mit ihrem Lippenabdruck auf dem Umschlag»",
         subtitle: "Der Künstler Timm Ulrichs über seine Kunst in Frankfurt und Frankfurt im Kontext seiner Kunst",
         tag: "Frankfurt als Kunststadt",
         intro: "Timm Ulrichs' Werk ist kaum zu überblicken. Anstatt einen unverwechselbaren Stil auszubilden, wechselt er ihn immerzu, findet zu immer neuen Ideen und bespielt dabei alle Disziplinen der Bildenden Kunst. Oft fand seine Konzeptkunst erfolgreiche Nachahmer. Nicht selten wurde er dabei verschwiegen. Als Documenta-Teilnehmer weiß Ulrichs bereits zu Lebzeiten um ein von ihm gestaltetes Grabmal auf der Kasseler Künstler-Nekropole. Seine Arbeit 'Versunkenes Dorf' wurde zum Kunst-am-Bau-Projekt der Münchner Allianzarena. Nackt lief er mit Blitzableiter bei Gewitter über ein Feld, mit Blindenbrille, Blindenstock und gelber Armbinde trug er ein Schild mit dem Schriftzug 'Ich kann keine Kunst mehr sehen!' – viele seiner inszenierten Bilder sind längst ikonisch. Im letzten Jahr erhielt der mittlerweile Achtzigjährige den Käthe-Kollwitz-Preis der Akademie der Künste Berlin für sein Lebenswerk. Die Stadt Frankfurt spielt dabei gerade zu Beginn seiner Karriere eine wichtige Rolle. Im Gespräch erzählt Timm Ulrichs von der Mainmetropole als zeitweiligem Umzugsziel, wo man Adornos 'Minima Moralia' für ihn küsste, Kunst in seine Haut ging und eine verdeckte Beschattung seiner Person an der Straßenbahnhaltestelle endete.",
@@ -125,7 +125,37 @@ const interviews = {
             "Abschließend möchte ich Sie fragen: Mögen Sie das unterirdische Frankfurt?",
             "Die vielen Wettbewerbe, die man in Frankfurt ausgerichtet hat, haben der Stadt auf jeden Fall viele tolle Stationen beschert. Das unterscheidet Frankfurt von anderen Großstädten, wo man sich dem Stationsbau allein bauingenieurmäßig angenommen hat, bloß danach fragte, wie man möglichst billig und ohne Hindernisse von A nach B kommt. Dort bestehen die Stationen aus bloßen Gängen. Architekten aber haben ein räumliches Gefühl. Ich dachte immer in Etappen, von Zentralraum zu Zentralraum, um lange Gänge zu vermeiden. Mein Frankfurter U-Bahnhof funktioniert wie das Atomium, wo die verschiedenen Erlebnisräume durch kurze Gänge miteinander verbunden sind. Mir gefallen im Übrigen auch die beiden Stationen von A.C. Walter, 'Westend' und 'Alte Oper', über die wir zu Beginn gesprochen haben. Nur sein sogenanntes Loch an der Hauptwache ist eine einzige Katastrophe."
         ]
-    }
+    },
+    test3: {
+        color: "rgb(140, 80, 20)",
+        tag: "Udo Nieper",
+        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+    },
+    test4: {
+        color: "rgb(240, 190, 60)",
+        tag: "Udo Nieper",
+        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+    },
+    test5: {
+        color: "rgb(40, 120, 180)",
+        tag: "Udo Nieper",
+        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+    },
+    test6: {
+        color: "rgb(90, 120, 200)",
+        tag: "Udo Nieper",
+        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+    },
+    test7: {
+        color: "rgb(30, 200, 100)",
+        tag: "Udo Nieper",
+        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+    },
+    test8: {
+        color: "rgb(210, 160, 40)",
+        tag: "Udo Nieper",
+        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+    },
 };
 
 module.exports = { interviews }

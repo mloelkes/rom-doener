@@ -10,10 +10,10 @@ function Interviews() {
         <div className="Interviews">
             <div className="content">
                 {Object.keys(interviews).map(key => (
-                    <button onClick={clickShowInterview} style={{ color: interviews[key]?.color }} key={interviews[key].id}>
-                        <span>{interviews[key]?.person}: </span>
-                        <span>{interviews[key]?.title}</span>
-                    </button>
+                    <div className="row" style={{ backgroundColor: interviews[key]?.color }}>
+                            <p className="tag">{interviews[key]?.tag}</p>
+                            <p className="subtitle">{interviews[key]?.subtitle}</p>
+                    </div>
                 ))}
             </div>
         </div>

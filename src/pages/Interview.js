@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { interviews } from "../data.js";
 import timm from "../assets/images/timm.png";
+import Footer from "../components/Footer.js";
 
 function Interview() {
     const { id } = useParams();
@@ -39,10 +40,7 @@ function Interview() {
                     {interviewToDisplay}
                     <p className="publishing-date">Berlin, August 2020</p>
                 </article>
-                <footer>
-                    <p>Copyright © 2022 Kenneth Hujer. All rights reserved</p>
-                    <span><p>Datenschutz</p><p>Impressum</p></span>
-                </footer>
+                <Footer/>
             </div>
         </div>
     )

@@ -10,7 +10,7 @@ function Interviews() {
 
     return (
         <div className="Interviews">
-            <div className="content">
+            <div className="container">
                 {interviewsList}
             </div>
         </div>

@@ -14,7 +14,7 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    /* width: 100vw; */
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -249,57 +249,37 @@ button {
 
 /* Interviews page */
 
-.Interviews {
-    /* width: 100vw; */
-    /* min-height: 100vh; */
-    display: flex;
-    background-color: #fff;
-    overflow-x: hidden;
-}
-
-.Interviews .content {
+.Interviews .container {
     display: flex;
     flex-direction: column;
-    /* width: 100vw;    */
-    /* flex-wrap: wrap; */
     margin-top: 60px;
-    /* z-index: 2; */
-    overflow-x: hidden;
 }
 
-.Interviews .content .InterviewsRow {
+.Interviews .container .InterviewsRow {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
-    overflow-x: hidden;
     padding: 0 60px;
-    border-bottom: 3px solid #fff;
 }
 
-.Interviews .content .tag {
+.Interviews .container .tag {
+    margin: 30px 0 0 0;
+    padding: 12px;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    /* margin: 0 0 20px 0; */
-    color: #000;
-    padding: 12px;
-    margin: 30px 0 0 0;
-    border: 3px solid #000;
+    color: var(--font);
+    border: 3px solid var(--border);
 }
 
-.Interviews .content .subtitle {
+.Interviews .container .subtitle {
     margin: 30px 0 30px 0;
     font-family: 'Krona One', sans-serif;
     font-size: 50px;
-    color: #000;
+    color: var(--font);
     text-decoration: none;
     cursor: pointer;
 }
-
-/* .Interviews .content span {
-    margin-right: 10px;
-} */
 
 /* Register page */
 

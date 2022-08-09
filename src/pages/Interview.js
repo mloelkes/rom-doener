@@ -29,10 +29,10 @@ function Interview() {
                     <h1>„{interview?.title}“</h1>
                     <h2>{interview?.subtitle}</h2>
                 </header>
-                <section className="-header-picture">
+                <section className="header-picture-container">
                     <img src={timm} alt="header"/>
                 </section>
-                <section>
+                <section className="intro-container">
                     <p className="picture-description">{interview?.pictureDescription}</p>
                     <p className="intro">{interview?.intro}</p>
                 </section>

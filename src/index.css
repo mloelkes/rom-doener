@@ -6,8 +6,9 @@
 
 
 :root {
-    --background: rgb(203, 196, 188);
+    --background: rgb(255, 255, 255);
     --font: rgb(0, 0, 0);
+    --font-white: rgb(255, 255, 255);
     --border: rgb(0, 0, 0);
 }
 
@@ -19,7 +20,7 @@ body {
     font-size: 20px;
     background-color: var(--background);
     color: var(--font);
-    line-height: 1.6;
+    line-height: 0;
 }
 
 /* Default */
@@ -261,6 +262,7 @@ button {
     flex-direction: column;
     align-items: flex-start;
     padding: 0 60px;
+    line-height: 1.6;
 }
 
 .InterviewsRow .tag {
@@ -284,76 +286,52 @@ button {
 
 /* Interview page */
 
-.Interview {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-}
-
 .Interview .container {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    /* align-items: center; */
-    /* padding: 120px 60px 120px 60px; */
-    overflow-x: hidden;
-    background-color: #fff
+    background-color: var(--background);
 }
 
 .Interview header {
-    /* background-color:rgb(160, 110, 230); */
-    color: black;
     padding: 120px 120px 30px 120px;  
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     line-height: 1.4;
-    /* background-image: url("./assets/images/timm.png"); */
 }
 
-.Interview .container .header-picture {
-    width: 100vw;
-    margin: 0;
-    line-height: 0;
-    /* border-bottom: 3px solid #fff; */
-    /* padding: 0 120px; */
+.Interview .header-picture-container img {
+    width: 100%;
 }
-
 
 .Interview .container article {
     padding: 30px 240px 0 240px;
+    line-height: 1.6;
 }
 
-.Interview .container article img {
-    width: 100vw;
-}
-
-.Interview .container .picture-description {
-    margin: 0;
-    padding: 16px 240px 10px 240px;
+.Interview .intro-container {
     background-color:rgb(160, 110, 230);
-    color: #fff;
-    /* border-bottom: 2px solid #fff; */
-    border-top: 3px solid #fff;
+}
+
+.Interview .picture-description {
+    padding: 16px 240px 10px 240px;
     font-size: 12px;
     text-align: end;
+    color: var(--font-white);
 }
 
-.Interview .container .intro {
+.Interview .intro {
     font-size: 20px;
-    line-height: 1.8;
-    /* font-family: 'Krona One', sans-serif; */
-    color: #fff;
+    line-height: 1.6;
+    color: var(--font-white);
     padding: 46px 240px 60px 240px;
     margin: 0;
-    background-color:rgb(160, 110, 230);
 }
 
 .Interview .container .question {
     font-weight: 500;
-    /* text-decoration: underline; */
     color:rgb(160, 110, 230);
     font-size: 16px;
     font-family: 'Krona One', sans-serif;

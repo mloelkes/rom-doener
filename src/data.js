@@ -6,7 +6,7 @@ const interviews = {
             lng: 8.680000,
             lat: 50.110000
         },
-        color: "rgb(238, 238, 30)",
+        color: "rgb(238, 138, 30)",
         title: "Wir sind dort einfach hingegangen, haben die Kamera aufgestellt, schnell gedreht und sind dann wieder weg",
         subtitle: "Der Regisseur Roger Fritz über seinen Film 'Frankfurt Kaiserstraße'",
         tag: "Frankfurt als Nachtasyl",

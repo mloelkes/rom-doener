@@ -9,9 +9,22 @@ function Interview() {
 
     const [interview, setInterview] = useState(undefined);
 
+    const fontAndBorderStyle = {
+        color: interview?.color,
+        border: `3px solid ${interview?.color}`
+    }
+
+    const fontStyle = {
+        color: interview?.color
+    }
+
+    const backgroundStyle = {
+        backgroundColor: interview?.color
+    }
+
     const interviewToDisplay = interview?.interviewContent.map((text, i) => (
         (i % 2 === 0) ?
-        <p className="question" key={i}>{text}</p>
+        <p style={fontStyle} className="question" key={i}>{text}</p>
         :
         <p className="answer" key={i}>{text}</p>
     ))
@@ -23,16 +36,15 @@ function Interview() {
     return (
         <div className="Interview">
             <div className="container">
-                {/* <div style={{ backgroundColor: interviewContent?.color }} className={showInterviewContent ? "content visible" : "content invisible"}></div> */}
                 <header>
-                    <h3>{interview?.tag}</h3>
-                    <h1>„{interview?.title}“</h1>
-                    <h2>{interview?.subtitle}</h2>
+                    <h3 style={fontAndBorderStyle}>{interview?.tag}</h3>
+                    <h1 style={fontStyle}>„{interview?.title}“</h1>
+                    <h2 style={fontStyle}>{interview?.subtitle}</h2>
                 </header>
                 <section className="header-picture-container">
                     <img src={timm} alt="header"/>
                 </section>
-                <section className="intro-container">
+                <section style={backgroundStyle} className="intro-container">
                     <p className="picture-description">{interview?.pictureDescription}</p>
                     <p className="intro">{interview?.intro}</p>
                 </section>
@@ -40,7 +52,7 @@ function Interview() {
                     {interviewToDisplay}
                     <p className="publishing-date">Berlin, August 2020</p>
                 </article>
-                <Footer/>
+                <Footer backgroundStyle={backgroundStyle}/>
             </div>
         </div>
     )

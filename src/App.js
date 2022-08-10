@@ -30,8 +30,8 @@ function App() {
             <Navigation></Navigation>
             {/* <Map clickMarker={clickMarker} clickMap={clickMap}/> */}
             <Routes>
-                {/* <Route path="/frankfurt-interviews" element={<Home showInterviews={showInterviews} showKarte={showKarte} showRegister={showRegister} showUeber={showUeber}/>} /> */}
-                <Route path="/frankfurt-interviews" element={<Karte interviewContent={interviewContent} showInterviewContent={showInterviewContent}/>}/>
+                <Route path="/frankfurt-interviews" element={<Interviews/>} />
+                {/* <Route path="/frankfurt-interviews" element={<Karte interviewContent={interviewContent} showInterviewContent={showInterviewContent}/>}/> */}
                 <Route path="/interviews" element={<Interviews/>}/>
                 <Route path="/interviews/:id" element={<Interview/>}/>
                 <Route path="/karte" element={<Karte interviewContent={interviewContent} showInterviewContent={showInterviewContent}/>}/>

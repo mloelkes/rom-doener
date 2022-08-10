@@ -6,8 +6,9 @@
 
 
 :root {
-    --background: rgb(203, 196, 188);
+    --background: rgb(255, 255, 255);
     --font: rgb(0, 0, 0);
+    --font-white: rgb(255, 255, 255);
     --border: rgb(0, 0, 0);
 }
 
@@ -19,7 +20,7 @@ body {
     font-size: 20px;
     background-color: var(--background);
     color: var(--font);
-    line-height: 1.6;
+    line-height: 0;
 }
 
 /* Default */
@@ -29,17 +30,12 @@ h1 {
     font-size: 60px;
     font-weight: 500;
     margin: 0 0 30px 0;
-    color: rgb(160, 110, 230);
     margin-bottom: 50px;
 }
 
 h2 {
     font-size: 15px;
-    /* text-transform: uppercase; */
-    /* text-decoration: underline; */
     font-weight: 400;
-    /* margin: 0 0 30px 0; */
-    color:rgb(160, 110, 230);
     font-family: 'Krona One', sans-serif;
 }
 
@@ -47,11 +43,8 @@ h3 {
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    /* text-decoration: underline; */
     margin: 0 0 20px 0;
-    color:rgb(160, 110, 230);
     padding: 12px;
-    border: 3px solid rgb(160, 110, 230);
     margin-bottom: 42px;
 }
 
@@ -261,6 +254,7 @@ button {
     flex-direction: column;
     align-items: flex-start;
     padding: 0 60px;
+    line-height: 1.6;
 }
 
 .InterviewsRow .tag {
@@ -280,6 +274,78 @@ button {
     color: var(--font);
     text-decoration: none;
     cursor: pointer;
+}
+
+/* Interview page */
+
+.Interview .container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+}
+
+.Interview header {
+    padding: 120px 120px 30px 120px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.Interview .header-picture-container img {
+    width: 100%;
+}
+
+.Interview .container article {
+    padding: 30px 240px 0 240px;
+    line-height: 1.6;
+}
+
+.Interview .picture-description {
+    padding: 16px 240px 10px 240px;
+    font-size: 12px;
+    text-align: end;
+    color: var(--font-white);
+}
+
+.Interview .intro {
+    font-size: 20px;
+    line-height: 1.6;
+    color: var(--font-white);
+    padding: 46px 240px 60px 240px;
+    margin: 0;
+}
+
+.Interview .container .question {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Krona One', sans-serif;
+    line-height: 1.8;
+}
+
+.Interview .container .publishing-date {
+    margin: 30px 0;
+}
+
+/* Footer component */
+
+footer {
+    font-size: 20px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+footer span {
+    display: flex;
+}
+
+footer span > * {
+    margin-left: 30px;
 }
 
 /* Register page */

@@ -76,13 +76,13 @@ button {
 
 /* Karte page */
 
-.Karte {
+.Map {
     width: 100vw;
     height: 100vh;
     display: flex;
 }
 
-.Karte .container {
+.Map .container {
     display: flex;
     width: 100vw;
     /* align-items: center; */
@@ -91,7 +91,7 @@ button {
     background-color: #fff
 }
 
-.Karte .container .header {
+.Map .container .header {
     /* background-color:rgb(160, 110, 230); */
     color: black;
     padding: 120px 120px 30px 120px;  
@@ -104,7 +104,7 @@ button {
     /* background-image: url("./assets/images/timm.png"); */
 }
 
-.Karte .container .picture {
+.Map .container .picture {
     width: 100vw;
     margin: 0;
     line-height: 0;
@@ -113,15 +113,15 @@ button {
 }
 
 
-.Karte .container .body {
+.Map .container .body {
     padding: 30px 240px 0 240px;
 }
 
-.Karte .container .body img {
+.Map .container .body img {
     width: 100vw;
 }
 
-.Karte .container .foto-info {
+.Map .container .foto-info {
     margin: 0;
     padding: 16px 240px 10px 240px;
     background-color:rgb(160, 110, 230);
@@ -132,7 +132,7 @@ button {
     text-align: end;
 }
 
-.Karte .container .intro {
+.Map .container .intro {
     font-size: 20px;
     line-height: 1.8;
     /* font-family: 'Krona One', sans-serif; */
@@ -142,7 +142,7 @@ button {
     background-color:rgb(160, 110, 230);
 }
 
-.Karte .container .question {
+.Map .container .question {
     font-weight: 500;
     /* text-decoration: underline; */
     color:rgb(160, 110, 230);
@@ -151,12 +151,12 @@ button {
     line-height: 1.8;
 }
 
-.Karte .container .date {
+.Map .container .date {
     margin: 30px 240px 40px 240px;
 
 }
 
-.Karte .container .footer {
+.Map .container .footer {
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -165,11 +165,11 @@ button {
     background-color:rgb(160, 110, 230);
 }
 
-.Karte .container .footer span {
+.Map .container .footer span {
     display: flex;
 }
 
-.Karte .container .footer span > * {
+.Map .container .footer span > * {
     margin-left: 30px;
 }
 

@@ -128,31 +128,61 @@ const interviews = {
         ]
     },
     test3: {
+        id: "1",
+        coordinates: {
+            lng: 8.820000,
+            lat: 50.140000
+        },
         color: "rgb(140, 80, 20)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
     test4: {
+        id: "2",
+        coordinates: {
+            lng: 8.220000,
+            lat: 50.160000
+        },
         color: "rgb(240, 190, 60)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
     test5: {
+        id: "3",
+        coordinates: {
+            lng: 8.320000,
+            lat: 50.420000
+        },
         color: "rgb(40, 120, 180)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
     test6: {
+        id: "4",
+        coordinates: {
+            lng: 8.760000,
+            lat: 50.820000
+        },
         color: "rgb(90, 120, 200)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
     test7: {
+        id: "5",
+        coordinates: {
+            lng: 8.420000,
+            lat: 50.140000
+        },
         color: "rgb(30, 200, 100)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
     test8: {
+        id: "6",
+        coordinates: {
+            lng: 8.770000,
+            lat: 50.160000
+        },
         color: "rgb(210, 160, 40)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"

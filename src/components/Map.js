@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import mapboxgl from 'mapbox-gl';
 import { interviews } from "../data.js";
 
-function Map(props) {
+function Map() {
     function initializeMap() {
         const mapboxMap = createMap();
         createMarkers(mapboxMap);
@@ -18,6 +18,7 @@ function Map(props) {
             zoom: 12
         })
 
+        // Comment in to show navigation controls
         // const nav = new mapboxgl.NavigationControl();
         // mapboxMap.addControl(nav, "bottom-right");
 
@@ -38,7 +39,7 @@ function Map(props) {
         el.className = "marker";
         el.style.backgroundColor = interview.color
         el.addEventListener("click", (e) => {
-            clickMarker(e);
+            clickMarker(e, mapboxMap);
         })
 
         new mapboxgl.Marker(el)
@@ -46,13 +47,12 @@ function Map(props) {
         .addTo(mapboxMap)
     }
 
-    function clickMarker(e) {
-        props.clickMarker(e);
-        e.stopPropagation();
+    function clickMarker(e, mapboxMap) {
+        // click Marker
     }
 
     function clickMap() {
-        props.clickMap();
+        // click Map
     }
 
     useEffect(() => {

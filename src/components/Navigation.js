@@ -6,7 +6,7 @@ function Navigation(props) {
         <div className="Navigation">
             <div className="links">
                 <Link className="link" to="/interviews">Interviews</Link>
-                <Link className="link" to="/karte">Karte</Link>
+                <Link className="link" to="/discover">Karte</Link>
                 <Link className="link" to="/register">Register</Link>
                 <Link className="link" to="/ueber">Über</Link>
             </div>

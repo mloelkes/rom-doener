@@ -74,105 +74,6 @@ button {
     transition: opacity 0.05s linear, z-index 0.05s step-end;
 }
 
-/* Karte page */
-
-.Map {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-}
-
-.Map .container {
-    display: flex;
-    width: 100vw;
-    /* align-items: center; */
-    /* padding: 120px 60px 120px 60px; */
-    overflow-x: hidden;
-    background-color: #fff
-}
-
-.Map .container .header {
-    /* background-color:rgb(160, 110, 230); */
-    color: black;
-    padding: 120px 120px 30px 120px;  
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    line-height: 1.4;
-    /* background-image: url("./assets/images/timm.png"); */
-}
-
-.Map .container .picture {
-    width: 100vw;
-    margin: 0;
-    line-height: 0;
-    /* border-bottom: 3px solid #fff; */
-    /* padding: 0 120px; */
-}
-
-
-.Map .container .body {
-    padding: 30px 240px 0 240px;
-}
-
-.Map .container .body img {
-    width: 100vw;
-}
-
-.Map .container .foto-info {
-    margin: 0;
-    padding: 16px 240px 10px 240px;
-    background-color:rgb(160, 110, 230);
-    color: #fff;
-    /* border-bottom: 2px solid #fff; */
-    border-top: 3px solid #fff;
-    font-size: 12px;
-    text-align: end;
-}
-
-.Map .container .intro {
-    font-size: 20px;
-    line-height: 1.8;
-    /* font-family: 'Krona One', sans-serif; */
-    color: #fff;
-    padding: 46px 240px 60px 240px;
-    margin: 0;
-    background-color:rgb(160, 110, 230);
-}
-
-.Map .container .question {
-    font-weight: 500;
-    /* text-decoration: underline; */
-    color:rgb(160, 110, 230);
-    font-size: 16px;
-    font-family: 'Krona One', sans-serif;
-    line-height: 1.8;
-}
-
-.Map .container .date {
-    margin: 30px 240px 40px 240px;
-
-}
-
-.Map .container .footer {
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 60px;
-    background-color:rgb(160, 110, 230);
-}
-
-.Map .container .footer span {
-    display: flex;
-}
-
-.Map .container .footer span > * {
-    margin-left: 30px;
-}
-
 /* Navigation component */
 
 .Navigation {
@@ -238,6 +139,38 @@ button {
     border-radius: 50%;
     cursor: pointer;
 }
+
+.mapboxgl-popup {
+    width: 0;
+    height: 0;
+
+}
+
+.mapboxgl-popup-content {
+    width: 0;
+    height: 0;
+}
+
+.mapboxgl-popup-tip {
+    opacity: 0;
+}
+
+.PopUp {
+    position: relative;
+    line-height: 1.4;
+    bottom: 60px;
+    right: 30px;
+    padding: 40px;
+    min-width: 400px;
+    border-radius: 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
 
 /* Interviews page */
 

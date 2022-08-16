@@ -2,8 +2,13 @@ import React from "react";
 import { useEffect } from "react";
 import mapboxgl from 'mapbox-gl';
 import { interviews } from "../data.js";
+import { Link } from "react-router-dom";
+import PopUp from "./PopUp.js"
+import ReactDOM from "react-dom"
 
 function Map() {
+    let popUp = undefined;
+
     function initializeMap() {
         const mapboxMap = createMap();
         createMarkers(mapboxMap);
@@ -39,7 +44,7 @@ function Map() {
         el.className = "marker";
         el.style.backgroundColor = interview.color
         el.addEventListener("click", (e) => {
-            clickMarker(e, mapboxMap);
+            clickMarker(e, mapboxMap, interview);
         })
 
         new mapboxgl.Marker(el)
@@ -47,10 +52,26 @@ function Map() {
         .addTo(mapboxMap)
     }
 
-    function clickMarker(e, mapboxMap) {
-        // click Marker
+    function clickMarker(e, mapboxMap, interview) {
+        e.stopPropagation();
+
+        createPopup(mapboxMap, interview);
     }
 
+    function createPopup(mapboxMap, interview) {
+        if (popUp) popUp.remove();
+
+        let popUpContainer = document.createElement("div");
+        ReactDOM.render(
+            <PopUp interview={interview}/>, popUpContainer
+        )
+
+        popUp = new mapboxgl.Popup({closeOnClick: true, closeButton: false, offset: 60, anchor: "left"})    
+        .setLngLat(interview.coordinates)
+        .setDOMContent(popUpContainer)
+        .addTo(mapboxMap)
+    }
+ 
     function clickMap() {
         // click Map
     }

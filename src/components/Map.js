@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { useEffect } from "react";
-import mapboxgl from 'mapbox-gl';
+import mapboxgl, { Popup } from 'mapbox-gl';
 import { interviews } from "../data.js";
+import { Link } from "react-router-dom";
+import PopUp from "./PopUp.js"
+import ReactDOM from "react-dom"
 
-function Map(props) {
+function Map() {
+    const [showPopUp, setShopPopUp] = useState(false);
+    const [popUpContent, setPopUpContent] = useState(undefined);
+
     function initializeMap() {
         const mapboxMap = createMap();
         createMarkers(mapboxMap);
@@ -18,6 +24,7 @@ function Map(props) {
             zoom: 12
         })
 
+        // Comment in to show navigation controls
         // const nav = new mapboxgl.NavigationControl();
         // mapboxMap.addControl(nav, "bottom-right");
 
@@ -38,7 +45,7 @@ function Map(props) {
         el.className = "marker";
         el.style.backgroundColor = interview.color
         el.addEventListener("click", (e) => {
-            clickMarker(e);
+            clickMarker(e, interview);
         })
 
         new mapboxgl.Marker(el)
@@ -46,13 +53,15 @@ function Map(props) {
         .addTo(mapboxMap)
     }
 
-    function clickMarker(e) {
-        props.clickMarker(e);
+    function clickMarker(e, interview) {
+        setShopPopUp(true);
+        setPopUpContent(interview)
+
         e.stopPropagation();
     }
-
+ 
     function clickMap() {
-        props.clickMap();
+        setShopPopUp(false);
     }
 
     useEffect(() => {
@@ -61,6 +70,7 @@ function Map(props) {
 
     return (
         <div className="Map">
+            {showPopUp && <PopUp popUpContent= {popUpContent}/>}
             <div id="map-content"></div>
         </div>
     )

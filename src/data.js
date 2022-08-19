@@ -6,6 +6,7 @@ const interviews = {
             lng: 8.680000,
             lat: 50.110000
         },
+        snippet: "Der Film ist zweifellos ein Autorenfilm. Dass er die diesbezügliche Wahrnehmung nicht erhalten hat, ist meiner Meinung nach schlichtweg der Tatsache geschuldet, dass er als Lisa-Film erschien.",
         color: "rgb(238, 138, 30)",
         title: "Wir sind dort einfach hingegangen, haben die Kamera aufgestellt, schnell gedreht und sind dann wieder weg",
         subtitle: "Der Regisseur Roger Fritz über seinen Film 'Frankfurt Kaiserstraße'",
@@ -58,6 +59,7 @@ const interviews = {
             lng: 8.700000,
             lat: 50.100000
         },
+        snippet: "Frankfurt ist die Stadt der Hochhäuser. Es gibt von Ihnen eine Arbeit zu San Gimignano (1983/86), dem 'mittelalterlichen Manhattan', bei der Sie sich mit den toskanischen Geschlechtertürmen beschäftigen. Sie haben Holztische umgedreht, so dass die Beine wie Geschlechtertürme fungieren, und rote Betonpflastersteine in Hausform beigestellt, um den Maßstab anzudeuten.",
         color: "rgb(160, 110, 230)",
         title: "«Sie schenkte mir Adornos 'Minima Moralia' mit ihrem Lippenabdruck auf dem Umschlag»",
         subtitle: "Der Künstler Timm Ulrichs über seine Kunst in Frankfurt und Frankfurt im Kontext seiner Kunst",
@@ -97,6 +99,7 @@ const interviews = {
             lng: 8.720000,
             lat: 50.120000
         },
+        snippet: "Das was ich mache, wird verändert. So war es auch bei der Zeil, für die wir eine grüne Spange von der Ostzeil über die Konstablerwache bis hin zu Fressgasse bauen ließen. Mit dem späteren Umbau wurde die Anzahl der Bäume wieder reduziert, die Pavillons abgerissen, eine neue, fürchterliche Beleuchtung angebracht und auch die alten Sitzgelegenheiten mit ihren vier Segmenten, auf denen es immer wieder zu den wunderbarsten Begegnungen kam, wurden durch unmaßstäbliche Bänke ersetzt.",
         color: "rgb(14, 120, 90)",
         title: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium",
         subtitle: "Der Architekt Udo Nieper über seinen Frankfurter U-Bahnhof 'Bockenheimer Warte'",
@@ -128,31 +131,67 @@ const interviews = {
         ]
     },
     test3: {
+        id: "1",
+        person: "Udo Nieper",
+        coordinates: {
+            lng: 8.820000,
+            lat: 50.140000
+        },
         color: "rgb(140, 80, 20)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
     test4: {
+        id: "2",
+        person: "Udo Nieper",
+        coordinates: {
+            lng: 8.220000,
+            lat: 50.160000
+        },
         color: "rgb(240, 190, 60)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
     test5: {
+        id: "3",
+        person: "Udo Nieper",
+        coordinates: {
+            lng: 8.320000,
+            lat: 50.420000
+        },
         color: "rgb(40, 120, 180)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
     test6: {
+        id: "4",
+        person: "Udo Nieper",
+        coordinates: {
+            lng: 8.760000,
+            lat: 50.820000
+        },
         color: "rgb(90, 120, 200)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
     test7: {
+        id: "5",
+        person: "Udo Nieper",
+        coordinates: {
+            lng: 8.420000,
+            lat: 50.140000
+        },
         color: "rgb(30, 200, 100)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
     test8: {
+        id: "6",
+        person: "Udo Nieper",
+        coordinates: {
+            lng: 8.770000,
+            lat: 50.160000
+        },
         color: "rgb(210, 160, 40)",
         tag: "Udo Nieper",
         subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"

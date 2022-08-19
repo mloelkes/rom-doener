@@ -334,9 +334,9 @@ footer span > * {
     border-radius: 50%;
 }
 
-/* Ueber page */
+/* About page */
 
-.Ueber {
+.About {
     /* width: 100vw; */
     height: 100vh;
     display: flex;
@@ -347,17 +347,17 @@ footer span > * {
     overflow-x: hidden;
 }
 
-.Ueber .content {
+.About .content {
     margin: 90px 60px;
     display: flex;
     flex-direction: column;
 }
 
-.Ueber .content > * {
+.About .content > * {
     color: #000;
 }
 
-.Ueber .content h1 {
+.About .content h1 {
     color: #000;
     font-size: 50px;
     margin-bottom: 30px;

@@ -1,18 +1,11 @@
 import { Link } from "react-router-dom";
-import React, { useContext, useEffect, useRef } from 'react';
-import mapboxgl from "mapbox-gl";
+import React from 'react';
 
 function PopUp({popUpContent}) {
 
     const popUpStyle = {
         backgroundColor: popUpContent?.color
     }
-
-    useEffect(() => {
-
-
-    }, [])
-
 
     return (
         <div style={popUpStyle} className="PopUp">

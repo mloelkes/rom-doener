@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import mapboxgl, { Popup } from 'mapbox-gl';
+import mapboxgl from 'mapbox-gl';
 import { interviews } from "../data.js";
-import { Link } from "react-router-dom";
 import PopUp from "./PopUp.js"
-import ReactDOM from "react-dom"
 
 function Map() {
     const [showPopUp, setShopPopUp] = useState(false);

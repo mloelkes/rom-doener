@@ -122,14 +122,20 @@ button {
 /* Map component */
 
 .Map {
-    position: absolute;
-    top: 0;
-    z-index: 1;
+    /* position: absolute; */
+    /* top: 0; */
+    /* z-index: 1; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #map-content {
     width: 100vw;
     height: 100vh;
+    /* z-index: 1; */
 }
 
 .marker {
@@ -140,31 +146,35 @@ button {
     cursor: pointer;
 }
 
-.mapboxgl-popup {
-    width: 0;
-    height: 0;
-
-}
-
-.mapboxgl-popup-content {
-    width: 0;
-    height: 0;
-}
-
-.mapboxgl-popup-tip {
-    opacity: 0;
-}
-
 .PopUp {
-    position: relative;
     line-height: 1.4;
-    bottom: 60px;
-    right: 30px;
-    padding: 40px;
-    min-width: 400px;
+    padding: 50px 40px 60px 60px;
     border-radius: 0;
     font-family: 'Jost', sans-serif;
     font-size: 20px;
+    position: absolute;
+    z-index: 2;
+    margin: 60px 60px 0 0;
+    width: 25%;
+    /* min-height: 40%; */
+}
+
+.PopUp .snippet {
+    margin: 0 0 40px 0;
+}
+
+.PopUp .link {
+    color: var(--font);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px;
+    border: 3px solid black;
+}
+
+.PopUp .link:hover {
+    
 }
 
 

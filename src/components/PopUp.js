@@ -1,15 +1,23 @@
 import { Link } from "react-router-dom";
+import React, { useContext, useEffect, useRef } from 'react';
+import mapboxgl from "mapbox-gl";
 
-function PopUp({interview}) {
+function PopUp({popUpContent}) {
+
     const popUpStyle = {
-        backgroundColor: interview.color
+        backgroundColor: popUpContent?.color
     }
+
+    useEffect(() => {
+
+
+    }, [])
 
 
     return (
         <div style={popUpStyle} className="PopUp">
-            <p>{interview.snippet}</p>
-            {/* <Link to="/interviews">safdsafd</Link> */}
+            <p className="snippet">„{popUpContent?.snippet}“</p>
+            <Link className="link" to={`/interviews/${popUpContent.id}`}>{popUpContent.tag}</Link>
         </div>
     )
 }

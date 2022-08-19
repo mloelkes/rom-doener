@@ -12,7 +12,6 @@ function App() {
     return (
         <div className="App">
             <Navigation></Navigation>
-            {/* <Map clickMarker={clickMarker} clickMap={clickMap}/> */}
             <Routes>
                 <Route path="/frankfurt-interviews" element={<Interviews/>} />
                 <Route path="/interviews" element={<Interviews/>}/>

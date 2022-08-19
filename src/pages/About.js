@@ -1,6 +1,6 @@
-function Ueber() {
+function About() {
     return(
-        <div className="Ueber">
+        <div className="About">
             <div className="content">
                 <h1>Wie war die Stadt, in der ich bin? Wie waren die Menschen, wo ich lebe?</h1>
                 <p>„Café Deutschland. Im Gespräch mit der ersten Kunstszene der BRD“ ist das Ergebnis einer langjährigen Forschungsarbeit. Das Oral-History-Projekt versammelt mehr als 70 Gespräche, die das Städel Museum – unter der Projektleitung von Franziska Leuthäußer – mit Künstlern, Galeristen, Kunsthistorikern, Kritikern und Sammlern geführt hat. Erstmals richtet sich damit der Fokus auf die Zeitzeugen, die Generation der Kriegskinder, die häufig in den Trümmern der deutschen Städte aufwuchsen, durch Armut und Verlust geprägt waren und auf der Suche nach geistiger Auseinandersetzung den Weg in die Kunst nahmen.</p>
@@ -14,4 +14,4 @@ function Ueber() {
     )
 }
 
-export default Ueber;
+export default About;

@@ -4,7 +4,7 @@ import Interviews from './pages/Interviews.js';
 import Interview from './pages/Interview.js';
 import Discover from './pages/Discover.js';
 import Register from './pages/Register.js';
-import Ueber from './pages/Ueber.js';
+import About from './pages/About.js';
 import Navigation from "./components/Navigation.js";
 
 
@@ -18,7 +18,7 @@ function App() {
                 <Route path="/interviews/:id" element={<Interview/>}/>
                 <Route path="/discover" element={<Discover/>}/>
                 <Route path="/register" element={<Register/>}/>
-                <Route path="/ueber" element={<Ueber/>}/>
+                <Route path="/about" element={<About/>}/>
             </Routes>
         </div>
     );

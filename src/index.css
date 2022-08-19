@@ -334,33 +334,31 @@ footer span > * {
     border-radius: 50%;
 }
 
-/* Ueber page */
+/* About page */
 
-.Ueber {
-    /* width: 100vw; */
-    height: 100vh;
+.About {
+    min-height: 100vh;
     display: flex;
     background-color: #fff;
-    background-size: cover;
-    background-position: center top;
-    object-fit: cover;
-    overflow-x: hidden;
 }
 
-.Ueber .content {
-    margin: 90px 60px;
+.About .content {
+    margin: 60px 60px 30px 60px;
     display: flex;
     flex-direction: column;
+    line-height: 1.6;
 }
 
-.Ueber .content > * {
-    color: #000;
-}
-
-.Ueber .content h1 {
-    color: #000;
-    font-size: 50px;
+.About .content h1 {
     margin-bottom: 30px;
-    /* line-height: 1.8; */
+    font-size: 50px;
+    line-height: 1.4;
+    color: var(--font);
+    
 }
 
+.About .content > * {
+    margin: 10px 0;
+    color: var(--font);
+}
+ 

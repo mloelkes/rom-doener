@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/frankfurt-interviews/static/css/main.96a0c313.css",
-    "main.js": "/frankfurt-interviews/static/js/main.6e692796.js",
+    "main.css": "/frankfurt-interviews/static/css/main.2a48c150.css",
+    "main.js": "/frankfurt-interviews/static/js/main.cf2b9d9a.js",
     "static/media/timm.png": "/frankfurt-interviews/static/media/timm.bb9b65283146d05b734a.png",
     "index.html": "/frankfurt-interviews/index.html",
-    "main.96a0c313.css.map": "/frankfurt-interviews/static/css/main.96a0c313.css.map",
-    "main.6e692796.js.map": "/frankfurt-interviews/static/js/main.6e692796.js.map"
+    "main.2a48c150.css.map": "/frankfurt-interviews/static/css/main.2a48c150.css.map",
+    "main.cf2b9d9a.js.map": "/frankfurt-interviews/static/js/main.cf2b9d9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.96a0c313.css",
-    "static/js/main.6e692796.js"
+    "static/css/main.2a48c150.css",
+    "static/js/main.cf2b9d9a.js"
   ]
 }

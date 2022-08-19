@@ -198,7 +198,131 @@ const interviews = {
     },
 };
 
-module.exports = { interviews }
+const register = [
+    {
+        term: "Adorno, Theodor W.",
+        interviews: [
+            {
+                id: "rogerfritz",
+                color: "rgb(238, 138, 30)"
+            },
+            {
+                id: "timmulrichs",
+                color: "rgb(160, 110, 230)"
+            }
+        ]
+    },
+    {
+        term: "Apfelwein",
+        interviews: [
+            {
+                id: "rogerfritz",
+                color: "rgb(238, 138, 30)"
+            }
+        ]
+    },
+    {
+        term: "Bornheim Mitte",
+        interviews: [
+            {
+                id: "udonieper",
+                color: "rgb(14, 120, 90)"
+            }
+        ]
+    },
+    {
+        term: "Kaufhausbrand",
+        interviews: [
+            {
+                id: "3",
+                color: "rgb(20, 103, 63)"
+            }
+        ]
+    },
+    {
+        term: "RAF",
+        interviews: [
+            {
+                id: "3",
+                color: "rgb(189, 4, 80)"
+            }
+        ]
+    },
+    {
+        term: "The Doors",
+        interviews: [
+            {
+                id: "3",
+                color: "rgb(200, 30, 60)"
+            }
+        ]
+    },
+    {
+        term: "Sven Väth",
+        interviews: [
+            {
+                id: "3",
+                color: "rgb(74, 184, 33)"
+            }
+        ]
+    },
+    {
+        term: "Neues Frankfurt",
+        interviews: [
+            {
+                id: "3",
+                color: "rgb(85, 40, 120)"
+            }
+        ]
+    },
+    {
+        term: "Schauspielhaus",
+        interviews: [
+            {
+                id: "3",
+                color: "rgb(196, 63, 190)"
+            }
+        ]
+    },
+    {
+        term: "Timm Ulrichs",
+        interviews: [
+            {
+                id: "3",
+                color: "rgb(8, 20, 43)"
+            }
+        ]
+    },
+    {
+        term: "Suhrkamp",
+        interviews: [
+            {
+                id: "3",
+                color: "rgb(248, 184, 64)"
+            }
+        ]
+    },
+    {
+        term: "Horkheimer, Max",
+        interviews: [
+            {
+                id: "3",
+                color: "rgb(13, 123, 226)"
+            }
+        ]
+    },
+    {
+        term: "Sarte, Jean Paul",
+        interviews: [
+            {
+                id: "3",
+                color: "rgb(75, 84, 22)"
+            }
+        ]
+    },
+]
+
+module.exports = { interviews, register }
 
 
 

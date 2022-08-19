@@ -337,30 +337,28 @@ footer span > * {
 /* About page */
 
 .About {
-    /* width: 100vw; */
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     background-color: #fff;
-    background-size: cover;
-    background-position: center top;
-    object-fit: cover;
-    overflow-x: hidden;
 }
 
 .About .content {
-    margin: 90px 60px;
+    margin: 60px 60px 30px 60px;
     display: flex;
     flex-direction: column;
-}
-
-.About .content > * {
-    color: #000;
+    line-height: 1.6;
 }
 
 .About .content h1 {
-    color: #000;
-    font-size: 50px;
     margin-bottom: 30px;
-    /* line-height: 1.8; */
+    font-size: 50px;
+    line-height: 1.4;
+    color: var(--font);
+    
 }
 
+.About .content > * {
+    margin: 10px 0;
+    color: var(--font);
+}
+ 

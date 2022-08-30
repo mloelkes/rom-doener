@@ -11,8 +11,7 @@ const interviews = {
         title: "Wir sind dort einfach hingegangen, haben die Kamera aufgestellt, schnell gedreht und sind dann wieder weg",
         subtitle: "Der Regisseur Roger Fritz über seinen Film 'Frankfurt Kaiserstraße'",
         tag: "Frankfurt als Nachtasyl",
-        intro: "1981 erscheint mit 'Frankfurt Kaiserstraße' ein Film von Roger Fritz, der damals als Milieustudie so raffiniert war, wie er heute als dokumentarische Zeitkapsel funktioniert. Wenngleich das Frankfurter Bahnhofsviertel vordergründig als Schablone dient, um die Figuren im sumpfigen Zwielicht lernen zu lassen, dass es die ersehnte Freiheit bloß im sich widerstreitenden Plural gibt, gelingt ihm doch zugleich ein Porträt dieses großstädtischsten aller Frankfurter Stadtviertel, seiner Straßenzüge, Etablissements, Kleidermoden und Sprechweisen. Der 1936 geborene Roger Fritz ist nicht nur Regisseur mehrerer Filme und zahlreicher Fernsehserien, sondern ebenso ausgebildeter Schauspieler und vor allem Fotograf. Er assistierte Luchino Visconti bei 'Boccaccio 70' und 'Il Gattopardo', arbeitete für Gian Carlo Menotti in New York, spielte bei Fassbinder und fotografierte Andy Warhol, Romy Schneider oder die Beatles. Im Gespräch schildert er seine Drehstrategie, die von einer zurückhaltenden Polizei profitierte, berichtet von einem gewonnenen Rückwärtsautorennen in Frankfurt, wo das Filmmuseum seinen Film später nicht zeigen wollte und erklärt, warum er 'Frankfurt Kaiserstraße' lieber in Hamburg gedreht hätte.",
-        pictureDescription: "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",         
+        intro: "1981 erscheint mit 'Frankfurt Kaiserstraße' ein Film von Roger Fritz, der damals als Milieustudie so raffiniert war, wie er heute als dokumentarische Zeitkapsel funktioniert. Wenngleich das Frankfurter Bahnhofsviertel vordergründig als Schablone dient, um die Figuren im sumpfigen Zwielicht lernen zu lassen, dass es die ersehnte Freiheit bloß im sich widerstreitenden Plural gibt, gelingt ihm doch zugleich ein Porträt dieses großstädtischsten aller Frankfurter Stadtviertel, seiner Straßenzüge, Etablissements, Kleidermoden und Sprechweisen. Der 1936 geborene Roger Fritz ist nicht nur Regisseur mehrerer Filme und zahlreicher Fernsehserien, sondern ebenso ausgebildeter Schauspieler und vor allem Fotograf. Er assistierte Luchino Visconti bei 'Boccaccio 70' und 'Il Gattopardo', arbeitete für Gian Carlo Menotti in New York, spielte bei Fassbinder und fotografierte Andy Warhol, Romy Schneider oder die Beatles. Im Gespräch schildert er seine Drehstrategie, die von einer zurückhaltenden Polizei profitierte, berichtet von einem gewonnenen Rückwärtsautorennen in Frankfurt, wo das Filmmuseum seinen Film später nicht zeigen wollte und erklärt, warum er 'Frankfurt Kaiserstraße' lieber in Hamburg gedreht hätte.",         
         interviewContent: [
             "Nachdem Sie Ende der 1960er Jahre gleich drei Spielfilme drehten, traten Sie als Regisseur in den Folgejahren allein mit Fernsehserien in Erscheinung. Erst 1981 kam mit 'Frankfurt Kaiserstraße' ein weiterer Film von Ihnen in die Kinos. Was brauchte es, damit Sie sich wieder zu einem Spielfilm durchringen konnten?",
             "Ich habe mich nicht durchgerungen. Das funktioniert beim Film so nicht. Ein Film kostet ein Schweinegeld, da braucht es immer jemanden, der ihn finanziert. Dass ich über zehn Jahre keinen Spielfilm mehr gedreht habe, hing bestimmt auch damit zusammen, dass ich meine vorherigen Filme allesamt selbst produzierte. Vor so jemandem haben andere Verleiher einen Riesen-Respekt. In dem konkreten Fall kam dann Karl Spiehs von Lisa-Film auf mich zu und fragte, ob ich 'Frankfurt Kaiserstraße' machen will. Das Drehbuch lag vor und auch die Rollen waren bereits besetzt.",      
@@ -50,6 +49,18 @@ const interviews = {
             "Der Film ist zweifellos ein Autorenfilm. Dass er die diesbezügliche Wahrnehmung nicht erhalten hat, ist meiner Meinung nach schlichtweg der Tatsache geschuldet, dass er als Lisa-Film erschien. Aber mir war das herzlich egal. Es war zu der Zeit, als ich im Grunde in Italien gelebt habe. Letztlich habe ich mich mein ganzes Leben nicht für diese Vereinsmeierei und Einordnungen interessiert. Fragen Sie einmal Roland Klick, den ich für einen der wirklich guten Regisseure halte, der wird Ihnen gleiches sagen. Am Ende ist es das Problem der Leute, die auf solche Einordnungen viel geben und dadurch nicht die hintere Ebene des Films sehen können.",
             "'Frankfurt Kaiserstraße' war Ihr letzter Spielfilm, warum?",
             "Ich habe noch öfter über weitere Spielfilme nachgedacht. Bei mir liegen auch ein paar Drehbücher herum. Eines hatte ich gemeinsam mit Ulf Miehe verfasst. Einmal kam es sogar noch zum Dreh, während dem allerdings relativ schnell die Produktionsfirma pleite ging. Und dann hatte ich auf einmal zwei Lokale in München, die ich eigentlich gar nicht haben wollte."
+        ],
+        pictures: [
+            {
+                path: "/assets/images/timm.png",
+                description: "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
+                position: "header"
+            },
+            {
+                path: "/assets/images/FrankfurtKaiserstrasse9.jpg",
+                description: "balsalf sadfjsa dfaskdf s",
+                position: 3
+            }
         ]
     },
     timmulrichs: {
@@ -90,6 +101,18 @@ const interviews = {
             "Geschichtsschreibung ist ja ein Kapitel für sich. Wer hat das Recht zu entscheiden? Ich habe immer angekündigt, meine Strategie sei, die Kritiker und Kunsthistoriker, alle Besserwisser zu überleben und dann die Kunstgeschichte zu meinen Gunsten umzuschreiben. In manchen Fällen hat das sogar schon geklappt. Schauen Sie: Von Udo Kultermann gibt es das Buch mit dem Titel 'Leben und Kunst. Zur Funktion der Intermedia' (1970), in dem sich eine Liste mit Selbstausstellern findet. Ein Dutzend Namen ist dabei, aber meiner, der erste, fehlt. Es ist tatsächlich oft eine Machtfrage, ob man seinen Stellenwert zugebilligt bekommt oder nicht. Mittlerweile ist Kultermann tot, und ich kann für eine Korrektur sorgen. Von Ernst May habe ich übrigens als Architekturstudent an der Technischen Hochschule Hannover einen Vortrag gehört und mir von ihm ein Autogramm geben lassen, aus purer Verehrung. Wenngleich auch nicht so berühmt wie Gropius, Mies van der Rohe oder Corbusier, war er für mich doch ein großer Mann.",
             "Fällt Ihnen zum Abschluss noch eine kleine Anekdote ein, die Sie mit Frankfurt verbindet?",
             "Im Frankfurter Kunstverein gab es im Vorstand einen Werbegrafiker, der mir einen meiner 'Sitzenden Stühle' abkaufte. Später schrieb er mir, dass Diebe in seine Wohnung eingestiegen seien. Die Frankfurter Polizei habe in ihrem Protokoll nicht nur aufgelistet, was alles gestohlen worden sei, sie erwähnte auch einen demolierten Stuhl, dem die Hinterbeine gebrochen worden seien."
+        ],
+        pictures: [
+            {
+                path: "/assets/images/timm.png",
+                description: "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
+                position: "header"
+            },
+            {
+                path: "/assets/images/FrankfurtKaiserstrasse9.jpg",
+                description: "balsalf sadfjsa dfaskdf s",
+                position: 3
+            }
         ]
     },
     udonieper: {
@@ -128,6 +151,18 @@ const interviews = {
             "Natürlich gibt es so etwas wie Zeitgeist, der einen sicherlich auch irgendwo beeinflusst. Allein durch die ganzen Architekturzeitschriften war ich im Bilde. In einem bestimmten Milieu wollte ich mich aber nicht bewegen. In ersten Linie war ich Architekt, der sich konkreten Bauaufgaben stellt – mit Vorliebe für das gestalterische Detail, Schönheit. Nehmen Sie die goldenen Kanneluren an meinen Säulen. Ihr Grund ist letztlich ganz banal: Damit man die Säulen nicht so leicht besprühen kann. Sie waren nicht als Zitat gemeint. Natürlich hätte ich die Säulen auch befliesen können, aber das sähe dann eben weniger schön aus. Ich möchte es nochmals mit meinem ebenfalls 1985 fertiggestellten Jugendzentrum am Bügel in Frankfurt erklären, das damals für ziemliche Furore sorgte und bundesweite Wertschätzung erfuhr. Am Anfang stand nicht die Idee, ich baue postmodern, sondern ich habe radikal aus Sicht der Kinder und Jugendlichen gedacht, mit dem Ziel, diesen Architektur zu vermitteln. In dem Bau habe ich alles untergebracht: einen gemütlichen Kaminbau im Stile einer Skihütte, ein Reihenhaus für die einzelnen Räume, eine Werkstatt, ein Clubraum und eine Disko, ein nach allen Seiten offenes Industriedach, das die verschiedenen Baukörper zu einer Einheit zusammenfasst, zuletzt eine Betonmauer drumherum mit Segmenten aus Glasbausteinen. Ich baute ein Sammelsurium architektonischer Eindrücken – im Sinne der Kinder, nicht der Postmoderne.",
             "Abschließend möchte ich Sie fragen: Mögen Sie das unterirdische Frankfurt?",
             "Die vielen Wettbewerbe, die man in Frankfurt ausgerichtet hat, haben der Stadt auf jeden Fall viele tolle Stationen beschert. Das unterscheidet Frankfurt von anderen Großstädten, wo man sich dem Stationsbau allein bauingenieurmäßig angenommen hat, bloß danach fragte, wie man möglichst billig und ohne Hindernisse von A nach B kommt. Dort bestehen die Stationen aus bloßen Gängen. Architekten aber haben ein räumliches Gefühl. Ich dachte immer in Etappen, von Zentralraum zu Zentralraum, um lange Gänge zu vermeiden. Mein Frankfurter U-Bahnhof funktioniert wie das Atomium, wo die verschiedenen Erlebnisräume durch kurze Gänge miteinander verbunden sind. Mir gefallen im Übrigen auch die beiden Stationen von A.C. Walter, 'Westend' und 'Alte Oper', über die wir zu Beginn gesprochen haben. Nur sein sogenanntes Loch an der Hauptwache ist eine einzige Katastrophe."
+        ],
+        pictures: [
+            {
+                path: "/assets/images/timm.png",
+                description: "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
+                position: "header"
+            },
+            {
+                path: "/assets/images/FrankfurtKaiserstrasse9.jpg",
+                description: "balsalf sadfjsa dfaskdf s",
+                position: 3
+            }
         ]
     },
     test3: {

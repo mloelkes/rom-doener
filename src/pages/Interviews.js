@@ -1,11 +1,11 @@
 import React from "react";
-import { interviews } from "../data.js";
+import interviews from "../data/interviews.json";
 import InterviewsRow from "../components/InterviewsRow.js";
 
 function Interviews() {
 
-    const interviewsList = Object.keys(interviews).map(key => 
-        <InterviewsRow interview={interviews[key]}/>
+    const interviewsList = interviews.map(interview => 
+        <InterviewsRow interview={interview}/>
     )
 
     return (

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import mapboxgl from 'mapbox-gl';
-import { interviews } from "../data.js";
+import interviews from "../data/interviews.json";
 import PopUp from "./PopUp.js"
 
 function Map() {

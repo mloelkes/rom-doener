@@ -1,18 +1,18 @@
-const interviews = {
-    rogerfritz: {
-        id: "rogerfritz",
-        person: "Roger Fritz",
-        coordinates: {
-            lng: 8.680000,
-            lat: 50.110000
+[
+    {
+        "id": "f7dae000-63d2-4cb2-b9ab-96db205685fd",
+        "person": "Roger Fritz",
+        "coordinates": {
+            "lng": 8.680000,
+            "lat": 50.110000
         },
-        snippet: "Der Film ist zweifellos ein Autorenfilm. Dass er die diesbezügliche Wahrnehmung nicht erhalten hat, ist meiner Meinung nach schlichtweg der Tatsache geschuldet, dass er als Lisa-Film erschien.",
-        color: "rgb(238, 138, 30)",
-        title: "Wir sind dort einfach hingegangen, haben die Kamera aufgestellt, schnell gedreht und sind dann wieder weg",
-        subtitle: "Der Regisseur Roger Fritz über seinen Film 'Frankfurt Kaiserstraße'",
-        tag: "Frankfurt als Nachtasyl",
-        intro: "1981 erscheint mit 'Frankfurt Kaiserstraße' ein Film von Roger Fritz, der damals als Milieustudie so raffiniert war, wie er heute als dokumentarische Zeitkapsel funktioniert. Wenngleich das Frankfurter Bahnhofsviertel vordergründig als Schablone dient, um die Figuren im sumpfigen Zwielicht lernen zu lassen, dass es die ersehnte Freiheit bloß im sich widerstreitenden Plural gibt, gelingt ihm doch zugleich ein Porträt dieses großstädtischsten aller Frankfurter Stadtviertel, seiner Straßenzüge, Etablissements, Kleidermoden und Sprechweisen. Der 1936 geborene Roger Fritz ist nicht nur Regisseur mehrerer Filme und zahlreicher Fernsehserien, sondern ebenso ausgebildeter Schauspieler und vor allem Fotograf. Er assistierte Luchino Visconti bei 'Boccaccio 70' und 'Il Gattopardo', arbeitete für Gian Carlo Menotti in New York, spielte bei Fassbinder und fotografierte Andy Warhol, Romy Schneider oder die Beatles. Im Gespräch schildert er seine Drehstrategie, die von einer zurückhaltenden Polizei profitierte, berichtet von einem gewonnenen Rückwärtsautorennen in Frankfurt, wo das Filmmuseum seinen Film später nicht zeigen wollte und erklärt, warum er 'Frankfurt Kaiserstraße' lieber in Hamburg gedreht hätte.",         
-        interviewContent: [
+        "color": "rgb(238, 138, 30)",
+        "snippet": "Der Film ist zweifellos ein Autorenfilm. Dass er die diesbezügliche Wahrnehmung nicht erhalten hat, ist meiner Meinung nach schlichtweg der Tatsache geschuldet, dass er als Lisa-Film erschien.",
+        "title": "Wir sind dort einfach hingegangen, haben die Kamera aufgestellt, schnell gedreht und sind dann wieder weg",
+        "subtitle": "Der Regisseur Roger Fritz über seinen Film 'Frankfurt Kaiserstraße'",
+        "tag": "Frankfurt als Nachtasyl",
+        "intro": "1981 erscheint mit 'Frankfurt Kaiserstraße' ein Film von Roger Fritz, der damals als Milieustudie so raffiniert war, wie er heute als dokumentarische Zeitkapsel funktioniert. Wenngleich das Frankfurter Bahnhofsviertel vordergründig als Schablone dient, um die Figuren im sumpfigen Zwielicht lernen zu lassen, dass es die ersehnte Freiheit bloß im sich widerstreitenden Plural gibt, gelingt ihm doch zugleich ein Porträt dieses großstädtischsten aller Frankfurter Stadtviertel, seiner Straßenzüge, Etablissements, Kleidermoden und Sprechweisen. Der 1936 geborene Roger Fritz ist nicht nur Regisseur mehrerer Filme und zahlreicher Fernsehserien, sondern ebenso ausgebildeter Schauspieler und vor allem Fotograf. Er assistierte Luchino Visconti bei 'Boccaccio 70' und 'Il Gattopardo', arbeitete für Gian Carlo Menotti in New York, spielte bei Fassbinder und fotografierte Andy Warhol, Romy Schneider oder die Beatles. Im Gespräch schildert er seine Drehstrategie, die von einer zurückhaltenden Polizei profitierte, berichtet von einem gewonnenen Rückwärtsautorennen in Frankfurt, wo das Filmmuseum seinen Film später nicht zeigen wollte und erklärt, warum er 'Frankfurt Kaiserstraße' lieber in Hamburg gedreht hätte.",         
+        "interviewContent": [
             "Nachdem Sie Ende der 1960er Jahre gleich drei Spielfilme drehten, traten Sie als Regisseur in den Folgejahren allein mit Fernsehserien in Erscheinung. Erst 1981 kam mit 'Frankfurt Kaiserstraße' ein weiterer Film von Ihnen in die Kinos. Was brauchte es, damit Sie sich wieder zu einem Spielfilm durchringen konnten?",
             "Ich habe mich nicht durchgerungen. Das funktioniert beim Film so nicht. Ein Film kostet ein Schweinegeld, da braucht es immer jemanden, der ihn finanziert. Dass ich über zehn Jahre keinen Spielfilm mehr gedreht habe, hing bestimmt auch damit zusammen, dass ich meine vorherigen Filme allesamt selbst produzierte. Vor so jemandem haben andere Verleiher einen Riesen-Respekt. In dem konkreten Fall kam dann Karl Spiehs von Lisa-Film auf mich zu und fragte, ob ich 'Frankfurt Kaiserstraße' machen will. Das Drehbuch lag vor und auch die Rollen waren bereits besetzt.",      
             "Lisa-Film produzierte für den Massenmarkt, hauptsächlich leicht verdauliche Komödien und Erotikfilme. Wie passte Ihr Film in dieses Portfolio?",
@@ -50,33 +50,33 @@ const interviews = {
             "'Frankfurt Kaiserstraße' war Ihr letzter Spielfilm, warum?",
             "Ich habe noch öfter über weitere Spielfilme nachgedacht. Bei mir liegen auch ein paar Drehbücher herum. Eines hatte ich gemeinsam mit Ulf Miehe verfasst. Einmal kam es sogar noch zum Dreh, während dem allerdings relativ schnell die Produktionsfirma pleite ging. Und dann hatte ich auf einmal zwei Lokale in München, die ich eigentlich gar nicht haben wollte."
         ],
-        pictures: [
+        "images": [
             {
-                path: "/assets/images/timm.png",
-                description: "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
-                position: "header"
+                "url": "/assets/images/timm.png",
+                "description": "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
+                "position": 0
             },
             {
-                path: "/assets/images/FrankfurtKaiserstrasse9.jpg",
-                description: "balsalf sadfjsa dfaskdf s",
-                position: 3
+                "url": "/assets/images/FrankfurtKaiserstrasse9.jpg",
+                "description": "Ihre weibliche Hauptfigur kellnert zeitweise in einem aberwitzigen Außenlokal",
+                "position": 3
             }
         ]
     },
-    timmulrichs: {
-        id: "timmulrichs",
-        person: "Timm Ulrichs",
-        coordinates: {
-            lng: 8.700000,
-            lat: 50.100000
+    {
+        "id": "5387f148-2813-496c-8a33-343f27f364eb",
+        "person": "Timm Ulrichs",
+        "coordinates": {
+            "lng": 8.700000,
+            "lat": 50.100000
         },
-        snippet: "Frankfurt ist die Stadt der Hochhäuser. Es gibt von Ihnen eine Arbeit zu San Gimignano (1983/86), dem 'mittelalterlichen Manhattan', bei der Sie sich mit den toskanischen Geschlechtertürmen beschäftigen. Sie haben Holztische umgedreht, so dass die Beine wie Geschlechtertürme fungieren, und rote Betonpflastersteine in Hausform beigestellt, um den Maßstab anzudeuten.",
-        color: "rgb(160, 110, 230)",
-        title: "«Sie schenkte mir Adornos 'Minima Moralia' mit ihrem Lippenabdruck auf dem Umschlag»",
-        subtitle: "Der Künstler Timm Ulrichs über seine Kunst in Frankfurt und Frankfurt im Kontext seiner Kunst",
-        tag: "Frankfurt als Kunststadt",
-        intro: "Timm Ulrichs' Werk ist kaum zu überblicken. Anstatt einen unverwechselbaren Stil auszubilden, wechselt er ihn immerzu, findet zu immer neuen Ideen und bespielt dabei alle Disziplinen der Bildenden Kunst. Oft fand seine Konzeptkunst erfolgreiche Nachahmer. Nicht selten wurde er dabei verschwiegen. Als Documenta-Teilnehmer weiß Ulrichs bereits zu Lebzeiten um ein von ihm gestaltetes Grabmal auf der Kasseler Künstler-Nekropole. Seine Arbeit 'Versunkenes Dorf' wurde zum Kunst-am-Bau-Projekt der Münchner Allianzarena. Nackt lief er mit Blitzableiter bei Gewitter über ein Feld, mit Blindenbrille, Blindenstock und gelber Armbinde trug er ein Schild mit dem Schriftzug 'Ich kann keine Kunst mehr sehen!' – viele seiner inszenierten Bilder sind längst ikonisch. Im letzten Jahr erhielt der mittlerweile Achtzigjährige den Käthe-Kollwitz-Preis der Akademie der Künste Berlin für sein Lebenswerk. Die Stadt Frankfurt spielt dabei gerade zu Beginn seiner Karriere eine wichtige Rolle. Im Gespräch erzählt Timm Ulrichs von der Mainmetropole als zeitweiligem Umzugsziel, wo man Adornos 'Minima Moralia' für ihn küsste, Kunst in seine Haut ging und eine verdeckte Beschattung seiner Person an der Straßenbahnhaltestelle endete.",
-        interviewContent: [
+        "color": "rgb(160, 110, 230)",
+        "snippet": "Frankfurt ist die Stadt der Hochhäuser. Es gibt von Ihnen eine Arbeit zu San Gimignano (1983/86), dem 'mittelalterlichen Manhattan', bei der Sie sich mit den toskanischen Geschlechtertürmen beschäftigen. Sie haben Holztische umgedreht, so dass die Beine wie Geschlechtertürme fungieren, und rote Betonpflastersteine in Hausform beigestellt, um den Maßstab anzudeuten.",
+        "title": "«Sie schenkte mir Adornos 'Minima Moralia' mit ihrem Lippenabdruck auf dem Umschlag»",
+        "subtitle": "Der Künstler Timm Ulrichs über seine Kunst in Frankfurt und Frankfurt im Kontext seiner Kunst",
+        "tag": "Frankfurt als Kunststadt",
+        "intro": "Timm Ulrichs' Werk ist kaum zu überblicken. Anstatt einen unverwechselbaren Stil auszubilden, wechselt er ihn immerzu, findet zu immer neuen Ideen und bespielt dabei alle Disziplinen der Bildenden Kunst. Oft fand seine Konzeptkunst erfolgreiche Nachahmer. Nicht selten wurde er dabei verschwiegen. Als Documenta-Teilnehmer weiß Ulrichs bereits zu Lebzeiten um ein von ihm gestaltetes Grabmal auf der Kasseler Künstler-Nekropole. Seine Arbeit 'Versunkenes Dorf' wurde zum Kunst-am-Bau-Projekt der Münchner Allianzarena. Nackt lief er mit Blitzableiter bei Gewitter über ein Feld, mit Blindenbrille, Blindenstock und gelber Armbinde trug er ein Schild mit dem Schriftzug 'Ich kann keine Kunst mehr sehen!' – viele seiner inszenierten Bilder sind längst ikonisch. Im letzten Jahr erhielt der mittlerweile Achtzigjährige den Käthe-Kollwitz-Preis der Akademie der Künste Berlin für sein Lebenswerk. Die Stadt Frankfurt spielt dabei gerade zu Beginn seiner Karriere eine wichtige Rolle. Im Gespräch erzählt Timm Ulrichs von der Mainmetropole als zeitweiligem Umzugsziel, wo man Adornos 'Minima Moralia' für ihn küsste, Kunst in seine Haut ging und eine verdeckte Beschattung seiner Person an der Straßenbahnhaltestelle endete.",
+        "interviewContent": [
             "Nachdem Sie sich 1961 zum 'Ersten lebenden Kunstwerk' erklärten, wollten Sie sich 1965 im Rahmen der 'Juryfreien Kunstausstellung' in Berlin konsequenterweise selbst ausstellen. Doch wurde dies kurzerhand verboten. Ein Jahr später war es dann doch möglich, allerdings in Frankfurt. Wie kam es dazu?",
             "Das Verbot meiner Selbstausstellung griff damals das 'stern'-Magazin auf, und zur Illustration des Artikels schickte man einen Fotografen zu den Ausstellungshallen am Funkturm, wo wir heimlich im Depot ein Foto mit mir im Glaskasten machten. Dieses Bild fand über eine Presseagentur weltweite Verbreitung. Infolge dieser Publizität wurde auch die mittlerweile legendäre Frankfurter Produzentengalerie Patio auf mich aufmerksam und bot mir an, meine Aktion dort zu wiederholen. Diese Galerie war zu jenem Zeitpunkt einer der avanciertesten Orte für Kunst, nicht nur in Frankfurt, der große experimentelle Freiheit erlaubte; Stanley Brown beispielsweise, der Konzeptkünstler aus Amsterdam, präsentierte sich hier erstmals in der Bundesrepublik. Mich kontaktierte damals Walter Zimbrich, neben Mario Barahona, Walter Kroe, Dieter Wetzk und Horst BaerenzCao einer der Gründungsväter der Galerie, die sich in einem Hinterhof in Sachsenhausen befand. Ich erinnere mich noch gut an den Fußweg dorthin – über den von Max Beckmann im Bild festgehaltenen Eisernen Steg, von wo man über die rechts liegende Schifferstraße in den Hinterhof der Laubestraße 24 gelang. Fast auf den Tag genau ein Jahr nach dem Berliner Verbot fand dort dann meine Selbstausstellung statt. Sie verlief über fünf Abende, vom 1. bis zum 5. Juni 1966.",
             "Haben Sie auch noch Erinnerungen an die Ausstellungsabende?",
@@ -102,33 +102,33 @@ const interviews = {
             "Fällt Ihnen zum Abschluss noch eine kleine Anekdote ein, die Sie mit Frankfurt verbindet?",
             "Im Frankfurter Kunstverein gab es im Vorstand einen Werbegrafiker, der mir einen meiner 'Sitzenden Stühle' abkaufte. Später schrieb er mir, dass Diebe in seine Wohnung eingestiegen seien. Die Frankfurter Polizei habe in ihrem Protokoll nicht nur aufgelistet, was alles gestohlen worden sei, sie erwähnte auch einen demolierten Stuhl, dem die Hinterbeine gebrochen worden seien."
         ],
-        pictures: [
+        "images": [
             {
-                path: "/assets/images/timm.png",
-                description: "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
-                position: "header"
+                "url": "/assets/images/timm.png",
+                "description": "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
+                "position": 0
             },
             {
-                path: "/assets/images/FrankfurtKaiserstrasse9.jpg",
-                description: "balsalf sadfjsa dfaskdf s",
-                position: 3
+                "url": "/assets/images/FrankfurtKaiserstrasse9.jpg",
+                "description": "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
+                "position": 7
             }
         ]
     },
-    udonieper: {
-        id: "udonieper",
-        person: "Udo Nieper",
-        coordinates: {
-            lng: 8.720000,
-            lat: 50.120000
+    {
+        "id": "bd3e5b7b-761c-4391-9cc0-583ec0339a93",
+        "person": "Udo Nieper",
+        "coordinates": {
+            "lng": 8.720000,
+            "lat": 50.120000
         },
-        snippet: "Das was ich mache, wird verändert. So war es auch bei der Zeil, für die wir eine grüne Spange von der Ostzeil über die Konstablerwache bis hin zu Fressgasse bauen ließen. Mit dem späteren Umbau wurde die Anzahl der Bäume wieder reduziert, die Pavillons abgerissen, eine neue, fürchterliche Beleuchtung angebracht und auch die alten Sitzgelegenheiten mit ihren vier Segmenten, auf denen es immer wieder zu den wunderbarsten Begegnungen kam, wurden durch unmaßstäbliche Bänke ersetzt.",
-        color: "rgb(14, 120, 90)",
-        title: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium",
-        subtitle: "Der Architekt Udo Nieper über seinen Frankfurter U-Bahnhof 'Bockenheimer Warte'",
-        tag: "Unterirdisches Frankfurt",
-        intro: "Udo Nieper hat sich in den vergangenen Jahrzehnten als Architekt den unterschiedlichsten Bauaufgaben gestellt. Immer mit dem Ziel, Gelegenheiten zu schaffen statt Begebenheiten, wie er sagt. 1943 in Kiel geboren, studierte er an den Technischen Universitäten Berlin und Darmstadt, wo er 1970 bereits sein eigenes Büro gründete und zudem für ein Jahrzehnt als Dozent tätig war. In Frankfurt ist vor allem sein Wirken in den 1980er Jahren hervorzuheben: Er baute den U-Bahnhof 'Bockenheimer Warte', das in Architektenkreisen vielbeachtete Jugendzentrum am Bügel und war mitverantwortlich für den Umbau der Zeil zur Fußgängerzone. Im Gespräch erzählt Udo Nieper von seiner U-Bahn-Station als Tropfsteinhöhle, in deren Weiterführung Dinosaurier hätten einziehen sollen und erklärt, warum er trotzdem nur sehr bedingt ein Postmoderner war. Schon damals bedrückte ihn, was der Zeitgeist erst heute zu begreifen beginnt: Die Stadt sollte den Kindern kein Busbahnhof sein.",
-        interviewContent: [
+        "color": "rgb(14, 120, 90)",
+        "snippet": "Das was ich mache, wird verändert. So war es auch bei der Zeil, für die wir eine grüne Spange von der Ostzeil über die Konstablerwache bis hin zu Fressgasse bauen ließen. Mit dem späteren Umbau wurde die Anzahl der Bäume wieder reduziert, die Pavillons abgerissen, eine neue, fürchterliche Beleuchtung angebracht und auch die alten Sitzgelegenheiten mit ihren vier Segmenten, auf denen es immer wieder zu den wunderbarsten Begegnungen kam, wurden durch unmaßstäbliche Bänke ersetzt.",
+        "title": "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium",
+        "subtitle": "Der Architekt Udo Nieper über seinen Frankfurter U-Bahnhof 'Bockenheimer Warte'",
+        "tag": "Unterirdisches Frankfurt",
+        "intro": "Udo Nieper hat sich in den vergangenen Jahrzehnten als Architekt den unterschiedlichsten Bauaufgaben gestellt. Immer mit dem Ziel, Gelegenheiten zu schaffen statt Begebenheiten, wie er sagt. 1943 in Kiel geboren, studierte er an den Technischen Universitäten Berlin und Darmstadt, wo er 1970 bereits sein eigenes Büro gründete und zudem für ein Jahrzehnt als Dozent tätig war. In Frankfurt ist vor allem sein Wirken in den 1980er Jahren hervorzuheben: Er baute den U-Bahnhof 'Bockenheimer Warte', das in Architektenkreisen vielbeachtete Jugendzentrum am Bügel und war mitverantwortlich für den Umbau der Zeil zur Fußgängerzone. Im Gespräch erzählt Udo Nieper von seiner U-Bahn-Station als Tropfsteinhöhle, in deren Weiterführung Dinosaurier hätten einziehen sollen und erklärt, warum er trotzdem nur sehr bedingt ein Postmoderner war. Schon damals bedrückte ihn, was der Zeitgeist erst heute zu begreifen beginnt: Die Stadt sollte den Kindern kein Busbahnhof sein.",
+        "interviewContent": [
             "Mit Ihrer 1986 fertiggestellten U-Bahn-Station 'Bockenheimer Warte' der Linien U6 und U7 haben Sie eine der herausragendsten unterirdischen Stationen Frankfurts geschaffen. Sie mussten sich damals gegen das Frankfurter U-Bahn-Urgestein, den Architekten A.C. Walter durchsetzen, den Schöpfer der ersten und in Folge zahlreicher weiterer Stationen in Frankfurt. Für Sie als noch jungen Architekten war es der erste Stationsbau. Wie ist Ihnen das gelungen?",
             "Das war ein harter Kampf. Die Station 'Bockenheimer Warte' war Teil eines ausgelobten Wettbewerbs, der auch die zu bauenden Stationen 'Westend' und 'Alte Oper' umfasste. Eigentlich sollten alle drei Stationen von ein und demselben Architekten ausgeführt werden. A.C. Walter, der auch diesen Wettbewerb gewann, hielt sich bei seinem Entwurf zur Bockenheimer Warte allerdings nicht an die Vorgabe, ein unterirdisches Depot für die Zentralbibliothek mit einzuarbeiten. Architektonisch kann ich ihn sogar nachvollziehen: Ohne die in großem Umfang verlangten Magazinräume direkt unter der Erdoberfläche konnte er eine sehr viel höhere Bahnsteighalle planen. Weil ich die Vorgaben wiederum erfüllte, entschied das zuständige Stadtbahn-Bauamt, wie es damals noch hieß, den Auftrag doch aufzuteilen und mich mit dem Bau der U-Bahn-Station 'Bockenheimer Warte' zu beauftragen. A.C. Walter wollte das natürlich so nicht hinnehmen. So bekam ich eines Tages einen Brief des Bundes Deutscher Architekten, in dem sinngemäß stand, es sei eine Unverschämtheit, dass ich dem A.C. Walter einen Bahnhof wegnähme. Das brachte mich wiederum dazu, dem BDA meinerseits mit einer Beschwerde zu antworten. Ich reagierte wie ein bissiger Hund und fragte unverfroren, warum nicht ich alle drei Stationen bekäme. Denn mit meinen drei Entwürfen seien schließlich alle Anforderungen erfüllt. Der BDA zog seine Beschwerde schließlich zurück und ich konnte meine Station bauen.",      
             "Ihre Station erscheint auf der Verteilerebene wie ein riesiger Säulenwald. Große Spiegelflächen verstärken den Eindruck räumlicher Weite. Auch entlang des Bahnsteigs erstrecken sich zahlreiche Säulen. Rund 65 Säulen und Halbsäulen sind insgesamt zu zählen. Wozu all diese Säulen, wenn doch die meisten keinerlei tragende Funktion haben?",
@@ -152,212 +152,87 @@ const interviews = {
             "Abschließend möchte ich Sie fragen: Mögen Sie das unterirdische Frankfurt?",
             "Die vielen Wettbewerbe, die man in Frankfurt ausgerichtet hat, haben der Stadt auf jeden Fall viele tolle Stationen beschert. Das unterscheidet Frankfurt von anderen Großstädten, wo man sich dem Stationsbau allein bauingenieurmäßig angenommen hat, bloß danach fragte, wie man möglichst billig und ohne Hindernisse von A nach B kommt. Dort bestehen die Stationen aus bloßen Gängen. Architekten aber haben ein räumliches Gefühl. Ich dachte immer in Etappen, von Zentralraum zu Zentralraum, um lange Gänge zu vermeiden. Mein Frankfurter U-Bahnhof funktioniert wie das Atomium, wo die verschiedenen Erlebnisräume durch kurze Gänge miteinander verbunden sind. Mir gefallen im Übrigen auch die beiden Stationen von A.C. Walter, 'Westend' und 'Alte Oper', über die wir zu Beginn gesprochen haben. Nur sein sogenanntes Loch an der Hauptwache ist eine einzige Katastrophe."
         ],
-        pictures: [
+        "images": [
             {
-                path: "/assets/images/timm.png",
-                description: "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
-                position: "header"
+                "url": "/assets/images/timm.png",
+                "description": "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
+                "position": 0
             },
             {
-                path: "/assets/images/FrankfurtKaiserstrasse9.jpg",
-                description: "balsalf sadfjsa dfaskdf s",
-                position: 3
+                "url": "/assets/images/FrankfurtKaiserstrasse9.jpg",
+                "description": "balsalf sadfjsa dfafav  fadf adf f adf fa dfadsasdfasdfasd skdf s",
+                "position": 3
             }
         ]
     },
-    test3: {
-        id: "1",
-        person: "Udo Nieper",
-        coordinates: {
-            lng: 8.820000,
-            lat: 50.140000
+    {
+        "id": "fb8cba21-a9c0-4095-816c-8cf8726c6786",
+        "person": "Udo Nieper",
+        "coordinates": {
+            "lng": 8.820000,
+            "lat": 50.140000
         },
-        color: "rgb(140, 80, 20)",
-        tag: "Udo Nieper",
-        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+        "color": "rgb(140, 80, 20)",
+        "tag": "Udo Nieper",
+        "subtitle": "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
-    test4: {
-        id: "2",
-        person: "Udo Nieper",
-        coordinates: {
-            lng: 8.220000,
-            lat: 50.160000
+    {
+        "id": "216f42f7-092a-4c5f-81f8-8b1b679272d4",
+        "person": "Udo Nieper",
+        "coordinates": {
+            "lng": 8.220000,
+            "lat": 50.160000
         },
-        color: "rgb(240, 190, 60)",
-        tag: "Udo Nieper",
-        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+        "color": "rgb(240, 190, 60)",
+        "tag": "Udo Nieper",
+        "subtitle": "Meine Überlegung war die Folgende: Wenn ich am Bahnsteig stehe"
     },
-    test5: {
-        id: "3",
-        person: "Udo Nieper",
-        coordinates: {
-            lng: 8.320000,
-            lat: 50.420000
+    {
+        "id": "d1dde0b4-86b0-4e5d-be40-bdabddb33aba",
+        "person": "Udo Nieper",
+        "coordinates": {
+            "lng": 8.320000,
+            "lat": 50.420000
         },
-        color: "rgb(40, 120, 180)",
-        tag: "Udo Nieper",
-        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+        "color": "rgb(40, 120, 180)",
+        "tag": "Udo Nieper",
+        "subtitle": "Timm Ulrichs' Werk ist kaum zu überblicken"
     },
-    test6: {
-        id: "4",
-        person: "Udo Nieper",
-        coordinates: {
-            lng: 8.760000,
-            lat: 50.820000
+    {
+        "id": "c41e690e-be85-4e31-865c-53375ac4837b",
+        "person": "Udo Nieper",
+        "coordinates": {
+            "lng": 8.760000,
+            "lat": 50.820000
         },
-        color: "rgb(90, 120, 200)",
-        tag: "Udo Nieper",
-        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+        "color": "rgb(90, 120, 200)",
+        "tag": "Udo Nieper",
+        "subtitle": "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
-    test7: {
-        id: "5",
-        person: "Udo Nieper",
-        coordinates: {
-            lng: 8.420000,
-            lat: 50.140000
+    {
+        "id": "398904d2-108b-488a-8dd3-cc7661343426",
+        "person": "Udo Nieper",
+        "coordinates": {
+            "lng": 8.420000,
+            "lat": 50.140000
         },
-        color: "rgb(30, 200, 100)",
-        tag: "Udo Nieper",
-        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
+        "color": "rgb(30, 200, 100)",
+        "tag": "Udo Nieper",
+        "subtitle": "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
     },
-    test8: {
-        id: "6",
-        person: "Udo Nieper",
-        coordinates: {
-            lng: 8.770000,
-            lat: 50.160000
+    {
+        "id": "90ee9bef-4159-46c1-82ef-199fa3d78caf",
+        "person": "Udo Nieper",
+        "coordinates": {
+            "lng": 8.770000,
+            "lat": 50.160000
         },
-        color: "rgb(210, 160, 40)",
-        tag: "Udo Nieper",
-        subtitle: "Mein Frankfurter U-Bahnhof funktioniert wie das Atomium"
-    },
-};
-
-const register = [
-    {
-        term: "Adorno, Theodor W.",
-        interviews: [
-            {
-                id: "rogerfritz",
-                color: "rgb(238, 138, 30)"
-            },
-            {
-                id: "timmulrichs",
-                color: "rgb(160, 110, 230)"
-            }
-        ]
-    },
-    {
-        term: "Apfelwein",
-        interviews: [
-            {
-                id: "rogerfritz",
-                color: "rgb(238, 138, 30)"
-            }
-        ]
-    },
-    {
-        term: "Bornheim Mitte",
-        interviews: [
-            {
-                id: "udonieper",
-                color: "rgb(14, 120, 90)"
-            }
-        ]
-    },
-    {
-        term: "Kaufhausbrand",
-        interviews: [
-            {
-                id: "3",
-                color: "rgb(20, 103, 63)"
-            }
-        ]
-    },
-    {
-        term: "RAF",
-        interviews: [
-            {
-                id: "3",
-                color: "rgb(189, 4, 80)"
-            }
-        ]
-    },
-    {
-        term: "The Doors",
-        interviews: [
-            {
-                id: "3",
-                color: "rgb(200, 30, 60)"
-            }
-        ]
-    },
-    {
-        term: "Sven Väth",
-        interviews: [
-            {
-                id: "3",
-                color: "rgb(74, 184, 33)"
-            }
-        ]
-    },
-    {
-        term: "Neues Frankfurt",
-        interviews: [
-            {
-                id: "3",
-                color: "rgb(85, 40, 120)"
-            }
-        ]
-    },
-    {
-        term: "Schauspielhaus",
-        interviews: [
-            {
-                id: "3",
-                color: "rgb(196, 63, 190)"
-            }
-        ]
-    },
-    {
-        term: "Timm Ulrichs",
-        interviews: [
-            {
-                id: "3",
-                color: "rgb(8, 20, 43)"
-            }
-        ]
-    },
-    {
-        term: "Suhrkamp",
-        interviews: [
-            {
-                id: "3",
-                color: "rgb(248, 184, 64)"
-            }
-        ]
-    },
-    {
-        term: "Horkheimer, Max",
-        interviews: [
-            {
-                id: "3",
-                color: "rgb(13, 123, 226)"
-            }
-        ]
-    },
-    {
-        term: "Sarte, Jean Paul",
-        interviews: [
-            {
-                id: "3",
-                color: "rgb(75, 84, 22)"
-            }
-        ]
-    },
+        "color": "rgb(210, 160, 40)",
+        "tag": "Udo Nieper",
+        "subtitle": "Einen weiteren 'Witz' Ihres U-Bahnhofs"
+    }
 ]
 
-module.exports = { interviews, register }
 
 
 

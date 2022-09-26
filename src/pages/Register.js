@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { register } from "../data.js";
+import register from "../data/register.json";
 
 function Register() {
 

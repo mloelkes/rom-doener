@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { interviews } from "../data.js";
+import interviews from "../data/interviews.json";
 import timm from "../assets/images/timm.png";
 import Footer from "../components/Footer.js";
 
@@ -30,7 +30,11 @@ function Interview() {
     ))
 
     useEffect(() => {
-        setInterview(interviews[id])
+        const interview = interviews.filter(interview => {
+            return interview.id === id
+        })[0];
+
+        setInterview(interview)
     }, [])
 
     return (

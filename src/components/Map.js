@@ -32,8 +32,8 @@ function Map() {
     }
 
     function createMarkers(mapboxMap) {
-        for (let key in interviews) {
-            createMarker(mapboxMap, interviews[key]);
+        for (let interview of interviews) {
+            createMarker(mapboxMap, interview);
         } 
     }
 

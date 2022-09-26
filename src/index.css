@@ -141,7 +141,6 @@ button {
 .marker {
     width: 30px;
     height: 30px;
-    /* background-color:rgb(238, 238, 30); */
     border-radius: 50%;
     cursor: pointer;
 }
@@ -160,27 +159,20 @@ button {
 }
 
 .PopUp .snippet {
-    margin: 0 0 40px 0;
+    margin: 10px 10px 10px 0;
 }
 
 .PopUp .link {
-    color: var(--font);
-    text-decoration: none;
+    font-weight:500;
     font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 12px;
-    border: 3px solid black;
+    text-decoration: none;
+    color: var(--font);
 }
 
 .PopUp .link:hover {
-    
+    text-decoration: underline;
+    cursor: pointer;
 }
-
-
-
-
-
 
 /* Interviews page */
 
@@ -263,8 +255,8 @@ button {
 
 .Interview .container .question {
     font-weight: 500;
-    font-size: 16px;
-    font-family: 'Krona One', sans-serif;
+    /* font-size: 16px; */
+    /* font-family: 'Krona One', sans-serif; */
     line-height: 1.8;
 }
 

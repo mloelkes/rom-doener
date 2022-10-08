@@ -52,14 +52,21 @@
         ],
         "images": [
             {
-                "url": "/assets/images/timm.png",
+                "url": "https://res.cloudinary.com/dbhsdv4ex/image/upload/v1665241240/frankfurt-interviews/timm_ydgmlx.png",
                 "description": "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
-                "position": 0
+                "position": "header"
             },
             {
-                "url": "/assets/images/FrankfurtKaiserstrasse9.jpg",
+                "url": "https://res.cloudinary.com/dbhsdv4ex/image/upload/v1665241210/frankfurt-interviews/FrankfurtKaiserstrasse9_pnqzcg.jpg",
                 "description": "Ihre weibliche Hauptfigur kellnert zeitweise in einem aberwitzigen Außenlokal",
-                "position": 3
+                "position": 3,
+                "align": "left"
+            },
+            {
+                "url": "https://res.cloudinary.com/dbhsdv4ex/image/upload/v1665241210/frankfurt-interviews/FrankfurtKaiserstrasse9_pnqzcg.jpg",
+                "description": "Ihre weibliche Hauptfigur kellnert zeitweise in einem aberwitzigen Außenlokal",
+                "position": 8,
+                "align": "right"
             }
         ]
     },
@@ -104,14 +111,15 @@
         ],
         "images": [
             {
-                "url": "/assets/images/timm.png",
+                "url": "https://res.cloudinary.com/dbhsdv4ex/image/upload/v1665241240/frankfurt-interviews/timm_ydgmlx.png",
                 "description": "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
-                "position": 0
+                "position": "header"
             },
             {
-                "url": "/assets/images/FrankfurtKaiserstrasse9.jpg",
+                "url": "https://res.cloudinary.com/dbhsdv4ex/image/upload/v1665241210/frankfurt-interviews/FrankfurtKaiserstrasse9_pnqzcg.jpg",
                 "description": "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
-                "position": 7
+                "position": 7,
+                "align": "right"
             }
         ]
     },
@@ -154,14 +162,15 @@
         ],
         "images": [
             {
-                "url": "/assets/images/timm.png",
+                "url": "https://res.cloudinary.com/dbhsdv4ex/image/upload/v1665241240/frankfurt-interviews/timm_ydgmlx.png",
                 "description": "Von links nach rechts: Hannes A., Berta B., Cäsar C. und Doris D. Foto: Hannes Meyer.",
-                "position": 0
+                "position": "header"
             },
             {
-                "url": "/assets/images/FrankfurtKaiserstrasse9.jpg",
+                "url": "https://res.cloudinary.com/dbhsdv4ex/image/upload/v1665241210/frankfurt-interviews/FrankfurtKaiserstrasse9_pnqzcg.jpg",
                 "description": "balsalf sadfjsa dfafav  fadf adf f adf fa dfadsasdfasdfasd skdf s",
-                "position": 3
+                "position": 3,
+                "align": "center"
             }
         ]
     },

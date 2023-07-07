@@ -5,9 +5,9 @@ function Navigation(props) {
     return (
         <div className="Navigation">
             <div className="links">
-                <Link className="link" to="/ideen">Ideen</Link>
+                <Link className="link" to="/ideas">Ideen</Link>
                 <Link className="link" to="/discover">Karte</Link>
-                <Link className="link" to="/register">Register</Link>
+                <Link className="link" to="/registry">Register</Link>
                 <Link className="link" to="/about">Über</Link>
             </div>
 

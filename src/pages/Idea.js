@@ -1,52 +1,52 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import texts from "../data/texts.json";
+import ideasData from "../data/ideasData.json";
 import Footer from "../components/Footer.js";
 
-function Idee() {
+function Idea() {
     const { id } = useParams();
 
-    const [idee, setIdee] = useState(undefined);
+    const [idea, setIdea] = useState(undefined);
     
     const fontStyle = {
-        color: idee?.color
+        color: idea?.color
     }
 
     const fontAndBorderStyle = {
-        color: idee?.color,
-        border: `3px solid ${idee?.color}`
+        color: idea?.color,
+        border: `3px solid ${idea?.color}`
     }
 
     const backgroundStyle = {
-        backgroundColor: idee?.color
+        backgroundColor: idea?.color
     }
 
 
     useEffect(() => {
-        const text = texts.filter(text => {
-            return text.id === id;
+        const idea = ideasData.filter(ideasEntry => {
+            return ideasEntry.id === id;
         })[0];
 
-        setIdee(text)
+        setIdea(idea)
     }, [])
 
-    if (!idee) return <h1>Loading</h1>
+    if (!idea) return <h1>Loading</h1>
 
     else return (
-        <div className="Idee">
+        <div className="Idea">
             <div className="container">
                 <header>
-                    <h3 style={fontAndBorderStyle}>{idee.tag}</h3>
-                    <h1 style={fontStyle}>„{idee.title}“</h1>
+                    <h3 style={fontAndBorderStyle}>{idea.tag}</h3>
+                    <h1 style={fontStyle}>„{idea.title}“</h1>
                 </header>
                 <section className="header-picture-container">
-                    <img src={process.env.PUBLIC_URL + "/images" + idee.image} alt="header"/> 
+                    <img src={process.env.PUBLIC_URL + "/images" + idea.image} alt="header"/> 
                 </section>
                 <section style={backgroundStyle} className="intro-container">
-                    <p className="picture-description">{idee.image.description}</p>
+                    <p className="picture-description">{idea.image.description}</p>
                 </section>
                 <article>
-                    {idee.content}
+                    {idea.text}
                     <p className="publishing-date">Berlin, August 2020</p>
                 </article>
                 <Footer backgroundStyle={backgroundStyle}/>
@@ -55,4 +55,4 @@ function Idee() {
     )
 }
 
-export default Idee;
+export default Idea;

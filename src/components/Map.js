@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import mapboxgl from 'mapbox-gl';
-import interviews from "../data/interviews.json";
+import texts from "../data/texts.json";
 import PopUp from "./PopUp.js"
 
 function Map() {
@@ -32,28 +32,28 @@ function Map() {
     }
 
     function createMarkers(mapboxMap) {
-        for (let interview of interviews) {
-            createMarker(mapboxMap, interview);
+        for (let idee of texts) {
+            createMarker(mapboxMap, idee);
         } 
     }
 
-    function createMarker(mapboxMap, interview) {
+    function createMarker(mapboxMap, idee) {
         const el = document.createElement("div");
-        el.id = interview.id;
+        el.id = idee.id;
         el.className = "marker";
-        el.style.backgroundColor = interview.color
+        el.style.backgroundColor = idee.color
         el.addEventListener("click", (e) => {
-            clickMarker(e, interview);
+            clickMarker(e, idee);
         })
 
         new mapboxgl.Marker(el)
-        .setLngLat(interview.coordinates)
+        .setLngLat(idee.coordinates)
         .addTo(mapboxMap)
     }
 
-    function clickMarker(e, interview) {
+    function clickMarker(e, idee) {
         setShopPopUp(true);
-        setPopUpContent(interview)
+        setPopUpContent(idee)
 
         e.stopPropagation();
     }

@@ -165,17 +165,17 @@ button {
     cursor: pointer;
 }
 
-/* Interviews page */
+/* Ideen page */
 
-.Interviews .container {
+.Ideen .container {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
 }
 
-/* InterviewsRow component */
+/* IdeenRow component */
 
-.InterviewsRow {
+.IdeenRow {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -183,7 +183,7 @@ button {
     line-height: 1.6;
 }
 
-.InterviewsRow .tag {
+.IdeenRow .tag {
     margin: 30px 0 0 0;
     padding: 12px;
     font-size: 16px;
@@ -193,7 +193,7 @@ button {
     border: 3px solid var(--border);
 }
 
-.InterviewsRow .subtitle {
+.IdeenRow .title {
     margin: 30px 0 30px 0;
     font-family: 'Krona One', sans-serif;
     font-size: 50px;
@@ -202,15 +202,15 @@ button {
     cursor: pointer;
 }
 
-/* Interview page */
+/* Idee page */
 
-.Interview .container {
+.Idee .container {
     display: flex;
     flex-direction: column;
     background-color: var(--background);
 }
 
-.Interview header {
+.Idee header {
     padding: 120px 120px 30px 120px;  
     display: flex;
     flex-direction: column;
@@ -220,23 +220,23 @@ button {
     line-height: 1.4;
 }
 
-.Interview .header-picture-container img {
+.Idee .header-picture-container img {
     width: 100%;
 }
 
-.Interview .container article {
+.Idee .container article {
     padding: 30px 240px 0 240px;
     line-height: 1.6;
 }
 
-.Interview .picture-description {
+.Idee .picture-description {
     padding: 16px 240px 10px 240px;
     font-size: 12px;
     text-align: end;
     color: var(--font-white);
 }
 
-.Interview .intro {
+.Idee .intro {
     font-size: 20px;
     line-height: 1.6;
     color: var(--font-white);
@@ -244,27 +244,27 @@ button {
     margin: 0;
 }
 
-.Interview .container .question {
+.Idee .container .question {
     font-weight: 500;
     line-height: 1.8;
 }
 
-.Interview .container .inside-content-image-container {
+.Idee .container .inside-content-image-container {
     width: 60%;
     display: flex;
     flex-direction: column;
 }
 
-.Interview .container .inside-content-image-container img {
+.Idee .container .inside-content-image-container img {
     margin: 0;
 }
 
-.Interview .container .inside-content-image-container p {
+.Idee .container .inside-content-image-container p {
     margin: 10px 0;
     font-size: 12px;
 }
 
-.Interview .container .publishing-date {
+.Idee .container .publishing-date {
     margin: 30px 0;
 }
 
@@ -357,4 +357,3 @@ footer span > * {
     margin: 10px 0;
     color: var(--font);
 }
- 

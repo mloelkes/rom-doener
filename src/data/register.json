@@ -1,7 +1,7 @@
 [
     {
         "term": "Adorno, Theodor W.",
-        "interviews": [
+        "ideen": [
             {
                 "id": "f7dae000-63d2-4cb2-b9ab-96db205685fd",
                 "color": "rgb(238, 138, 30)"
@@ -14,7 +14,7 @@
     },
     {
         "term": "Apfelwein",
-        "interviews": [
+        "ideen": [
             {
                 "id": "f7dae000-63d2-4cb2-b9ab-96db205685fd",
                 "color": "rgb(238, 138, 30)"
@@ -23,7 +23,7 @@
     },
     {
         "term": "Bornheim Mitte",
-        "interviews": [
+        "ideen": [
             {
                 "id": "bd3e5b7b-761c-4391-9cc0-583ec0339a93",
                 "color": "rgb(14, 120, 90)"
@@ -32,7 +32,7 @@
     },
     {
         "term": "Kaufhausbrand",
-        "interviews": [
+        "ideen": [
             {
                 "id": "bd3e5b7b-761c-4391-9cc0-583ec0339a93",
                 "color": "rgb(20, 103, 63)"
@@ -41,7 +41,7 @@
     },
     {
         "term": "RAF",
-        "interviews": [
+        "ideen": [
             {
                 "id": "5387f148-2813-496c-8a33-343f27f364eb",
                 "color": "rgb(189, 4, 80)"
@@ -50,7 +50,7 @@
     },
     {
         "term": "The Doors",
-        "interviews": [
+        "ideen": [
             {
                 "id": "fb8cba21-a9c0-4095-816c-8cf8726c6786",
                 "color": "rgb(200, 30, 60)"
@@ -59,7 +59,7 @@
     },
     {
         "term": "Sven Väth",
-        "interviews": [
+        "ideen": [
             {
                 "id": "216f42f7-092a-4c5f-81f8-8b1b679272d4",
                 "color": "rgb(74, 184, 33)"
@@ -68,7 +68,7 @@
     },
     {
         "term": "Neues Frankfurt",
-        "interviews": [
+        "ideen": [
             {
                 "id": "d1dde0b4-86b0-4e5d-be40-bdabddb33aba",
                 "color": "rgb(85, 40, 120)"
@@ -77,7 +77,7 @@
     },
     {
         "term": "Schauspielhaus",
-        "interviews": [
+        "ideen": [
             {
                 "id": "c41e690e-be85-4e31-865c-53375ac4837b",
                 "color": "rgb(196, 63, 190)"
@@ -86,7 +86,7 @@
     },
     {
         "term": "Timm Ulrichs",
-        "interviews": [
+        "ideen": [
             {
                 "id": "398904d2-108b-488a-8dd3-cc7661343426",
                 "color": "rgb(8, 20, 43)"
@@ -95,7 +95,7 @@
     },
     {
         "term": "Suhrkamp",
-        "interviews": [
+        "ideen": [
             {
                 "id": "90ee9bef-4159-46c1-82ef-199fa3d78caf",
                 "color": "rgb(248, 184, 64)"
@@ -104,7 +104,7 @@
     },
     {
         "term": "Horkheimer, Max",
-        "interviews": [
+        "ideen": [
             {
                 "id": "5387f148-2813-496c-8a33-343f27f364eb",
                 "color": "rgb(13, 123, 226)"
@@ -113,7 +113,7 @@
     },
     {
         "term": "Sarte, Jean Paul",
-        "interviews": [
+        "ideen": [
             {
                 "id": "fb8cba21-a9c0-4095-816c-8cf8726c6786",
                 "color": "rgb(75, 84, 22)"

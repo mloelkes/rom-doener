@@ -1,0 +1,16 @@
+[
+    {
+        "id": "f7dae000-63d2-4cb2-b9ab-96db205685fd",
+        "author": "Kenneth Hujer",
+        "coordinates": {
+            "lng": 8.680000,
+            "lat": 50.110000
+        },
+        "color": "rgb(238, 138, 30)",
+        "title": "The Doors of Frankfurt. Tür für Tür durch Frankfurts Baugeschichte",
+        "tag": "Frankfurt als Nachtasyl",
+        "content": "Das Spannende an Architektur ist, dass sie anders als die Kleidermode nicht mal eben in den Tiefen des Kleiderschranks verschwindet, sondern ihre Zeit (zumindest in Teilen) überdauert, stehenbleibt. Damit wird sie in ihrer Gesamtheit zu einer Konstellation von Zeitdokumenten; so als würden auch heute noch neben dem sportiven Look der Gegenwart vielerorts Zylinder und Schlaghose getragen.",
+        "snippet": "Das Spannende an Architektur ist, dass sie anders als die Kleidermode nicht mal eben in den Tiefen des Kleiderschranks verschwindet, sondern ihre Zeit (zumindest in Teilen) überdauert, stehenbleibt.",
+        "image": "/thedoors.png"
+    }
+]

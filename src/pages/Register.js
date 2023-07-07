@@ -7,9 +7,9 @@ function Register() {
         return ( 
             <span>
                 <p className="word">{entry.term}</p>
-                {entry.interviews.map(interview => {
+                {entry.ideen.map(idee => {
                     return (
-                        <Link to={`/interviews/${interview.id}`} className="link"><div style={{backgroundColor: interview.color}} className="dot"></div></Link>
+                        <Link to={`/ideen/${idee.id}`} className="link"><div style={{backgroundColor: idee.color}} className="dot"></div></Link>
                     )
                 })
                 }

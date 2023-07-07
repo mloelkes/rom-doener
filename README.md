@@ -1,6 +1,6 @@
 ## Rom/Döner
 
-Ideen für Frankfurt.\
+Ideen für Frankfurt\
 Built with *React*.
 
 ## Setup

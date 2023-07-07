@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-import Interviews from './pages/Interviews.js';
-import Interview from './pages/Interview.js';
+import Ideen from './pages/Ideen.js';
+import Idee from './pages/Idee.js';
 import Discover from './pages/Discover.js';
 import Register from './pages/Register.js';
 import About from './pages/About.js';
@@ -13,9 +13,9 @@ function App() {
         <div className="App">
             <Navigation></Navigation>
             <Routes>
-                <Route path="/frankfurt-interviews" element={<Interviews/>} />
-                <Route path="/interviews" element={<Interviews/>}/>
-                <Route path="/interviews/:id" element={<Interview/>}/>
+                <Route path="/" element={<Ideen/>} />
+                <Route path="/ideen" element={<Ideen/>}/>
+                <Route path="/ideen/:id" element={<Idee/>}/>
                 <Route path="/discover" element={<Discover/>}/>
                 <Route path="/register" element={<Register/>}/>
                 <Route path="/about" element={<About/>}/>

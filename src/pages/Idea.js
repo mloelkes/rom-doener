@@ -2,12 +2,51 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import ideasData from "../data/ideasData.json";
 import Footer from "../components/Footer.js";
+import IdeasRow from "../components/IdeasRow";
 
 function Idea() {
     const { id } = useParams();
 
     const [idea, setIdea] = useState(undefined);
     
+    const randomIdeasList = getRandomIdeas().map(ideasEntry => 
+        <IdeasRow ideasEntry={ideasEntry}/>
+    )
+
+    function getRandomIdeas() {
+        const actualIndex = ideasData.findIndex(ideasEntry => {
+            return ideasEntry.id === id;
+        })
+        const randomIndices = [];
+        const randomIdeas = [];
+
+        for (let i = 0; i < 2; i++) {
+            let randomIndex;
+            
+            do {
+                randomIndex = Math.floor(Math.random() * ideasData.length)
+            } while (randomIndex === actualIndex || randomIndices.includes(randomIndex))
+
+            randomIndices.push(randomIndex)
+        }
+
+        for (let randomIndex of randomIndices) {
+            randomIdeas.push(ideasData[randomIndex])
+        }
+
+        return randomIdeas
+    }
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        
+        const idea = ideasData.filter(ideasEntry => {
+            return ideasEntry.id === id;
+        })[0];
+
+        setIdea(idea)
+    }, [id])
+
     const fontStyle = {
         color: idea?.color
     }
@@ -31,14 +70,6 @@ function Idea() {
         fontWeight: 600,
         paddingLeft: "160px"
     }
-
-    useEffect(() => {
-        const idea = ideasData.filter(ideasEntry => {
-            return ideasEntry.id === id;
-        })[0];
-
-        setIdea(idea)
-    }, [])
 
     const ideaToDisplay = idea?.text.map((textEntry, i) => {
         if (textEntry.type === "intro") return <p key={i} style={introStyle} >{textEntry.paragraph}</p>
@@ -67,6 +98,9 @@ function Idea() {
                 </article>
                 <section className="author-container">
                     <p>Idee von {idea.author}</p>
+                </section>
+                <section>
+                    {randomIdeasList}
                 </section>
                 <Footer backgroundStyle={backgroundStyle}/>
             </div>

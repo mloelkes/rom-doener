@@ -10,7 +10,7 @@ function PopUp({popUpContent}) {
     return (
         <div style={popUpStyle} className="PopUp">
             <p className="snippet">„{popUpContent?.snippet}“</p>
-            <Link className="link" to={`/ideas/${popUpContent.id}`}>{popUpContent.author}, {popUpContent.tag}</Link>
+            <Link className="link" to={`/ideas/${popUpContent.id}`}>{popUpContent.title}</Link>
             {/* <p className="name">{popUpContent.subtitle}</p> */}
             {/* <Link className="link" to={`/interviews/${popUpContent.id}`}>{popUpContent.tag}</Link> */}
         </div>

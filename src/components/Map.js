@@ -10,7 +10,7 @@ function Map() {
 
     function initializeMap() {
         const mapboxMap = createMap();
-        createMarkers(mapboxMap);
+        createAllMarkers(mapboxMap);
     }
 
     function createMap() {
@@ -31,24 +31,26 @@ function Map() {
         return mapboxMap;
     }
 
-    function createMarkers(mapboxMap) {
+    function createAllMarkers(mapboxMap) {
         for (let ideasEntry of ideasData) {
-            createMarker(mapboxMap, ideasEntry);
+            createMarkersForIdeasEntry(mapboxMap, ideasEntry);
         } 
     }
 
-    function createMarker(mapboxMap, ideasEntry) {
-        const el = document.createElement("div");
-        el.id = ideasEntry.id;
-        el.className = "marker";
-        el.style.backgroundColor = ideasEntry.color
-        el.addEventListener("click", (e) => {
-            clickMarker(e, ideasEntry);
-        })
+    function createMarkersForIdeasEntry(mapboxMap, ideasEntry) {
+        for (let coordinate of ideasEntry.coordinates) {
+            const el = document.createElement("div");
+            el.id = ideasEntry.id;
+            el.className = "marker";
+            el.style.backgroundColor = ideasEntry.color
+            el.addEventListener("click", (e) => {
+                clickMarker(e, ideasEntry);
+            })
 
-        new mapboxgl.Marker(el)
-        .setLngLat(ideasEntry.coordinates)
-        .addTo(mapboxMap)
+            new mapboxgl.Marker(el)
+            .setLngLat(coordinate)
+            .addTo(mapboxMap)
+        }
     }
 
     function clickMarker(e, ideasEntry) {

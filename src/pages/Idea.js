@@ -21,6 +21,16 @@ function Idea() {
         backgroundColor: idea?.color
     }
 
+    const introStyle = {
+        fontWeight: 600,
+        fontSize: "24px"
+    }
+
+    const hightlightStyle = {
+        fontSize: "24px",
+        fontWeight: 600,
+        paddingLeft: "160px"
+    }
 
     useEffect(() => {
         const idea = ideasData.filter(ideasEntry => {
@@ -30,25 +40,34 @@ function Idea() {
         setIdea(idea)
     }, [])
 
-    if (!idea) return <h1>Loading</h1>
+    const ideaToDisplay = idea?.text.map((textEntry, i) => {
+        if (textEntry.type === "intro") return <p key={i} style={introStyle} >{textEntry.paragraph}</p>
+        else if (textEntry.type === "highlight") {
+            return <>
+                <div className="highlight-line"></div>
+                <p key={i} style={hightlightStyle} >{textEntry.paragraph}</p>
+            </>
+        }
+        else return <p key={i} >{textEntry.paragraph}</p>
+    })
 
+    if (!idea) return <h3>Loading</h3>
     else return (
         <div className="Idea">
             <div className="container">
                 <header>
                     <h3 style={fontAndBorderStyle}>{idea.tag}</h3>
-                    <h1 style={fontStyle}>„{idea.title}“</h1>
+                    <h1 style={fontStyle}>{idea.title}</h1>
                 </header>
                 <section className="header-picture-container">
-                    <img src={process.env.PUBLIC_URL + "/images" + idea.image} alt="header"/> 
-                </section>
-                <section style={backgroundStyle} className="intro-container">
-                    <p className="picture-description">{idea.image.description}</p>
+                    <img src={process.env.PUBLIC_URL + "/images/" + idea.image} alt="header"/> 
                 </section>
                 <article>
-                    {idea.text}
-                    <p className="publishing-date">Berlin, August 2020</p>
+                    {ideaToDisplay}
                 </article>
+                <section className="author-container">
+                    <p>Idee von {idea.author}</p>
+                </section>
                 <Footer backgroundStyle={backgroundStyle}/>
             </div>
         </div>

@@ -11,7 +11,7 @@ function Navigation(props) {
                 <Link className="link" to="/about">Über</Link>
             </div>
 
-            <Link className="link home" to="/">Rom/Döner – Ideen für Frankfurt</Link>
+            <Link className="link home" to="/">Rom/Döner. Ideen für Frankfurt</Link>
         </div>
     )
 }

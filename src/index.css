@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Voltaire&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
 :root {
@@ -220,13 +221,30 @@ button {
     line-height: 1.4;
 }
 
+.Idea .header-picture-container {
+    display: flex;
+    justify-content: center;
+}
+
 .Idea .header-picture-container img {
-    width: 100%;
+    width: 50%;
 }
 
 .Idea .container article {
-    padding: 30px 240px 0 240px;
+    padding: 60px 240px 0 240px;
     line-height: 1.6;
+    white-space: pre-line;
+}
+
+.Idea .container article p {
+    margin-bottom: 40px;
+}
+
+.Idea .container .highlight-line {
+    width: 120px;
+    height: 24px;
+    border-bottom: 3px solid #000;
+    position: absolute;
 }
 
 .Idea .picture-description {
@@ -234,14 +252,6 @@ button {
     font-size: 12px;
     text-align: end;
     color: var(--font-white);
-}
-
-.Idea .intro {
-    font-size: 20px;
-    line-height: 1.6;
-    color: var(--font-white);
-    padding: 46px 240px 60px 240px;
-    margin: 0;
 }
 
 .Idea .container .question {
@@ -264,8 +274,13 @@ button {
     font-size: 12px;
 }
 
-.Idea .container .publishing-date {
-    margin: 30px 0;
+.Idea .container .author-container {
+    margin: 0 240px 80px 240px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--font);
+
 }
 
 /* Footer component */
@@ -274,7 +289,7 @@ footer {
     font-size: 20px;
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 0 60px;
 }

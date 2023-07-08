@@ -1,16 +1,463 @@
 [
     {
-        "id": "f7dae000-63d2-4cb2-b9ab-96db205685fd",
+        "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
         "author": "Kenneth Hujer",
-        "coordinates": {
-            "lng": 8.680000,
-            "lat": 50.110000
-        },
-        "color": "rgb(238, 138, 30)",
         "title": "The Doors of Frankfurt. Tür für Tür durch Frankfurts Baugeschichte",
-        "tag": "Frankfurt als Nachtasyl",
-        "text": "Das Spannende an Architektur ist, dass sie anders als die Kleidermode nicht mal eben in den Tiefen des Kleiderschranks verschwindet, sondern ihre Zeit (zumindest in Teilen) überdauert, stehenbleibt. Damit wird sie in ihrer Gesamtheit zu einer Konstellation von Zeitdokumenten; so als würden auch heute noch neben dem sportiven Look der Gegenwart vielerorts Zylinder und Schlaghose getragen.",
-        "snippet": "Das Spannende an Architektur ist, dass sie anders als die Kleidermode nicht mal eben in den Tiefen des Kleiderschranks verschwindet, sondern ihre Zeit (zumindest in Teilen) überdauert, stehenbleibt.",
-        "image": "/thedoors.png"
+        "coordinates": [
+            {
+                "lng": 8.679470,
+                "lat": 50.117500
+            },
+            {
+                "lng": 8.670398,
+                "lat": 50.138682
+            }
+        ],
+        "color": "rgb(235, 203, 47)",
+        "tag": "Architektur",
+        "text": [
+            {
+                "type": "intro",
+                "paragraph": "Das Spannende an Architektur ist, dass sie anders als die Kleidermode nicht mal eben in den Tiefen des Kleiderschranks verschwindet, sondern ihre Zeit (zumindest in Teilen) überdauert, stehenbleibt. Damit wird sie in ihrer Gesamtheit zu einer Konstellation von Zeitdokumenten; so als würden auch heute noch neben dem sportiven Look der Gegenwart vielerorts Zylinder und Schlaghose getragen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Seit einigen Jahren verantwortet der Frankfurter Grafikdesigner Wilhelm Opatz eine vielbeachtete Publikationsreihe, bei der, angefangen mit dem Jahr 1950, jedes Frankfurter Architektur-Jahrzehnt mit einem Band gewürdigt wird. Immer zehn Gebäude werden darin fotografisch und textlich porträtiert. Für jedes Jahr wählt Opatz genau ein Bauwerk aus, das in eben diesem fertiggestellt wurde und zum Zeitpunkt der Buchrecherchen noch steht. Die Reihe erhebt keinesfalls den Anspruch, das jeweilige Jahrzehnt umfassend zu dokumentieren. Durch die strikte Beschränkung der Jahreszahlen trägt die Auswahl vielmehr auch die Handschrift von Opatz‘ persönlichen Vorlieben. Trotzdem ist bemerkenswert wie schnell sich beim Durchblättern der Kataloge ein in Form gebrachter Zeitgeist offenbart. Die ausgewählten Gebäude zeigen innerhalb ihres Jahrzehnts eine so frappierende Wesensnähe wie sie sich von denen der anderen Bände unterscheiden. In Reihe gestellt funktionieren die einzelnen Bände mithin wie Anziehungs- und Abstoßungspunkte. Die Leerstellen, die sich zwischen ihren Einbänden ergeben, dokumentieren Brüche, Umschläge und Sprünge, so dass man fast sagen kann: noch spannender als die Lektüre der einzelnen Publikation wird mit jeder Neuerscheinung die Lektüre „zwischen“ ihnen."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Auch beim Gang durch die Stadt, gerade in Frankfurt, sind solcherlei Kontraste vielerorts aufzuspüren. Stehen historistische Wohnhäuser unmittelbar neben funktionalistischen Gebäuden, Bauten der Postmoderne dicht bei denen der Nachkriegszeit. Doch nicht jedes Gebäude hat seine Zeit gleich prägnant in Stein bzw. Beton gefasst. Und auch eine geschichtliche Entwicklung ist nicht unmittelbar abzuschreiten, weil kein Straßenzug chronologisch gestaffelt ist."
+            },
+            {
+                "type": "default",
+                "paragraph": "Mit Opatz‘ Architekturreihe im Hintersinn stellte ich mir die Frage, wie man eine chronologische Kompilation Frankfurter Architekturgeschichte und damit den prägnanten Nachvollzug ihres geistig-ideologischen Werdens und ihrer Sprünge im Stadtraum selbst erfahrbar werden lassen könnte. Allerdings ohne dabei gleich einen ganzen Architektur-Park voller Rekonstruktionen entstehen lassen zu müssen. So kam mir die Idee eines „Architektur-Korridors“, bei dem ein jedes Jahrzehnt (ebenfalls beginnend mit den 1950er Jahren) durch ein Frankfurter Gebäude vertreten ist, das auf seine wohl zentralste Gestalt, sozusagen auf das Schlüsselelement seiner Fassade reduziert wird: nämlich seine Eingangs-Tür. Durch ihre Gestaltung, ihre Details wie Schwere, Transparenz, Größe, Farbigkeit und Materialität verdichtet die Eingangs-Tür wie kein zweites Bauelement das Wesen des Gebäudes. Durch ihren Gebrauch wiederum – beginnend mit der Berührung von Knauf und Klinke – kann dieses Wesen gar leiblich nachvollzogen werden. Türen, sagte der britische Schriftsteller Robert Byron einmal, „existieren nur im Verhältnis zum Menschen.“ In der Beweglichkeit der Tür, in ihrem Schließen und Öffnen, ist gleichzeitig die Grundfunktion einer jeden Architektur am deutlichsten ausgedrückt: ihr Trennen und Verbinden."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Das Durchschreiten solch eines „Architektur-Korridors“ nun, bei dem man die aufeinanderfolgenden Türen öffnen muss, um an dessen Ende zu gelangen, wäre folglich ein leibliches Schreiten durch die Frankfurter Architekturgeschichte und damit letztlich auch eines durch vergangene Moden und Geisteshaltungen, ihre Sprünge und Transformationen. Oder anders formuliert: Es wäre die zur Installation gewordene Buchreihe des geschilderten Architekturführers."
+            },
+            {
+                "type": "default",
+                "paragraph": "Inwiefern man den ausgewählten Gebäuden ihre Türen entwendet oder diese nachbildet, muss an dieser Stelle nicht entschieden werden; auch nicht, inwiefern die Räume bzw. ihre Wände zwischen den Türen deren Gebäude und Zeiten abbilden und aufbereiten oder wie es zur Auswahl der symbolisch durchzuschreitenden Gebäude kommt. Wohl aber möchte ich aufzeigen, an welchen Stellen der Stadt ich mir solch einen „Architektur-Korridor“ gut vorstellen kann."
+            },
+            {
+                "type": "default",
+                "paragraph": "Aus den fünfziger und sechziger Jahren, der Zeit der autogerechten Stadt, als die Fußgänger unter Tage verschwanden, um den motorisierten Verkehrsfluss oberhalb so wenig wie nötig zu beeinträchtigen, sind allerlei Unterführungen geblieben. Vor allem großzügig angelegte Verteilerhallen sowohl unter- als auch oberirdischer U- bzw. Stadtbahn-Stationen, die zugleich als Unterquerungen großer Straßenkreuzungen dienten. Mittlerweile wirken diese vollkommen überdimensioniert, da sie nur noch von denen betreten werden müssen, die tatsächlich ein öffentliches Verkehrsmittel aufsuchen möchten. Ich denke da beispielsweise an die U-Bahn- Stationen „Eschenheimer Tor“ oder „Dornbusch“. Dort sehnt sich leerer Raum nach einer Neunutzung, wäre Platz für die Installation des „Architektur-Korridors“. (Brandschutz ick hör Dir trapsen!"
+            },
+            {
+                "type": "default",
+                "paragraph": "Als Schluss-Zugabe ein „Fun Fact“ zum Thema „The Doors“: Die gleichnamige US- amerikanische-Rockband spielte in Deutschland nur ganze zwei Konzerte, beide in Frankfurt, an ein und demselben Abend des 14. Septembers 1968 in der längst abgerissenen Kongresshalle. Am Vortag gab es zudem eine kurze Playback-Aufnahme für die ZDF-Fernsehsendung „4-3-2-1 Hot & Sweet“ und zwar vor den altehrwürdigen Türen des Frankfurter Römers, die es selbstredend nicht in den „Architektur-Korridor“ schaffen würden, epochenbedingt."
+            }
+        ],
+        "snippet": "So kam mir die Idee eines „Architektur-Korridors“, bei dem ein jedes Jahrzehnt (ebenfalls beginnend mit den 1950er Jahren) durch ein Frankfurter Gebäude vertreten ist, das auf seine wohl zentralste Gestalt, sozusagen auf das Schlüsselelement seiner Fassade reduziert wird: nämlich seine Eingangs-Tür.",
+        "image": "thedoors.png"
+    },
+    {
+        "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+        "author": "Kenneth Hujer",
+        "title": "Main ins Dunkle bringen. Oder: Mehr Licht für Frankfurts Untergrund",
+        "coordinates": [
+            {
+                "lng": 8.676847,
+                "lat": 50.106306
+            }
+        ],
+        "color": "rgb(48, 57, 255)",
+        "tag": "Installation",
+        "text": [
+            {
+                "type": "intro",
+                "paragraph": "Wer in Frankfurt kennt ihn nicht, den Eingang der U-Bahn-Station ‚Bockenheimer Warte‘? Ein Straßenbahnwagon des späten neunzehnten Jahrhunderts ist schräg in den Erdboden eingelassen und ebnet den Weg in die Tiefen des Untergrunds. Abseits aller weitläufigen Deutungen ist er auch ein Sinnbild für das teilweise Verschwinden des öffentlichen Nahverkehrs aus dem oberirdischen Großstadtbild, seitdem man mit dem aufwendigen Bau von U-Bahn- Tunneln begann. Die verkehrspolitischen Vorteile dieser Entwicklung liegen auf der Hand. Doch brachte sie für die Passagiere einen entscheidenden Nachteil mit sich: Den Verlust aller Sinneseindrücke, die man während einer Fahrt mit der Straßenbahn oder dem Bus vom Städteleben gewinnen kann."
+            },
+            {
+                "type": "default",
+                "paragraph": "In Frankfurt hat man ab den 1980er Jahren versucht, durch eine abwechslungsreiche Architektur der U-Bahnhöfe, diesem Verlust entgegenzuwirken. Zumeist orientiert sich die Gestaltung hierbei an den oberirdisch liegenden Quartieren oder Institutionen und ermöglicht so zugleich eine Orientierung im Stadtraum. Weil U-Bahn-Fahrten aber vornehmlich aus der Durchfahrt dunkler Tunnel bestehen, bleiben ihre Fahrgäste weiterhin arm an Sinneseindrücken und von der oberirdischen Stadt größtenteils abgetrennt."
+            },
+            {
+                "type": "default",
+                "paragraph": "Manchmal, wenn ich mit der U-Bahn den Main zwischen den Stationen Willy-Brandt-Platz und Schweizer Platz unterquere, denke ich: Verrückt, jetzt gleich oder vielleicht auch jetzt gerade schon fahre ich tatsächlich unter einem Fluss hindurch! Wann genau, bleibt nur zu schätzen. Meistens allerdings entgeht mir der Main, wie ihn wohl auch die meisten anderen Wagon- Insassen während der Tunnelfahrt vor dem geistigen Auge verpassen."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Mit überschaubaren Mitteln könnte man den Frankfurter Weg einer vielgestaltigen U-Bahnhofs-Architektur an dieser für die Stadt ganz wesentlichen Stelle allerdings auch auf das Tunnelgewölbe übertragen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Entlang der 154 Meter, die direkt unter dem Flussbett des Mains liegen, könnten an den Wänden des Doppeltunnels LED-Module angebracht werden, die mithilfe einer Lichtschranke durch die passierenden Züge angeschaltet werden. In einem gewissen Abstand zueinander gehängt und mit weitstrahlenden Blautönen ausgestattet, ergäben sie ein zusammenhängendes Lichterspiel, das die Monotonie der Tunnelfahrt mit einem Mal unterbricht. Ähnlich der U-Bahn-Station des Essener Hauptbahnhofs würde der Tunnelabschnitt zu einer Art Unterwasserwelt. Nach erstmaligem Rätselraten um deren Sinn, das möglicherweise auch zum Austausch zwischen den Fahrgästen einlädt, ermöglicht die Lichtinstallation, sich stets aufs Neue in der oberirdischen Stadt zu verorten, und verdeutlicht eindrücklich, was es eigentlich heißt, U-Bahn zu fahren. Ganz einfach, weil das plötzliche Wissen, sich gerade unter einem Fluss zu befinden, verlangt, das ‚U’ von U-Bahn in seiner ganzen Dimension auszubuchstabieren."
+            },
+            {
+                "type": "default",
+                "paragraph": "Was einst prominent mit dem Begriff der Entfremdung für die immer komplexer werdenden Produktionsabläufe der industrialisierten Welt beschrieben wurde, nämlich das Auseinanderfallen der Arbeit in eng begrenzte Tätigkeitsfelder, die blind füreinander sind, keinen Blick mehr für ihren gesellschaftlichen Zusammenhang zulassen, ist auch auf die Stadt der Moderne übertragbar. Um ihre auswuchernden Flächen in einer überschaubaren Fahrzeit weiterhin zusammenzuhalten, forcierten die schnellwachsenden Städte den unterirdischen Transit. Gleichzeitig fielen die Stadtteile in unzusammenhängende Bereiche auseinander, auch weil sie durch die unterirdischen Wegeverbindungen fortan punktuell beschritten werden konnten. Die moderne Stadt geriet zum fragmentierten Gebilde und die Stadt als Ganze für ihre Bewohner zum leeren Begriff, ja zur privilegierten Disziplin einiger weniger Bildungsbürger. Selbstredend ist der U-Bahn-Bau mehr Metapher als alleiniger Grund dieser Entwicklung. Anstatt die Erfindung der U-Bahn anzufeinden, gälte es, sie als Chance zu begreifen. Durch eine vielseitige Gestaltung ihrer Bahnhöfe kann sie neue, auch alogische Verknüpfungen schaffen, lebensweltliche Eigenarten der Oberwelt verdichten oder über die Stadttopographie aufklären. Nicht ohne Grund spricht man beim Streckennetz der U-Bahn auch vom Unbewussten einer Stadt, das zu erhellen, einen differenzierten Blick auf das Wesen der oberirdischen Stadt erst freilegt."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Die Lichtinstallation im Maintunnel ginge noch einen Schritt weiter. Sie klärt über das U-Bahn- Fahren selbst auf."
+            },
+            {
+                "type": "default",
+                "paragraph": "Nicht nur ermöglicht es ihr Verweis auf den oberirdischen Fluss, sich einen Begriff von der Tiefe der Fahrt zu verschaffen, ihre Beleuchtung setzt auch die für die U-Bahn entscheidende Architektur in Szene: den Tunnelbau. Für gewöhnlich ist dieser gar nicht wahrnehmbar und damit ebenso wenig die eigene Fortbewegung. Ohne als sich verändernder Raum wahrgenommen zu werden, spuckt der Tunnel den Fahrgast in aller Unvermitteltheit an einem anderen Ort wieder aus. Durch den Lichteinfall der Installation wird mit dieser gängigen Raumwahrnehmung der U-Bahn-Fahrt gebrochen. Plötzlich wird der Innenraum der Wagons durchlässig und damit der Blick nach außen möglich – und mit ihm Erfahrungen von Raum und Geschwindigkeit."
+            },
+            {
+                "type": "default",
+                "paragraph": "Mit der Vorbereitung und Realisierung der Idee, den Main ins Dunkle zu bringen, bietet sich zudem die Möglichkeit, das kollektive Gedächtnis an den Bau des 26 Meter unter der Erde liegenden Tunnels und seine Fertigstellung im Jahr 1984 zu erinnern. Damals kamen zur Eröffnung des 327 Millionen teuren Neubaus eine Viertelmillion Menschen zusammen, um den mittlerweile selbstverständlich gewordenen Streckenabschnitt zu feiern, der baulich durchaus ein Wagnis war. Der Fluss selbst hingegen war für das Leben der Stadt zu jener Zeit nur eine Randnotiz. Man hätte ihn am liebsten zubetoniert, wäre da nicht der Schiffsverkehr gewesen, so der Autor und Theatermacher Michael Herl. Anders als damals, ist der Main dank Uferpromenade und Museumsufer mittlerweile zu einer zentralen Lebensader Frankfurts und damit gewissermaßen zu einer Institution geworden."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Es ist also an der Zeit, dem Main neben der Alten Oper oder dem Schauspielhaus, dem Zoo oder dem Palmengarten ebenfalls zu einer Repräsentation in Frankfurts Untergrund zu verhelfen!"
+            }
+        ],
+        "snippet": "Mit überschaubaren Mitteln könnte man den Frankfurter Weg einer vielgestaltigen U-Bahnhofs-Architektur an dieser für die Stadt ganz wesentlichen Stelle allerdings auch auf das Tunnelgewölbe übertragen.",
+        "image": "maininsdunkle.png"
+    },
+    {
+        "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+        "author": "Kenneth Hujer",
+        "title": "Ein Dänischer Platz für Frankfurt. Oder: Gebautes Déjà-Vu",
+        "coordinates": [
+            {
+                "lng": 8.680667,
+                "lat": 50.101913
+            }
+        ],
+        "color": "rgb(240, 61, 48)",
+        "tag": "Stadtplanung",
+        "text": [
+            {
+                "type": "intro",
+                "paragraph": "Paris mit einem Stadtplan Roms erkunden, die Piazza Novana an einem Ort entdecken, an dem sie nicht ist und damit den entdeckten Ort jenseits des Ortes entdecken, um ihn umso intensiver wahrzunehmen. Es ist nur eine der Strategien, mit denen die Situationisten um Guy Debord ihre psychogeographischen Streifzüge durch die Stadt orientierten und damit Erfahrungen und Raumbedeutungen freilegten, die ansonsten im Verborgenen geblieben wären."
+            },
+            {
+                "type": "default",
+                "paragraph": "Bei einem Spaziergang durch das Viertel um den Schweizer Platz, kam mir die Idee, den situationistischen Ansatz baulich auf Frankfurt zu überführen. Gewissermaßen eine gebaute Version des psychogrographischen Streifzugs zu schaffen. Stellen wir uns vor, Frankfurter Straßen und Plätze abzulaufen, deren Gliederung und Raumdefinition uns von einer anderen Stelle der Stadt vertraut sind. Die Organisation der Straßenzüge und Plätze würde uns sogleich stärker als sonst zu Bewusstsein treten, weil wir sie bereits andernorts verinnerlicht haben. Doch nicht nur das: Auch die einzelnen Gebäude würden umso wahrnehmbarer hervortreten, weil wir sie im Kontrast zu einem anderen Ort, zu anderen Gebäuden an „gleicher Stelle“ wiedererkennen. Es wäre ein überaus spannendes städtebauliches Déjà-vu-Erlebnis."
+            },
+            {
+                "type": "default",
+                "paragraph": "„Wenn wir Architekten und Planer uns selbst in alten Stadtquartieren wohler fühlen als in den von uns konzipierten Neubauvierteln, warum suchen wir diese stadträumlichen Qualitäten nicht in unsere Zeit zu transferieren? Warum lösen wir die Gentrifizierung statt mit politisch verordnetem Mietpreisstopp nicht mit der Errichtung von neuen Stadtquartieren der gleichen Qualität?“, fragte der Frankfurter Architekt Christoph Mäckler in einem Gastbeitrag für die FAZ vom 1.9.2016 . Er moniert, dass Neubauviertel oder Siedlungsgebiete der achtziger und neunziger Jahre des zwanzigsten Jahrhunderts nur unzureichend das urbane Zusammenleben der Menschen ermöglichen. Deshalb finde Gentrifizierung vor allem in den sogenannten Gründerzeitvierteln statt: Mehr Menschen schätzen das Urbane als unsere Städte tatsächlich urban sind. Freilich zeichnet „Stadt“ sich gerade dadurch aus, alle Formen des architektonischen Lebens und Zusammenlebens zu ermöglichen. Auch Bebauungskonzepte wie etwa die Gartenstadt haben ihre Berechtigung. Das urbane Zusammenleben der Menschen allerdings wird vornehmlich durch den Städtebau aus der Zeit um die Jahrhundertwende ermöglicht. Öffentliche Räume werden mit Siedlungsbauten kaum geschaffen."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Urbanität muss kein zweites Mal erfunden werden, wie Mäckler zurecht insinuiert. Seinen Gedanken weitergesponnen und mit der einleitend angestellten Überlegung verknüpft, bringt mich zur kühnen Frage: Warum nicht die Straßenzüge und Raumproportionen eines, wenn nicht des beliebtesten und gelungensten Quartiers des gründerzeitlichen Frankfurts rund um den Schweizer Platz auf einer noch freien Fläche nördlich des Mains mit Architekturen der Gegenwart ein zweites Mal bauen?"
+            },
+            {
+                "type": "default",
+                "paragraph": "Wenn Mäckler Recht hat, dann ist die neu entfachte Begeisterung für die Fassadenstuckatur der Gründerzeit nur vordergründig, verbindet man damit doch unbewusst die Lebensqualität des Raums, der sich zwischen ihrer Blockrandbebauung eröffnet. Die Sehnsucht vieler Menschen nach Rekonstruktionen liegt folglich gar nicht so sehr in den jeweiligen Gebäuden selbst begründet, sondern in den städtischen Räumen, die sie ermöglichen. Es ginge also nicht darum, wieder genau so bauen zu müssen wie zur Gründerzeit, sondern die städtebaulichen Prinzipien jener Zeit umzusetzen (wie die ermöglichte Mischnutzung durch gewerbliche Sockelgeschosse und Hinterhöfe, die Proportionen zwischen Straßen und Traufhöhe bei geschlossenem Blockrand oder die räumlich gefasste Platzgestaltung) - mit architektonischen Antworten und Materialien der Gegenwart. Dass sich moderne Architektur auch bei klaren städtebaulichen Vorgaben zu behaupten weiß, zeigt beispielsweise das Schwedler-Carré mit seinen markanten Klinkerfassaden im Frankfurter Ostend unweit der Hanauer Landstraße, wo auf sehr begrenztem Raum eine handvoll Architekten dicht und großstädtisch bauen konnten."
+            },
+            {
+                "type": "default",
+                "paragraph": "Es ist die besondere Qualität des Quartiers rund um den Schweizer Platz, auf den gleich sechs Straßen von unterschiedlicher Größe zulaufen, auf relativ wenig Fläche vielseitige urbane Elemente wie das der Allee (Holbeinstraße), des Vorplatzes (Südbahnhof) und der Radialstraßen (Schweizer Platz), der Einkaufsstraße (Schweizer Straße) und gewerblich genutzter Hinterhöfe, der Vorgärten, Straßenbäume und Sichtachsen zu verdichten – im fortlaufenden Wechsel von Symmetrie und Asymmetrie."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Verstehen wir das Quartier um den Schweizer Platz als detailreiche Schablone, die man auf ein noch freies Baugebiet legt, braucht es nur noch Architektinnen und Architekten, die diese ebenso detailreich ausmalen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Da der Schweizer Platz mitsamt seiner zentralen Straße schlicht so heißt, weil er gen Süden leitet, gebe es für sein Duplikat im Norden Frankfurts auch bereits einen Namen: Dänischer Platz."
+            }
+        ],
+        "snippet": "Warum nicht die Straßenzüge und Raumproportionen eines, wenn nicht des beliebtesten und gelungensten Quartiers des gründerzeitlichen Frankfurts rund um den Schweizer Platz auf einer noch freien Fläche nördlich des Mains mit Architekturen der Gegenwart ein zweites Mal bauen?",
+        "image": "daenischerplatz.png"
+    },
+    {
+        "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+        "author": "Kenneth Hujer",
+        "title": "Playground Frankfurt: Aus den Spielplätzen eine Skyline machen",
+        "coordinates": [
+            {
+                "lng": 8.695704,
+                "lat": 50.106168
+            },
+            {
+                "lng": 8.652707,
+                "lat": 50.112366
+            },
+            {
+                "lng": 8.662327,
+                "lat": 50.110531
+            }
+        ],
+        "color": "rgb(31, 143, 37)",
+        "tag": "Stadtplanung",
+        "text": [
+            {
+                "type": "intro",
+                "paragraph": "Nähert man sich mit dem Zug oder mit dem Auto der Stadt am Main und erblickt aus der Ferne die sogenannte Skyline, entsteht bei vielen Frankfurterinnen und Frankfurtern ein heimeliges Gefühl. Ebenso führen sie ihren Besuch gern über eine der im Osten der Stadt liegenden Brücken, um mit einigem Stolz auf die Hochhaussilhouette zu zeigen, die sich von dort gesehen zu einem wohlkomponierten Bogen formt. Frankfurts Hochhäuser sind zweifelsohne zu einem identitätsstiftenden Wahrzeichen geworden."
+            },
+            {
+                "type": "default",
+                "paragraph": "Auch die Kinder der Stadt mögen ihre Wolkenkratzer, erkennen in ihnen bereits einen abgebrochenen Goldzahn (Main Plaza), einen Bleistift (Messeturm) oder den Kopfkranz der New Yorker Freiheitsstatue (Westend Tower). Über Begriffe und Assoziationen wird die Stadt erfahrbar und dabei zum vertrauten Raum. Die Hochhäuser sind dabei von ganz besonderer Bedeutung: Obzwar man die Straße im Westend, durch die man gerade läuft, nicht kennt, schenkt einem der Anblick des im Hintergrund auftauchenden „Bleistifts“ wohlige Vertrautheit. Man ist weiterhin an seinem Ort. Zudem bieten die weit in den Himmel ragenden Türme die ständige Möglichkeit zur Orientierung. Das gilt für Kinder wie für Jugendliche als auch für Erwachsene."
+            },
+            {
+                "type": "default",
+                "paragraph": "Sie alle teilen auch in einem anderen Zusammenhang die gleiche Erfahrung mit den Hochhäusern, die der Spaziergangswissenschaftler Bertram Weisshaar als eine „fragwürdige Dialektik“ beschreibt: „Die in den Himmel ragenden Hochhäuser dominieren den Stadtraum über viele Kilometer hinweg, doch steht man vor ihnen, bleiben sie einem verschlossen. Die Hochhäuser prägen den Außenraum der Stadt, aber in ihnen können nur wenige Erfahrungen machen.“"
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Während man für die Erwachsenen und Jugendlichen über viel mehr öffentlich zugängliche Etagen in den Türmen mit Cafés, Bibliotheken und Aussichtsplattformen oder auch eine urbane Kletterwand an einem der ihren nachdenken sollte, könnte man den Kindern die Hochhäuser über eine Hochhaus-am-Spielplatz-Regelung zugänglich machen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Ähnlich der Kunst-am-Bau-Regelung, bei der sich der Staat als Bauherr verpflichtet, einen gewissen Anteil der Baukosten öffentlicher Bauten für Kunstwerke vor oder in ihnen zu verwenden, könnte die Stadt Frankfurt mit einer Hochhaus-am-Spielplatz-Regelung einen jeden Bauherren eines neuen Hochhauses dazu verpflichten, sein Gebäude in Miniatur auch als Spielgerät für einen der Frankfurter Spielplätze nachzubauen."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "So könnten die Kinder dort dann ähnlich wie King Kong beim Empire State Building die Hochhäuser beklettern und erklimmen, innen wie außen spielerisch erkunden und deren besondere Architekturen im wortwörtlichen Sinn begreifen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Jedes im Stadtraum stehende Hochhaus würde so fortan mit ganz eigenen Erfahrungen verbunden werden können. Die Kinder rückten mit ihrer Stadt und den sie prägenden Türmen nochmals näher zusammen. Und wie die einzelnen Türme erst in ihrer Gesamtheit zum beeindruckenden Wahrzeichen werden, würde es auch für die Kinder umso spannender, je mehr Spielplätze mit immer neuen Wolkenkratzern sie entdeckten, um diese in ihrer Erfahrungswelt schließlich ebenfalls zu einer imposanten Skyline zusammenzuführen."
+            }
+        ],
+        "snippet": "Auch die Kinder der Stadt mögen ihre Wolkenkratzer, erkennen in ihnen bereits einen abgebrochenen Goldzahn (Main Plaza), einen Bleistift (Messeturm) oder den Kopfkranz der New Yorker Freiheitsstatue (Westend Tower). […] So könnten die Kinder dort dann ähnlich wie King Kong beim Empire State Building die Hochhäuser beklettern und erklimmen, innen wie außen spielerisch erkunden und deren besondere Architekturen im wortwörtlichen Sinn begreifen.",
+        "image": "playgroundfrankfurt.png"
+    },
+    {
+        "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+        "author": "Kenneth Hujer",
+        "title": "Eine andere Rekonstruktion ist möglich. Warum auf die neue Frankfurter Altstadt Ernst Mays Kenwood Haus aus Nairobi folgen sollte",
+        "coordinates": [
+            {
+                "lng": 8.683885,
+                "lat": 50.110818
+            }
+        ],
+        "color": "rgb(87, 48, 207)",
+        "tag": "Architektur",
+        "text": [
+            {
+                "type": "intro",
+                "paragraph": "Rekonstruktionen waren in Frankfurt seit Kriegsende stets von der vielbeschworenen Authentizität des wiederzubebauenden Ortes getragen. Doch heißt Authentizität in diesem Zusammenhang nicht immer auch Hierarchisierung von Geschichte? Wenn bestimmte Zeitschichten des Ortes über andere, darauf folgende Ortssituationen gestellt werden – ob Ruine oder bereits erfolgte Neubebauung –, konstruiert man eine eigentliche, dem Ort quasi  naturhaft zukommende Bebauung. Verrät nicht sogar das Dom-Römer-Projekt klammheimlich sein schlechtes Gewissen über diese Hierarchisierung, wenn es einige Waschbetonplatten des zuvor abgerissenen technischen Rathauses in die Fassade des Neubaus „Großer Rebstock“ einbezieht? Künftig wäre Frankfurt eine Rekonstruktion jenseits aller Authentizitäts-Beschwörung zu wünschen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Betrachtet man die jüngere Stadt- und Baugeschichte Frankfurts, sticht vor allem die Ära des Neuen Frankfurt hervor und mit ihr der Stadtbaumeister und gebürtige Frankfurter Ernst May. In dessen fünfjähriger Amtszeit von 1925 bis 1930 wurde die Metropole am Main zu einem Zentrum gestalterischer Avantgarde und erlangte durch die Innovationen dieser Zeit internationale Anerkennung. Mays klug komponierter Siedlungsbau, mit dem er in kurzer Zeit 15.000 Wohnungen errichten ließ, hatte Modellcharakter für den gesamten sozialen Wohnungsbau der Weimarer Republik. Dass Ernst May – nachdem er als Koryphäe des Neuen Frankfurt einige Jahre in der Sowjetunion plante und baute – mit seinem Ideen- und Erfahrungsschatz schließlich nach Ostafrika ging und dort ganze zwei Jahrzehnte verbrachte – den Großteil als Architekt in der kenianischen Metropole Nairobi – wird allerdings „in eine als Zwischenzeit getarnte Unzeit verdrängt“, wie es die Kunsthistorikerin Regina Göckede formuliert. Die herkömmliche Geschichtsschreibung liest die Architekturmoderne allein als homogene europäische Bewegung. Wenn überhaupt wird Ernst Mays Wirken in Ostafrika beiläufig erwähnt, dem Großteil der Frankfurter Stadtgesellschaft indes wird es gänzlich unbekannt sein."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Warum nicht eines der Gebäude, die Ernst May im Geiste des Neuen Frankfurt in Kenia baute, in Frankfurt ein zweites Mal errichten! Solch eine Rekonstruktion könnte gerade im Widerspruch zu dem, was gemeinhin rekonstruiert wird, und mit welcher Haltung dies geschieht, vielfältige Lernprozesse provozieren."
+            },
+            {
+                "type": "default",
+                "paragraph": "Kunstgeschichtlich wäre es eine Korrektur der Auffassung, die modernen Bauten seien in den Ländern des Südens bloße Importe oder sekundäre Derivate und deshalb zu vernachlässigen. Denn rekonstruiert wird gemeinhin, was von besonderem Rang ist. Befasst man sich mit den ostafrikanischen Entwürfen Ernst Mays, erkennt man schnell, dass es die konkreten Orte brauchte, um die modernistische Haltung des Neuen Frankfurt derart architektonisch auszubilden. Zweifellos sind Mays Tätigkeiten im damals britischen Mandatsgebiet in die Hegemonie des Kolonialismus eingebunden. Doch anstatt diesen abstrakt zu verneinen, könnte die Verwobenheit der Architekturmoderne mit der Geschichte des Kolonialismus offengelegt und gleichzeitig die lokalen Transformationen der klassischen Moderne aufgezeigt werden."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Eine derartige Rekonstruktion wäre also in vielfacher Weise aufklärerisch: Ernst May würde in seiner Biografie über sein Wirken in Frankfurt hinaus präsent, das Neue Frankfurt und die Architekturmoderne in ihrer globalen Dimension begreiflich, die Eigenheiten ihrer Architekturen auf afrikanischem Boden würden gewürdigt und die Diskussion über Sinn und Unsinn von Rekonstruktionen um eine entscheidende Ebene bereichert, indem der Fokus auf die ihnen nachfolgenden Diskurse gerichtet würde."
+            },
+            {
+                "type": "default",
+                "paragraph": "Ich habe für eine mögliche Rekonstruktion das sogenannte Kenwood Haus im Kopf, ein Wohn- und Geschäftshaus, das Ernst May nach Recherchen des May-Experten Eckhard Herrel zwischen 1937 und 1938 in Kenia errichten ließ, als in Deutschland derartige Architektur bereits verunglimpft war. Das Außergewöhnliche an Mays Kenwood Haus ist, dass er mit ihm einerseits verschiedene Protagonisten und Haltungen der klassischen Moderne zusammenführt, doch ist das Gebäude andererseits so durchsonnt, so tropisch, dass es das Klima Kenias brauchte, um erdacht zu werden. Erich Mendelsohns berühmtes Breslauer Kaufhaus von 1928 kann man in den unzähligen schwarzgeränderten Sonnenblenden wiedererkennen, die als angerundete Scheiben die einzelnen Stockwerke unterteilen. Die strikte horizontale Gliederung aus weißen und mit Kieselwaschputz versehenen Bändern, die sich über alle Schauseiten erstrecken, wie Herrel schreibt, erinnert an das mit weißem und dunklem Opakglas horizontal gegliederte Telschow-Haus der Brüder Luckhardt. Auch Bruno Tauts 1914 für die Kölner Werkbundausstellung konzipiertes Glashaus ist beim Kenwood Haus im Halbrund des zum Innenhof heraustretenden Treppenhauses anwesend, das zwischen dem Stahlbetonskelett allein aus Glasbausteinen besteht. Herrel betont zudem die enge Verwandtschaft zur wellenartigen Fassade des Berliner Shell-Gebäudes von Emil Fahrenkamp (1932). Schließlich zitiert Ernst May mit einem halbkreisförmigen Vorbau gar seine eigenen schwungvoll gerundeten Kopfbauten der Hadrianstraße aus der Frankfurter Römerstadtsiedlung."
+            },
+            {
+                "type": "default",
+                "paragraph": "Im Zusammenhang mit dem Projekt der neuen Frankfurter Altstadt und dessen Rekonstruktionen ist immer wieder von „Disneyland“ oder „Geschichtsrevanchismus“ die Rede. Eines jedoch ist kaum zu leugnen: Keine Neubebauung des Areals jedweder heutigen Architektursprache hätte solch eine „Bildungsoffensive“ für die Stadtgesellschaft im Zentrum der Mainmetropole ausgelöst, wie durch das Dom-Römer-Projekt geschehen. Bereits während der Bauzeit gab es eine Fülle von Artikeln und Medienberichten, zudem zahlreiche Threads in Internetforen und Gespräche an den Bauzäunen, die sich mit der Geschichte der im Krieg zerstörten Altstadt und den Geschichten ihrer Gebäude und Bewohner befassten. Spätestens mit der Öffnung des Areals kannte der Wissensdurst der Besucherscharen kein Halten mehr: Von den Gründen für die architektonische Eigenheit der sogenannten Frankfurter Nase und der stadttypischen Gastronomie der „Schirnen“ über das Leben von Goethes Tante Melber und die Migrationsgeschichte eines niederländischen Hugenottenpaares, das 1599 in Frankfurt heimisch wurde und nach wirtschaftlichem Erfolg das prominent platzierte und nun rekonstruierte Haus „Goldene Waage“ direkt neben dem Dom bauen ließ, bis hin zu den dicht in Konstellation gebrachten Stilen aus Gotik, Renaissance, Barock und Klassizismus in lokaler Ausformung – um nur einiges zu nennen, das plötzlich auch für größere Kreise wieder interessant wurde."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Kaum auszudenken, welche „Bildungsoffensive“ im Kleinen die Rekonstruktion von Mays Kenwood House in Frankfurt anstoßen würde – auch gegen den Strich der neuen Frankfurter Altstadt. Ab dem Jahr 2025 ist das hundertste Jubiläum von Mays fünfjähriger Amtszeit in Frankfurt und damit des legendären Neuen Frankfurt zu würdigen und zu feiern. Die Errichtung eines Frankfurter Kenwood-House böte sich dafür an. Günstiger als die neue Altstadt würde es allemal."
+            }
+        ],
+        "snippet": "Warum auf die neue Frankfurter Altstadt Ernst Mays Kenwood Haus aus Nairobi folgen sollte.",
+        "image": "eineandererekonstruktionistmoeglich.jpg"
+    },
+    {
+        "id": "a58341ee-6ad2-4dd9-8ab2-f18b4136fdf9",
+        "author": "Kenneth Hujer",
+        "title": "Stadtplanung für Alle!",
+        "coordinates": [
+            {
+                "lng": 8.677970,
+                "lat": 50.112616
+            },
+            {
+                "lng": 8.678442,
+                "lat": 50.114563
+            }
+        ],
+        "color": "rgb(232, 102, 219)",
+        "tag": "Stadtplanung",
+        "text": [
+            {
+                "type": "intro",
+                "paragraph": "Zur Präsentation von Waren entworfen, sollte sie neugierige Betrachter in das nahegelegene Fachgeschäft locken. Einst ein prominentes Straßenmöbel, fristet die Boulevardvitrine heute weithin ein städtisches Schattendasein. Sie ist Sinnbild der sich stark verändernden Konsumkultur. Nur noch selten sind Produkte in allansichtiger Transparenz ausgelegt. Immer öfter werden die Vitrinen lieblos mit Folien beklebt oder bleiben ganz leer."
+            },
+            {
+                "type": "default",
+                "paragraph": "So auch in Frankfurt am Main, wo bis vor Kurzem die letzten innerstädtischen Exemplare unweit der Alten Börse und am zentral gelegenen Roßmarkt standen. Nun sind sie verschwunden. Obwohl an ihnen täglich tausende Menschen vorbeigingen, war auch ihr Zustand zugegeben trostlos. Zu einem Drittel leer, zum weiten foliert, waren die übrigen Kästen derart miserabel dekoriert, dass das Ensemble den Fußweg mehr entstellte als bereicherte."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Ihr Verschwinden ist trotz allem ein Verlust von Stadtraumgeschichte. Der Rückzug der Warenwelt hätte durchaus Chancen geboten. In Frankfurt hat man sie vorerst verpasst. Vorerst, denn nun gilt es eben, sie wieder aus der städtischen Versenkung zu holen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Das gebaute Frankfurt wandelt sich rasant. Beständig verschwinden Gebäude, wachsen neue empor. Was war, ist schnell vergessen, was noch nicht ist, nur wenigen bekannt. Zu sehen sind allein Baustellen und drumherum gebaute Tatsachen. Doch dazwischen liegen Überlegungen, Planungen, Wettbewerbe und Entscheidungen. Während die Menschen über das Erscheinen neuer Konsumgüter zuhauf über ihre Bildschirme informiert werden und sich informieren, ist das Wissen über die Stadtentwicklung meist unzureichend. Das Baugeschehen um einen herum und damit die stete Modifikation der eigenen Raumwelt lassen sich so schwerlich erfassen."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "In den Straßenvitrinen könnte mit Modellen, Skizzen, Erläuterungen und Renderings über aktuelle und kommende Bauvorhaben und Ansätze der Stadtplanung wunderbar aufgeklärt werden. Auch könnten regelmäßig Wettbewerbsergebnisse gezeigt werden, um Bewusstsein für den architektonischen Diskurs zu schaffen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Wer will, kann sich über die Bauprojekte Frankfurts natürlich vielseitig erkundigen. Neben Publikationen des Stadtplanungsamtes, lokaler Medien und Architekturforen im Internet, wo die Stadtentwicklung ausgiebig dokumentiert und diskutiert wird, sind im Atrium des Planungsdezernats fortlaufend Modelle aktueller Wettbewerbsentwürfe einzusehen. Zudem orchestriert das Deutsche Architekturmuseum seit Jahren das Baugeschehen Frankfurts vielseitig. Doch geht Stadtplanung alle etwas an, sie sollte nicht nur für eine sogenannte Kulturelite von Interesse sein."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Gerade in Frankfurt, wo Türme sich derart über den Stadthimmel ermächtigen und den Stadtraum nachhaltig dominieren, ist es geboten, alle Bewohner über die Entwicklungen ihrer Stadtarchitektur weitreichend zu informieren."
+            },
+            {
+                "type": "default",
+                "paragraph": "Neugierde besitzt die Stadtbevölkerung in diesem Zusammenhang mehrheitlich durchaus. So konnte man vor den Schaufenstern des „Frankfurt Forum“ am Römerberg – Bürgerberatung und Werkstattladen zugleich – kurz vor dessen Umzug zuhauf Passanten beobachten, die sich für die dort kurzzeitig ausgestellten Hochhausmodelle und Animationsfilme zukünftiger Bauprojekte interessierten und größtenteils beeindruckt zeigten."
+            },
+            {
+                "type": "default",
+                "paragraph": "Ebenso könnte man die Boulevardvitrinen zu kleinen Ausstellungsräumen erklären. In Kooperation mit den hiesigen Kunsthochschulen würde es deren Studierenden so möglich, ein großes Publikum zu erreichen."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Und auch den Passanten würde eine Erfahrungswelt eröffnet, die ihnen der umliegende Konsum vorenthält. Selbst wenn man die Vitrinen letztlich als Aquarien nutzen sollte: Alles ist besser als ihre ehemalige Ödnis oder ihr gänzliches Verschwinden."
+            }
+        ],
+        "snippet": "In den Straßenvitrinen könnte mit Modellen, Skizzen, Erläuterungen und Renderings über aktuelle und kommende Bauvorhaben und Ansätze der Stadtplanung wunderbar aufgeklärt werden. Auch könnten regelmäßig Wettbewerbsergebnisse gezeigt werden, um Bewusstsein für den architektonischen Diskurs zu schaffen.",
+        "image": "stadtplanungfueralle.png"
+    },
+    {
+        "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+        "author": "Kenneth Hujer",
+        "coordinates": [
+            {
+                "lng": 8.707442,
+                "lat": 50.125927
+            }
+        ],
+        "color": "rgb(86, 84, 89)",
+        "title": "Die 43 Laternen-Farben der 43 Stadtviertel-Laternen",
+        "tag": "Stadtplanung",
+        "text": [
+            {
+                "type": "intro",
+                "paragraph": "Schwarz, schwarz, weiß, dunkelgrau, weiß, weiß, schwarz, dunkelblau, grau, dunkelgrau, schwarz. Was sich wie ein dadaistisches Gedicht liest, ist die Farb-Aufzählung der Autos, die, während ich gerade aus dem Fenster schaute, die Allee unweit meiner Wohnung entlanggefahren sind. Das Verschwinden der bunten Farben ist allerdings nicht nur beim Anblick des Straßenverkehrs zu beobachten. Vielmehr scheint die Aufzählung ein Phänomen unserer Zeit zu dokumentieren: Elektrogeräte, Kinderwagen, Kleidermode, Neu- und sanierte Altbauten, selbst ganze Neubaugebiete – sie alle lassen die Varianz möglicher Farben vermissen. Anfang der 1990er Jahre, als die Autos noch bunt waren (kulminierend im VW-Polo- Modell Harlekin, dessen Karosserie-Komponenten in verschiedenen der vier Bauklötzchenfarben besprüht waren) sprach man noch von der grauen Tristesse der Großstadt. Deren Ruf hat sich seitdem nachdrücklich zum Guten gewandelt. Doch sind nicht nur die Städte attraktiver und beliebter geworden. Anscheinend verloren auch die Attribute „grau“ und „trist“ ihre abschreckende Verbindungslinie."
+            },
+            {
+                "type": "default",
+                "paragraph": "In Frankfurt ist seit einigen Jahren zu beobachten, wie Viertel für Viertel die mehrheitlich hell- und dunkelgrünen, teils auch dunkelblauen oder hellgrauen Straßenlaternen jedweden Typus‘ ein und den gleichen Anthrazit-Anstrich erhalten. Einzige Ausnahme bilden die noch vorhandenen farngrünen Gaslaternen."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Ein bemerkenswerter Wandel: Während man mit den Laternen einst das Grün der Vegetation imitierte, scheinen sie fortan aus den asphaltierten Straßen emporzuwachsen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Auf Nachfrage bei der Stadtverwaltung stellt sich heraus, dass diese „Vergrauung“ auf einen Beschluss der ehemaligen Oberbürgermeisterin zurückgeht. War Petra Roth etwa die heimliche Pionierin dieser gesamtgesellschaftlichen Farbirrung? Spätestens jetzt habe ich mich durch meine Formulierung verraten: Mir macht der beschriebene Wandel schlechte Laune. Bisweilen macht er mich gar wütend. Bunte Farben sind wichtig, heben die Stimmung, geben Orientierung und Halt, vor allem für die Kinder können sie eine Einladung in die Stadtwelt sein."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Um meine eigene Stimmung zu heben, kam mir bei einem meiner Spaziergänge in den Sinn, den allgegenwärtigen Anthrazit-Anstrich der Frankfurter Straßenlaternen fortan bloß als Grundierung zu verstehen – gewissermaßen als Vorbereitungsarbeit –, durch die in den kommenden Jahren eine farbige Sichtbarmachung aller 43 Frankfurter Stadtteile möglich wird."
+            },
+            {
+                "type": "default",
+                "paragraph": "Wenn nicht gleich alle, so könnten zumindest die Laternen der Hauptverkehrsstraßen eine dem Viertel je zugeordnete Farbe erhalten. Um keine falschen Vorstellungen entstehen zu lassen: Auf Pink, Rosa, Neon- und andere grell-quietschigen Farben kann dabei getrost verzichtet werden. Es gibt ausreichend zurückhaltende und trotzdem ansprechende Farben: schöne, unaufgeregte Schattierungen der Grundfarben, warme wie kalte. Sie sind letztlich kaum aufdringlicher als das jetzige Grau, sobald man sich dieses einmal bewusst gemacht und dessen Tristesse erkannt hat. Die in der Farbe variierenden Laternen würden helfen, ein Bewusstsein für die Vielzahl der Viertel zu schaffen, für ihre teils aberwitzigen Grenzverläufe, aber auch ihre Eigenheiten. Zudem könnte die Farbvarianz den Bewohnerinnen und Bewohnern, an vorderster Stelle aber den Kindern als wichtiger identitätsstiftender Bezug zum eigenen Stadtteil dienen."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Ebenso käme die Straßenlaterne als Stadtraummöbel so zu einer gewissen Prominenz, geriete ihr Modellreichtum mehr in den Blick."
+            },
+            {
+                "type": "default",
+                "paragraph": "Kriterien zu finden, die eine Auswahl verschiedener Farben und daraufhin deren Zuordnung zu den jeweiligen Vierteln ermöglichen, wäre sicherlich eine reizvolle Aufgabe. Frankfurt mit seiner konzentrischen Struktur innerhalb des Alleenrings könnte man beispielsweise mithilfe Johannes Ittens Farbkreis strukturieren, wie ihn der Schweizer Maler im Rahmen seiner Lehrtätigkeit am Weimarer Bauhaus entwickelt hat. Je nachdem wie man diesen dreht, wäre das Westend gelb, das Nordend rot, das Ostend blau und Sachsenhausen grün. Die Innenstadt könnte im grundierenden Anthrazit verbleiben. Alle weiteren sich nach außen ausweitenden Stadtteile könnten über Ittens Mischsystem farblich bestimmt werden. Auch der oft herbeizitierte bedeutendste Sohn der Stadt, Goethe, könnte mit seinen farbpsychologischen Überlegungen im Rahmen seiner Farbenlehre hierbei vielleicht behilflich sein. Oder aber man orientiert sich an den mannigfachen Einbandfarben der Merian-Reisemagazine, deren Namenspatron Matthäus Merian viele Jahre als Kupferstecher und Verleger in Frankfurt wirkte, wo er 1650 auf dem Peterskirchhof bestattet wurde. Nicht zuletzt würde so insgeheim auch der genannte VW-Polo aus den 1990ern mithilfe der Laternen-Anstriche eine städtebauliche Neuauflage erfahren."
+            }
+        ],
+        "snippet": "Um meine eigene Stimmung zu heben, kam mir bei einem meiner Spaziergänge in den Sinn, den allgegenwärtigen Anthrazit-Anstrich der Frankfurter Straßenlaternen fortan bloß als Grundierung zu verstehen – gewissermaßen als Vorbereitungsarbeit –, durch die in den kommenden Jahren eine farbige Sichtbarmachung aller 43 Frankfurter Stadtteile möglich wird.",
+        "image": "laternenfarben.png"
+    },
+    {
+        "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+        "author": "Kenneth Hujer",
+        "coordinates": [
+            {
+                "lng": 8.684378,
+                "lat": 50.110814
+            }
+        ],
+        "color": "rgb(230, 104, 37)",
+        "title": "Stadtgeschichte ankündigen",
+        "tag": "Installation",
+        "text": [
+            {
+                "type": "intro",
+                "paragraph": "Als im Zuge der Sanierungsarbeiten der U-Bahn-Haltestelle „Dom/Römer“ bei laufendem Betrieb die Wandverkleidung teils entfernt werden musste, staunten viele auf die Bahn Wartende nicht schlecht: Plakate aus dem Jahr 1973 waren plötzlich freigelegt. Sie bewarben die 25. Frankfurter Buchmesse, die anstehende Internationale Automobilausstellung oder ein Jazz-Konzert im Palmengarten. Allesamt Ereignisse, die bald ein halbes Jahrhundert zurückliegen. Der Zoo machte mit collagierten Tiermalereien im Stile Henri Rousseaus auf sich aufmerksam, das Schauspielhaus kündigte im zeittypischen Orange drei seiner Aufführungen an. Aber nicht nur gestalterisch und typographisch bezeugten die Plakate den Geist einer anderen Zeit. Ein Plakat mit lila gefärbter Goethe-Büste amüsierte durch seinen antiquierten, weil korrekt gebildeten Konjunktiv: „Er wäre sauer, wenn Sie Frankfurts Museen nicht besuchten.“"
+            },
+            {
+                "type": "default",
+                "paragraph": "Es war ein sonderbares Gefühl, jenen Plakaten im eigenen Alltagsgeschehen zu begegnen. Immerhin befand man sich in keinem Stadtmuseum, sondern wartete am Gleis auf die nächste U-Bahn. Wie archäologisch freigelegte Zeitschichten traten die Plakate dem Betrachter entgegen. Sie waren sich selbst genug, hatten ihre Aufgabe längst erfüllt, mussten für nichts mehr werben und versprühten damit eine eigentümlich lässige Melancholie. Zwar bestehen die Orte und Veranstaltungen, die sie bewarben, noch heute. Der Geist der Zeit, der aus den alten Anzeigen herüberwehte, ist allerdings ein ganz anderer als heute. So tauchte in ihrer Gegenwart die Frage nach der Kontinuität des Stadtraums auf. Weil die Plakate nicht museal aushingen, sondern im öffentlichen Raum, trat zu Bewusstsein: Auch das Hier und Heute ist Teil dieser fortschreitenden Stadtgeschichte, Teil ihres beständigen Wandels. Auch das, was sich uns gerade als Gegenwart präsentiert, wird einmal als Zeitdokument zum archivierten Zeitgeist werden. Der ist nicht gegenwärtiger als er es im Jahr 1973 war, aber ebenso schwierig zu fassen."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Warum nicht diese frappierende Nahbarkeit dokumentierter Stadtgeschichte in eine öffentliche Ausstellungspraxis überführen? In den Archiven der Stadt und ihrer Institutionen sind allerhand Plakate vergangener Jahrzehnte aufzufinden, die manchmal verstörend, manchmal aberwitzig, oft kunstvoll und eigensinnig die Geschichte der Stadt dokumentieren, die sie einst als Zukünftige ankündigten."
+            },
+            {
+                "type": "default",
+                "paragraph": "Ich denke da beispielsweise an das von Gabriele Lorenzer 1970 gestaltete „Oben-ohne“-Plakat zum Frankfurter U-Bahn-Bau, an Plakate zu Muhammad Alis im September 1966 stattgefundenen Boxkampf gegen Karl Mildenberger im Frankfurter Waldstadion und zur Filmpremiere von Hitchcocks Film „Psycho“ im Turmpalast-Kino, wofür der Regisseur im September 1960 eigens nach Frankfurt reiste, oder an das von Oskar Schlemmer entworfene Plakat zur „Großen Brücken Revue“, die an vier Augusttagen des Jahres 1926 in der Festhalle stattfand. Sicherlich gab es auch ein Plakat für die Feierlichkeiten zum 1200. Jahresjubiläum Frankfurts, als Phillippe Petit am 12. Juni 1994 in einem atemberaubenden Drahtseilakt vom Dach der Paulskirche hinüber auf die Spitze des Kaiserdoms wandelte."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Eine vielseitige Auswahl kopiert und im Beisein heutiger Werbungen plakatiert, würde den öffentlichen Raum um manche Qualitäten des Historischen Museums bereichern und dabei ein größeres Publikum erreichen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Ereignisse der Stadtgeschichte würden wieder ins Bewusstsein gerückt und das zuvor angeführte Phänomen, das wir Zeitgeist nennen, in den Blick geraten. Darüber hinaus würde die Plakatkunst selbst zum Gegenstand und ihre Möglichkeiten von Typographie und Illustration. Nicht zuletzt würden wir in Kontakt gebracht mit den Menschen, denen die Plakate einmal galten: Frankfurterinnen und Frankfurter wie wir es sind."
+            }
+        ],
+        "snippet": "Als im Zuge der Sanierungsarbeiten der U-Bahn-Haltestelle „Dom/Römer“ bei laufendem Betrieb die Wandverkleidung teils entfernt werden musste, staunten viele auf die Bahn Wartende nicht schlecht: Plakate aus dem Jahr 1973 waren plötzlich freigelegt.",
+        "image": "stadtgeschichte.png"
+    },
+    {
+        "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+        "author": "Kenneth Hujer",
+        "coordinates": [
+            {
+                "lng": 8.552485,
+                "lat": 50.103113
+            },
+            {
+                "lng": 8.773674,
+                "lat": 50.121316
+            }
+        ],
+        "color": "rgb(0, 139, 149)",
+        "title": "Durch die Stadt mit... Eine Abendveranstaltung im ÖPNV",
+        "tag": "Performance",
+        "text": [
+            {
+                "type": "intro",
+                "paragraph": "Zwei prominente Persönlichkeiten aus Kunst und Kultur treffen aufeinander, um begleitet von einem Fernsehteam bis spät in die Nacht durch eine Stadt zu streifen und sich auszutauschen. Sie treffen dabei auf Menschen und Orte, die ihr Gespräch in immer neue Richtungen lenken. Das ist in aller Kürze die Grundidee des erfolgreichen Arte-Formats „Durch die Nacht mit...“. Einer, wenn nicht der Klassiker der Sendereihe entstand 2003 in Frankfurt am Main, als Christoph Schlingensief auf Michel Friedman traf und beide zuerst im Westend bei einem Edel- Italiener speisten, daraufhin das Filmmuseum am Museumsufer aufsuchten, sodann begleitet von Hannelore Elsner die Schirn Kunsthalle und den Maintower betraten, um schließlich den vorgerückten Abend gemeinsam mit Johnny Klinke in dessen Tigerpalast ausklingen zu lassen. Seitdem macht sich das Arte-Format allerdings rar in der Mainmetropole. Darüber wäre mit einer eigensinnigen Adaption des Formats hinweg zu trösten."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Frankfurt hat so manche Tram- und Buslinien, die, wenn man sie einmal von Anfang bis Ende mitfährt, verschiedene Orte und Kulissen der Stadt wunderbar pointiert verknüpfen, stark sich widerstreitende Eindrücke aneinanderreihen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Zum Beispiel die Tram-Linie 11, die den äußeren Westen der Stadt (Höchst) mit ihrem östlichsten Stadtteil Fechenheim parallel zum horizontal verlaufenden Main verbindet und bei einer Fahrtzeit von 51 Minuten ganze 40 Stationen passiert, an denen die unterschiedlichsten sozialen Milieus aus den unterschiedlichsten Stadträumen zu- und aussteigen. Oder die Buslinie 34 in Verbindung mit der Linie 43, die Frankfurts Weinberg, die dörfliche Idylle des Stadtteils Seckbach, die deutsche Bundesbank mit angrenzendem Fernsehturm und das Messeparkhaus bei einer gemeinsamen Fahrtzeit von 75 Minuten zusammenbringen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Unter freundlicher Mitwirkung der Frankfurter Verkehrsgesellschaft könnte man einige dieser Linien für mehrere Abendveranstaltungen chartern, bei denen je ein Frankfurter Architekt und eine mit Frankfurt verbundene Persönlichkeit geladen werden, um während der Abendstunden die jeweilige Route durch die Stadt zu fahren. Die dabei vorkommenden Gebäude und Straßenszenen der Stadt würden die Gespräche anleiten, für biografische Reminiszenzen oder kritische Interventionen sorgen oder schlicht als hintergründige Illustration mitlaufen. Ich denke da beispielsweise an die Fotografin Barbara Klemm, den Schriftsteller Andreas Meier, den Maler Thomas Bayrle, den Komponisten Heiner Goebbels und natürlich auch an Michel Friedman, die in Konstellation gebracht mit Architekten wie Claudia Meixner, Marie-Theres Deutsch, Christoph Mäckler oder Stefan Forster sicherlich für spannende Stadterkundungen sorgen würden."
+            },
+            {
+                "type": "default",
+                "paragraph": "Die Präsenz je eines Architekten ermöglicht die Wahrnehmung der Stadt als gebaute Wirklichkeit. Dass ihm kein Fachkollege zur Seite sitzt, bewahrt das Gespräch wiederum vor Fachsimpelei."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Das Besondere für alle Mitfahrenden ist bei dieser Durch-die-Nacht-Adaption, dass sie, anstatt vor dem heimischen Bildschirm zu sitzen, die Protagonisten anstelle des Kamerateams auf ihrer Fahrt begleiten und ihren Gesprächen über die Mikrofonanlage der Tram oder des Busses folgen können."
+            },
+            {
+                "type": "default",
+                "paragraph": "So wird das Publikum selbst Teil der abendlichen Stadt- Exkursion, deren Verlauf wesentlich von den Ereignissen der Fahrt und der Spontaneität beider Gäste abhängt. Nicht nur werden einem im Laufe der Fahrt letztere stetig vertrauter, auch ergeben sich durch das sehr spezielle Setting ganz neue Blicke auf die vermeintlich schon vertraute Stadt sowie auf die Besonderheiten der jeweiligen Linie. Die Abendveranstaltung „Durch die Stadt mit...“ wäre also in gleich mehrfacher Hinsicht eine Erkundungstour."
+            }
+        ],
+        "snippet": "Das Besondere für alle Mitfahrenden ist bei dieser Durch-die-Nacht-Adaption, dass sie, anstatt vor dem heimischen Bildschirm zu sitzen, die Protagonisten anstelle des Kamerateams auf ihrer Fahrt begleiten und ihren Gesprächen über die Mikrofonanlage der Tram oder des Busses folgen können.",
+        "image": "durchdienachtmit.png"
     }
 ]

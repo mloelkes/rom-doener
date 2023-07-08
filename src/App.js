@@ -14,6 +14,7 @@ function App() {
             <Navigation></Navigation>
             <Routes>
                 <Route path="/" element={<Ideas/>} />
+                <Route path="/rom-doener" element={<Ideas/>} />
                 <Route path="/ideas" element={<Ideas/>}/>
                 <Route path="/ideas/:id" element={<Idea/>}/>
                 <Route path="/discover" element={<Discover/>}/>

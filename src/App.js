@@ -6,6 +6,8 @@ import Discover from './pages/Discover.js';
 import Registry from './pages/Registry.js';
 import About from './pages/About.js';
 import Navigation from "./components/Navigation.js";
+import PrivacyPolicy from "./pages/PrivacyPolicy.js";
+import Imprint from "./pages/Imprint.js";
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
                 <Route path="/discover" element={<Discover/>}/>
                 <Route path="/registry" element={<Registry/>}/>
                 <Route path="/about" element={<About/>}/>
+                <Route path="/privacy" element={<PrivacyPolicy/>} />
+                <Route path="/imprint" element={<Imprint/>} />
             </Routes>
         </div>
     );

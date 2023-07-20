@@ -1,6 +1,7 @@
 import React from "react";
 import ideasData from "../data/ideasData.json";
 import IdeasRow from "../components/IdeasRow.js";
+import Footer from "../components/Footer.js"
 
 function Ideas() {
 
@@ -13,6 +14,7 @@ function Ideas() {
             <div className="container">
                 {ideasList}
             </div>
+            <Footer />
         </div>
     )
 }

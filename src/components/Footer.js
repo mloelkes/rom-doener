@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 function Footer({backgroundStyle}) {
 
     return (
         <footer style={backgroundStyle}>
-            <span><p>Datenschutz</p><p>Impressum</p></span>
+            <span><Link to="/privacy">Datenschutz</Link><Link to="/imprint">Impressum</Link></span>
         </footer>
     )
 }

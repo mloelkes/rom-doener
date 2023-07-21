@@ -311,44 +311,7 @@ button {
 
 }
 
-/* Footer component */
-
-footer {
-    font-size: 20px;
-    height: 60px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 60px 0 0;
-}
-
-footer span {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-footer span a:last-child {
-    margin-left: 30px;
-}
-
-.Discover footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.Discover footer Link {
-    padding: 0;
-
-}
-
 /* Registry page */
-
-.Registry {
-    min-height: 100vh;
-    background-color: #fff;
-}
 
 .Registry .content {
     display: flex;
@@ -384,9 +347,44 @@ footer span a:last-child {
     border-radius: 50%;
 }
 
-/* About page */
+/* About page, PrivacyPolicy page, Imprint page, Registry page */
 
-.About, .PrivacyPolicy, .Imprint {
+.About, .PrivacyPolicy, .Imprint, .Registry {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #fff;
+}
+
+/* Footer component */
+
+footer {
+    font-size: 20px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 60px 0 0;
+}
+
+footer span {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer span a:last-child {
+    margin-left: 30px;
+}
+
+.Discover footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.Discover footer Link {
+    padding: 0;
+
 }

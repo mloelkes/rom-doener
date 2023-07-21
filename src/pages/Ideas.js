@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ideasData from "../data/ideasData.json";
 import IdeasRow from "../components/IdeasRow.js";
 import Footer from "../components/Footer.js"
 
 function Ideas() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    })
 
     const ideasList = ideasData.map(ideasEntry => 
         <IdeasRow ideasEntry={ideasEntry}/>

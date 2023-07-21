@@ -233,10 +233,13 @@ button {
 .Idea .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: var(--background);
 }
 
 .Idea header {
+    box-sizing: border-box;
+    width: 100%;
     padding: 120px 120px 30px 120px;  
     display: flex;
     flex-direction: column;
@@ -248,6 +251,7 @@ button {
 }
 
 .Idea .header-picture-container {
+    width: 100%;
     padding-bottom: 100px;
     display: flex;
     justify-content: center;
@@ -262,10 +266,18 @@ button {
     padding: 60px 240px 0 240px;
     line-height: 1.6;
     white-space: pre-line;
+    max-width: 1600px;
 }
 
 .Idea .container article p {
     margin-bottom: 40px;
+}
+
+.Idea .container .author {
+    margin-bottom: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .Idea .container .highlight-line {
@@ -302,13 +314,9 @@ button {
     font-size: 12px;
 }
 
-.Idea .container .author-container {
-    margin: 0 240px 60px 240px;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: var(--font);
-
+.Idea .container .random-ideas {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Registry page */

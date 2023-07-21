@@ -95,15 +95,13 @@ function Idea() {
                 </section>
                 <article>
                     {ideaToDisplay}
+                    <p className="author">Idee von {idea.author}</p>
                 </article>
-                <section className="author-container">
-                    <p>Idee von {idea.author}</p>
-                </section>
-                <section>
+                <section className="random-ideas">
                     {randomIdeasList}
                 </section>
-                <Footer backgroundStyle={backgroundStyle}/>
             </div>
+            <Footer backgroundStyle={backgroundStyle}/>
         </div>
     )
 }

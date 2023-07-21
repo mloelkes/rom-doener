@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import registryData from "../data/registryData.json";
+import Footer from "../components/Footer";
 
 function Registry() {
 
@@ -22,6 +23,7 @@ function Registry() {
             <div className="content">
                 {registryList}
             </div>
+            <Footer />
         </div>
     )
 }

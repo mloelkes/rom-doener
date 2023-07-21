@@ -1,7 +1,15 @@
+import { useEffect } from "react";
+import Footer from "../components/Footer";
+
 function PrivacyPolicy() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     return (
         <div className="PrivacyPolicy">
-            <div className="content">
+            <div className="content-page">
                 <h1>Datenschutzerklärung</h1>
                 <h2>Geltungsbereich und Umgang mit personenbezogenen Daten</h2>
                 <p>Diese Datenschutzerklärung informiert Nutzer über die Verarbeitung personenbezogener Daten bei der Nutzung dieser Website. Die gesetzlichen Regelungen zum Datenschutz gehen aus der europäischen Datenschutzgrundverordnung hervor. Das <a href="https://www.bussgeldkatalog.org/bdsg/">Bundesdatenschutzgesetz</a> (BDSG) und das Telemediengesetz (TMG) gelten ergänzend.</p>
@@ -35,6 +43,7 @@ function PrivacyPolicy() {
                 <p>Beim Besuch der Website können Cookies auf Ihrem Gerät gespeichert werden. Dabei handelt es sich um kleine Textdateien, die von dem von Ihnen verwendeten Browser gespeichert werden. Cookies dienen dazu, das Internetangebot benutzerfreundlicher zu machen. Mithilfe von Cookies kann beispielsweise das Gerät, mit dem diese Website aufgerufen wurde, bei einem erneuten Aufruf erkannt werden. Möglich ist dies, weil Cookies die IP-Adresse übermitteln.</p>
                 <p>Das Setzen von Cookies können Sie durch Einstellungen im Browser einschränken oder verhindern. Das Blockieren kann unter Umständen jedoch dazu führen, dass nicht mehr alle Funktionen dieser Website nutzbar sind.</p>
             </div>
+            <Footer />
         </div>
     )
 }

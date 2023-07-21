@@ -18,13 +18,12 @@ function Map() {
         let mapboxMap = new mapboxgl.Map({
             container: "map-content",
             style: 'mapbox://styles/mapbox/light-v10',
+            attributionControl: false,
             center: [8.680000, 50.110000],
             zoom: 12
         })
 
-        // Comment in to show navigation controls
-        // const nav = new mapboxgl.NavigationControl();
-        // mapboxMap.addControl(nav, "bottom-right");
+        mapboxMap.addControl(new mapboxgl.AttributionControl(), "bottom-left");
 
         mapboxMap.on("click", clickMap);
 

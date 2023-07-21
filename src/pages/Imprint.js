@@ -1,7 +1,15 @@
+import { useEffect } from "react";
+import Footer from "../components/Footer";
+
 function Imprint() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     return (
         <div className="Imprint">
-            <div className="content">
+            <div className="content-page">
                 <h1>Impressum</h1>
                 <h2>Konzept und Projektleitung</h2>
                 <p>Kenneth Hujer</p>
@@ -23,6 +31,7 @@ function Imprint() {
                 <p>Inhaltlich verantwortlich für diese Webseite i.S.d. § 55 II RStV: Kenneth Hujer</p>
                 <p>© 2023 Kenneth Hujer</p>
             </div>
+            <Footer />
         </div>
     )
 }

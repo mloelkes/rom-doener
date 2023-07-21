@@ -1,68 +1,499 @@
 [
     {
-        "term": "Adorno, Theodor W.",
+        "term": "Dada",
         "ideas": [
             {
-                "id": "f7dae000-63d2-4cb2-b9ab-96db205685fd",
-                "color": "rgb(238, 138, 30)"
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
+            }
+        ]
+    },
+    {
+        "term": "VW-Polo",
+        "ideas": [
+            {
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
+            }
+        ]
+    },
+    {
+        "term": "Straßenlaterne",
+        "ideas": [
+            {
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
+            }
+        ]
+    },
+    {
+        "term": "Petra Roth",
+        "ideas": [
+            {
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
+            }
+        ]
+    },
+    {
+        "term": "Johannes Itten",
+        "ideas": [
+            {
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
+            }
+        ]
+    },
+    {
+        "term": "Bauhaus",
+        "ideas": [
+            {
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
+            }
+        ]
+    },
+    {
+        "term": "Westend",
+        "ideas": [
+            {
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
             },
             {
-                "id": "timmulrichs",
-                "color": "rgb(160, 110, 230)"
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
             }
         ]
     },
     {
-        "term": "Apfelwein",
+        "term": "Nordend",
         "ideas": [
             {
-                "id": "f7dae000-63d2-4cb2-b9ab-96db205685fd",
-                "color": "rgb(238, 138, 30)"
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
             }
         ]
     },
     {
-        "term": "Bornheim Mitte",
+        "term": "Ostend",
         "ideas": [
             {
-                "id": "bd3e5b7b-761c-4391-9cc0-583ec0339a93",
-                "color": "rgb(14, 120, 90)"
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
+            },
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
             }
         ]
     },
     {
-        "term": "Kaufhausbrand",
+        "term": "Sachsenhausen",
         "ideas": [
             {
-                "id": "bd3e5b7b-761c-4391-9cc0-583ec0339a93",
-                "color": "rgb(20, 103, 63)"
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
             }
         ]
     },
     {
-        "term": "RAF",
+        "term": "Innenstadt",
         "ideas": [
             {
-                "id": "5387f148-2813-496c-8a33-343f27f364eb",
-                "color": "rgb(189, 4, 80)"
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
             }
         ]
     },
     {
-        "term": "The Doors",
+        "term": "Goethe",
         "ideas": [
             {
-                "id": "fb8cba21-a9c0-4095-816c-8cf8726c6786",
-                "color": "rgb(200, 30, 60)"
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
             }
         ]
     },
     {
-        "term": "Sven Väth",
+        "term": "Merian",
         "ideas": [
             {
-                "id": "216f42f7-092a-4c5f-81f8-8b1b679272d4",
-                "color": "rgb(74, 184, 33)"
+                "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
+                "color": "rgb(86, 84, 89)"
+            }
+        ]
+    },
+    {
+        "term": "„Durch die Nacht mit...“",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Christoph Schlingensief",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Michel Friedman",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Filmmuseum",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Hannelore Elsner",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Schirn Kunsthalle",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Maintower",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Johnny Klinke",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Tigerpalast",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Tram",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Bus",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Höchst",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Fechenheim",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Main",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Seckbach",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Deutsche Bundesbank",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Fernsehturm",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Messe",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Frankfurter Verkehrsgesellschaft",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Barbara Klemm",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Eva Demski",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Andreas Meier",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Thomas Bayrle",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Heiner Goebbels",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Claudia Meixner",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Marie-Theres Deutsch",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Christoph Mäckler",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Stefan Forster",
+        "ideas": [
+            {
+                "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
+                "color": "rgb(0, 139, 149)"
+            }
+        ]
+    },
+    {
+        "term": "Paris",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Rom",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Piazza Novana",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Guy Debord",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Schweizer Platz",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Christoph Mäckler",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Rekonstruktion",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            },
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Schwedler-Carré",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Hanauer Landstraße",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Holbeinstraße",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Südbahnhof",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Schweizer Straße",
+        "ideas": [
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
+            }
+        ]
+    },
+    {
+        "term": "Dom-Römer-Projekt",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
             }
         ]
     },
@@ -70,8 +501,350 @@
         "term": "Neues Frankfurt",
         "ideas": [
             {
-                "id": "d1dde0b4-86b0-4e5d-be40-bdabddb33aba",
-                "color": "rgb(85, 40, 120)"
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Ernst May",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Sowjetunion",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Nairobi",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Regina Göckede",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Kenwood Haus",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Eckhard Herrel",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Kenia",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Erich Mendelsohn",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Breslau",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Telschow-Haus",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Brüder Luckhardt",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Bruno Taut",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Köln",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Werkbundausstellung",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Berlin",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Shell-Gebäude",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Emil Fahrenkamp",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Hadrianstraße",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Römerstadt",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Neue Frankfurter Altstadt",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Frankfurter Nase",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Goethes Tante Melber",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Haus „Goldene Waage“",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "Dom",
+        "ideas": [
+            {
+                "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
+                "color": "rgb(87, 48, 207)"
+            }
+        ]
+    },
+    {
+        "term": "U-Bahn-Station ‚Bockenheimer Warte‘",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Straßenbahn",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "U-Bahn",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Bus",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "U-Bahnhöfe",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Willy-Brandt-Platz",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Schweizer Platz",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Main",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Essener Hauptbahnhof",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Entfremdung",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Unbewusstes",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Michael Herl",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Museumsufer",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
+            }
+        ]
+    },
+    {
+        "term": "Alte Oper",
+        "ideas": [
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
             }
         ]
     },
@@ -79,44 +852,476 @@
         "term": "Schauspielhaus",
         "ideas": [
             {
-                "id": "c41e690e-be85-4e31-865c-53375ac4837b",
-                "color": "rgb(196, 63, 190)"
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
             }
         ]
     },
     {
-        "term": "Timm Ulrichs",
+        "term": "Zoo",
         "ideas": [
             {
-                "id": "398904d2-108b-488a-8dd3-cc7661343426",
-                "color": "rgb(8, 20, 43)"
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
             }
         ]
     },
     {
-        "term": "Suhrkamp",
+        "term": "Palmengarten",
         "ideas": [
             {
-                "id": "90ee9bef-4159-46c1-82ef-199fa3d78caf",
-                "color": "rgb(248, 184, 64)"
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
             }
         ]
     },
     {
-        "term": "Horkheimer, Max",
+        "term": "Skyline",
         "ideas": [
             {
-                "id": "5387f148-2813-496c-8a33-343f27f364eb",
-                "color": "rgb(13, 123, 226)"
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
             }
         ]
     },
     {
-        "term": "Sarte, Jean Paul",
+        "term": "Hochhaus",
         "ideas": [
             {
-                "id": "fb8cba21-a9c0-4095-816c-8cf8726c6786",
-                "color": "rgb(75, 84, 22)"
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
+            }
+        ]
+    },    
+    {
+        "term": "Messeturm",
+        "ideas": [
+            {
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
+            }
+        ]
+    },    
+    {
+        "term": "Main Plaza",
+        "ideas": [
+            {
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
+            }
+        ]
+    },    
+    {
+        "term": "Westend Tower",
+        "ideas": [
+            {
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
+            }
+        ]
+    },    
+    {
+        "term": "Westend",
+        "ideas": [
+            {
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
+            }
+        ]
+    },    
+    {
+        "term": "Bertram Weisshaar",
+        "ideas": [
+            {
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
+            }
+        ]
+    },    
+    {
+        "term": "King Kong",
+        "ideas": [
+            {
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
+            }
+        ]
+    },    
+    {
+        "term": "Empire State Building",
+        "ideas": [
+            {
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
+            }
+        ]
+    },    
+    {
+        "term": "Architektur",
+        "ideas": [
+            {
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
+            }
+        ]
+    },    
+    {
+        "term": "U-Bahn",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Buchmesse",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Palmengarten",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Zoo",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Schauspielhaus",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Goethe",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "U-Bahn",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Stadtraum",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Stadtgeschichte",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Zeitgeist",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Gabriele Lorenzer",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Muhammad Ali",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Karl Mildenberger",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Waldstadion",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Hitchcock",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Turmpalast-Kino",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Oskar Schlemmer",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Festhalle",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Phillippe Petit",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Historisches Museum",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Zeitgeist",
+        "ideas": [
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
+            }
+        ]
+    },
+    {
+        "term": "Boulevardvitrine",
+        "ideas": [
+            {
+                "id": "a58341ee-6ad2-4dd9-8ab2-f18b4136fdf9",
+                "color": "rgb(232, 102, 219)"
+            }
+        ]
+    },
+    {
+        "term": "Alte Börse",
+        "ideas": [
+            {
+                "id": "a58341ee-6ad2-4dd9-8ab2-f18b4136fdf9",
+                "color": "rgb(232, 102, 219)"
+            }
+        ]
+    },
+    {
+        "term": "Roßmarkt",
+        "ideas": [
+            {
+                "id": "a58341ee-6ad2-4dd9-8ab2-f18b4136fdf9",
+                "color": "rgb(232, 102, 219)"
+            }
+        ]
+    },
+    {
+        "term": "Stadtplanungsamt",
+        "ideas": [
+            {
+                "id": "a58341ee-6ad2-4dd9-8ab2-f18b4136fdf9",
+                "color": "rgb(232, 102, 219)"
+            }
+        ]
+    },
+    {
+        "term": "Deutsches Architekturmuseum",
+        "ideas": [
+            {
+                "id": "a58341ee-6ad2-4dd9-8ab2-f18b4136fdf9",
+                "color": "rgb(232, 102, 219)"
+            }
+        ]
+    },
+    {
+        "term": "Türme",
+        "ideas": [
+            {
+                "id": "a58341ee-6ad2-4dd9-8ab2-f18b4136fdf9",
+                "color": "rgb(232, 102, 219)"
+            }
+        ]
+    },
+    {
+        "term": "Römerberg",
+        "ideas": [
+            {
+                "id": "a58341ee-6ad2-4dd9-8ab2-f18b4136fdf9",
+                "color": "rgb(232, 102, 219)"
+            }
+        ]
+    },
+    {
+        "term": "Wilhelm Opatz",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "Postmoderne",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "Rekonstruktion",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "Robert Byron",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "Autogerechte Stadt",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "U-Bahn-Station",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "Stadtbahn-Station",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "U-Bahn-Station „Eschenheimer Tor“",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "U-Bahn-Station „Dornbusch“",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "„The Doors“",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "Kongresshalle",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
+            }
+        ]
+    },
+    {
+        "term": "Frankfurter Römer",
+        "ideas": [
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
             }
         ]
     }

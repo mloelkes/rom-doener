@@ -4,7 +4,11 @@ import Footer from "../components/Footer";
 
 function Registry() {
 
-    const registryList = registryData.map(registryEntry => {
+    const registryList = registryData
+    .sort((a, b) => {
+        return a.term.localeCompare(b.term)
+    })
+    .map(registryEntry => {
         return ( 
             <span>
                 <p className="word">{registryEntry.term}</p>

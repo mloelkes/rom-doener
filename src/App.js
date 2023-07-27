@@ -8,7 +8,7 @@ import About from './pages/About.js';
 import Navigation from "./components/Navigation.js";
 import PrivacyPolicy from "./pages/PrivacyPolicy.js";
 import Imprint from "./pages/Imprint.js";
-
+import Error from "./pages/Error.js";
 
 function App() {
     return (
@@ -24,6 +24,7 @@ function App() {
                 <Route path="/about" element={<About/>}/>
                 <Route path="/privacy" element={<PrivacyPolicy/>} />
                 <Route path="/imprint" element={<Imprint/>} />
+                <Route path="*" element={<Error />} />
             </Routes>
         </div>
     );

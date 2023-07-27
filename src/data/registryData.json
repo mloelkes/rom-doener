@@ -63,6 +63,10 @@
             {
                 "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
                 "color": "rgb(0, 139, 149)"
+            },
+            {
+                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
+                "color": "rgb(31, 143, 37)"
             }
         ]
     },
@@ -112,6 +116,10 @@
             {
                 "id": "3e2b9a5c-285c-4ea6-bbf0-48d49ee701b8",
                 "color": "rgb(86, 84, 89)"
+            },
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
             }
         ]
     },
@@ -125,7 +133,7 @@
         ]
     },
     {
-        "term": "„Durch die Nacht mit...“",
+        "term": "Durch die Nacht mit...",
         "ideas": [
             {
                 "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
@@ -220,6 +228,10 @@
             {
                 "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
                 "color": "rgb(0, 139, 149)"
+            },
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
             }
         ]
     },
@@ -247,6 +259,10 @@
             {
                 "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
                 "color": "rgb(0, 139, 149)"
+            },
+            {
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
             }
         ]
     },
@@ -364,6 +380,10 @@
             {
                 "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
                 "color": "rgb(0, 139, 149)"
+            },
+            {
+                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
+                "color": "rgb(240, 61, 48)"
             }
         ]
     },
@@ -418,15 +438,10 @@
             {
                 "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
                 "color": "rgb(240, 61, 48)"
-            }
-        ]
-    },
-    {
-        "term": "Christoph Mäckler",
-        "ideas": [
+            },
             {
-                "id": "78edbc52-801b-427e-b2ec-332d737ca3de",
-                "color": "rgb(240, 61, 48)"
+                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
+                "color": "rgb(48, 57, 255)"
             }
         ]
     },
@@ -440,6 +455,10 @@
             {
                 "id": "8e9b851f-3c64-4774-ac97-2e1ca9491368",
                 "color": "rgb(87, 48, 207)"
+            },
+            {
+                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
+                "color": "rgb(235, 203, 47)"
             }
         ]
     },
@@ -723,7 +742,7 @@
         ]
     },
     {
-        "term": "U-Bahn-Station ‚Bockenheimer Warte‘",
+        "term": "U-Bahn-Station „Bockenheimer Warte“",
         "ideas": [
             {
                 "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
@@ -746,15 +765,10 @@
             {
                 "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
                 "color": "rgb(48, 57, 255)"
-            }
-        ]
-    },
-    {
-        "term": "Bus",
-        "ideas": [
+            },
             {
-                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
-                "color": "rgb(48, 57, 255)"
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
             }
         ]
     },
@@ -769,24 +783,6 @@
     },
     {
         "term": "Willy-Brandt-Platz",
-        "ideas": [
-            {
-                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
-                "color": "rgb(48, 57, 255)"
-            }
-        ]
-    },
-    {
-        "term": "Schweizer Platz",
-        "ideas": [
-            {
-                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
-                "color": "rgb(48, 57, 255)"
-            }
-        ]
-    },
-    {
-        "term": "Main",
         "ideas": [
             {
                 "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
@@ -854,6 +850,10 @@
             {
                 "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
                 "color": "rgb(48, 57, 255)"
+            },
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
             }
         ]
     },
@@ -863,6 +863,10 @@
             {
                 "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
                 "color": "rgb(48, 57, 255)"
+            },
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
             }
         ]
     },
@@ -872,6 +876,10 @@
             {
                 "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
                 "color": "rgb(48, 57, 255)"
+            },
+            {
+                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+                "color": "rgb(230, 104, 37)"
             }
         ]
     },
@@ -919,16 +927,7 @@
                 "color": "rgb(31, 143, 37)"
             }
         ]
-    },    
-    {
-        "term": "Westend",
-        "ideas": [
-            {
-                "id": "1fc8a7be-d8c2-4209-b661-b5ecc35281ea",
-                "color": "rgb(31, 143, 37)"
-            }
-        ]
-    },    
+    },       
     {
         "term": "Bertram Weisshaar",
         "ideas": [
@@ -966,61 +965,7 @@
         ]
     },    
     {
-        "term": "U-Bahn",
-        "ideas": [
-            {
-                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
-                "color": "rgb(230, 104, 37)"
-            }
-        ]
-    },
-    {
         "term": "Buchmesse",
-        "ideas": [
-            {
-                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
-                "color": "rgb(230, 104, 37)"
-            }
-        ]
-    },
-    {
-        "term": "Palmengarten",
-        "ideas": [
-            {
-                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
-                "color": "rgb(230, 104, 37)"
-            }
-        ]
-    },
-    {
-        "term": "Zoo",
-        "ideas": [
-            {
-                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
-                "color": "rgb(230, 104, 37)"
-            }
-        ]
-    },
-    {
-        "term": "Schauspielhaus",
-        "ideas": [
-            {
-                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
-                "color": "rgb(230, 104, 37)"
-            }
-        ]
-    },
-    {
-        "term": "Goethe",
-        "ideas": [
-            {
-                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
-                "color": "rgb(230, 104, 37)"
-            }
-        ]
-    },
-    {
-        "term": "U-Bahn",
         "ideas": [
             {
                 "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
@@ -1039,15 +984,6 @@
     },
     {
         "term": "Stadtgeschichte",
-        "ideas": [
-            {
-                "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
-                "color": "rgb(230, 104, 37)"
-            }
-        ]
-    },
-    {
-        "term": "Zeitgeist",
         "ideas": [
             {
                 "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
@@ -1236,15 +1172,6 @@
         ]
     },
     {
-        "term": "Rekonstruktion",
-        "ideas": [
-            {
-                "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",
-                "color": "rgb(235, 203, 47)"
-            }
-        ]
-    },
-    {
         "term": "Robert Byron",
         "ideas": [
             {
@@ -1299,7 +1226,7 @@
         ]
     },
     {
-        "term": "„The Doors“",
+        "term": "The Doors",
         "ideas": [
             {
                 "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",

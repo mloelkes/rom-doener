@@ -10,7 +10,7 @@ function Ideas() {
     })
 
     const ideasList = ideasData.map(ideasEntry => 
-        <IdeasRow ideasEntry={ideasEntry}/>
+        <IdeasRow key={ideasEntry.id} ideasEntry={ideasEntry}/>
     )
 
     return (

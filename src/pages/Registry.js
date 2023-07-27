@@ -6,15 +6,18 @@ function Registry() {
 
     const registryList = registryData
     .sort((a, b) => {
-        return a.term.localeCompare(b.term)
+        const aTermWithoutThe = a.term.slice(0,3) === "The" ? a.term.slice(4) : a.term;
+        const bTermWithoutThe = b.term.slice(0,3) === "The" ? b.term.slice(4) : b.term;
+
+        return aTermWithoutThe.localeCompare(bTermWithoutThe);
     })
     .map(registryEntry => {
         return ( 
-            <span>
+            <span key={registryEntry.term}>
                 <p className="word">{registryEntry.term}</p>
                 {registryEntry.ideas.map(idea => {
                     return (
-                        <Link to={`/ideas/${idea.id}`} className="link"><div style={{backgroundColor: idea.color}} className="dot"></div></Link>
+                        <Link key={idea.id} to={`/ideas/${idea.id}`} className="link"><div style={{backgroundColor: idea.color}} className="dot"></div></Link>
                     )
                 })
                 }

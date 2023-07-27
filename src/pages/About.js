@@ -18,7 +18,6 @@ function About() {
                 <p>Die Internetseite des Projekts bietet mehrere Zugänge zu den einzelnen Ideen, denen jeweils eine Farbe zugeordnet ist. Neben einer Überblickseite sind die Ideen auf einer Karte anhand verschiedenfarbiger Punkten eingetragen. Manche Ideen sind mit nur einem, manche mit mehreren Punkten gekennzeichnet – je nachdem ob sie sich auf einen oder mehrere Orte beziehen. Die Punkte können sowohl den Grund der Idee als auch ihren Gegenstand kennzeichnen. Ein Register ermöglicht ferner anhand von Namen, Orten und zentralen Begriffen einen Zugang zu den Ideen.</p>
                 <p>Ein T-Shirt mit dem Aufdruck des Projektnamens kann über diese Internetseite erworben werden. Es soll an die einleitend erwähnte Umbenennung erinnern und sie weiter in die Welt tragen – und klammheimlich für das vorliegende Ideenprojekt werben.</p>
                 <p>Das Projekt wird gefördert von</p>
-                <p>Weitere Unterstützung erfährt es durch</p>
             </div>
             <Footer />
         </div>

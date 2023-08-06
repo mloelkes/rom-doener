@@ -4,7 +4,7 @@ function IdeasRow({ideasEntry}) {
 
     return (
         <div className="IdeasRow" style={{ backgroundColor: ideasEntry?.color }}>
-            <p className="tag">{ideasEntry?.tag}</p>
+            <h3 className="tag">{ideasEntry?.tag}</h3>
             <Link to={`/ideas/${ideasEntry.id}`} className="title">{ideasEntry?.title}</Link>
         </div>
     )

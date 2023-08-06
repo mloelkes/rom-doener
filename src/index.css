@@ -6,6 +6,7 @@
     --font: rgb(0, 0, 0);
     --font-white: rgb(255, 255, 255);
     --border: rgb(0, 0, 0);
+    font-size: 20px;
 }
 
 body {
@@ -13,7 +14,6 @@ body {
     padding: 0;
     font-family: 'Jost', sans-serif;
     font-weight: 400;
-    font-size: 20px;
     background-color: var(--background);
     color: var(--font);
     line-height: 0;
@@ -23,20 +23,20 @@ body {
 
 h1 {
     font-family: 'Krona One', sans-serif;
-    font-size: 60px;
+    font-size: 3rem;
     font-weight: 500;
     margin: 0 0 30px 0;
     margin-bottom: 50px;
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 0.75rem;
     font-weight: 400;
     font-family: 'Krona One', sans-serif;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0 0 20px 0;
@@ -84,7 +84,7 @@ button {
 
 .content-page h1 {
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 2.5rem;
     line-height: 1.4;
     color: var(--font);
     
@@ -118,10 +118,6 @@ button {
 }
 
 .Navigation .link {
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: var(--font);
     text-decoration: none;
     line-height: 1.6;
     cursor: pointer;
@@ -131,7 +127,7 @@ button {
     margin-right: 60px;
     color: #000;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 600;
     padding: 12px;
 }
@@ -207,7 +203,6 @@ button {
 .IdeasRow .tag {
     margin: 30px 0 0 0;
     padding: 12px;
-    font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     color: var(--font);
@@ -217,7 +212,7 @@ button {
 .IdeasRow .title {
     margin: 30px 0 30px 0;
     font-family: 'Krona One', sans-serif;
-    font-size: 50px;
+    font-size: 2.5rem;
     color: var(--font);
     text-decoration: none;
     cursor: pointer;
@@ -262,7 +257,7 @@ button {
 }
 
 .Idea .container article {
-    padding: 60px 240px 0 240px;
+    padding: 60px 12rem 0 12rem;
     line-height: 1.6;
     white-space: pre-line;
     max-width: 1600px;
@@ -274,7 +269,7 @@ button {
 
 .Idea .container .author {
     margin-bottom: 60px;
-    font-size: 16px;
+    font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -284,33 +279,6 @@ button {
     height: 24px;
     border-bottom: 3px solid #000;
     position: absolute;
-}
-
-.Idea .picture-description {
-    padding: 16px 240px 10px 240px;
-    font-size: 12px;
-    text-align: end;
-    color: var(--font-white);
-}
-
-.Idea .container .question {
-    font-weight: 500;
-    line-height: 1.8;
-}
-
-.Idea .container .inside-content-image-container {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-}
-
-.Idea .container .inside-content-image-container img {
-    margin: 0;
-}
-
-.Idea .container .inside-content-image-container p {
-    margin: 10px 0;
-    font-size: 12px;
 }
 
 .Idea .container .random-ideas {
@@ -349,8 +317,8 @@ button {
 }
 
 .Registry .content .dot {
-    width: 30px;
-    height: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
 }
 
@@ -367,7 +335,6 @@ button {
 /* Footer component */
 
 footer {
-    font-size: 20px;
     height: 60px;
     display: flex;
     justify-content: flex-end;
@@ -395,3 +362,49 @@ footer span a:last-child {
     padding: 0;
 
 }
+
+/* Media queries */
+
+/* Tablet - max-width: 1080px */
+
+@media only screen and (max-width: 811px) {
+
+    :root {
+        font-size: 16px;
+    }
+
+    /* .IdeasRow .title, h1 {
+        font-size: 38px;
+    } */
+
+
+
+
+
+}
+
+@media only screen and (max-width: 376px) {
+
+    :root {
+        font-size: 10px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

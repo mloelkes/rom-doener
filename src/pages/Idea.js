@@ -63,11 +63,11 @@ function Idea() {
 
     const introStyle = {
         fontWeight: 600,
-        fontSize: "24px"
+        fontSize: "1.2rem"
     }
 
     const hightlightStyle = {
-        fontSize: "24px",
+        fontSize: "1.2rem",
         fontWeight: 600,
         paddingLeft: "160px"
     }
@@ -88,7 +88,7 @@ function Idea() {
         <div className="Idea">
             <div className="container">
                 <header style={backgroundStyle}>
-                    <h3>{idea.tag}</h3>
+                    <h3 className="tag">{idea.tag}</h3>
                     <h1>{idea.title}</h1>
                 </header>
                 <section style={backgroundStyle} className="header-picture-container">

@@ -61,23 +61,12 @@ function Idea() {
         backgroundColor: idea?.color
     }
 
-    const introStyle = {
-        fontWeight: 600,
-        fontSize: "1.2rem"
-    }
-
-    const hightlightStyle = {
-        fontSize: "1.2rem",
-        fontWeight: 600,
-        paddingLeft: "160px"
-    }
-
     const ideaToDisplay = idea?.text.map((textEntry, i) => {
-        if (textEntry.type === "intro") return <p key={i} style={introStyle} >{textEntry.paragraph}</p>
+        if (textEntry.type === "intro") return <p key={i} className="intro">{textEntry.paragraph}</p>
         else if (textEntry.type === "highlight") {
             return <>
                 <div className="highlight-line"></div>
-                <p key={i} style={hightlightStyle} >{textEntry.paragraph}</p>
+                <p key={i} className="highlight">{textEntry.paragraph}</p>
             </>
         }
         else return <p key={i} >{textEntry.paragraph}</p>

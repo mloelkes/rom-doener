@@ -42,6 +42,8 @@ h3 {
     margin: 0 0 20px 0;
     padding: 12px;
     margin-bottom: 42px;
+    color: var(--font);
+    border: 3px solid var(--border);
 }
 
 a {
@@ -129,7 +131,6 @@ button {
     text-transform: uppercase;
     font-size: 0.8rem;
     font-weight: 600;
-    padding: 12px;
 }
 
 /* Map component */
@@ -202,11 +203,6 @@ button {
 
 .IdeasRow .tag {
     margin: 30px 0 0 0;
-    padding: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: var(--font);
-    border: 3px solid var(--border);
 }
 
 .IdeasRow .title {
@@ -230,18 +226,13 @@ button {
 .Idea header {
     box-sizing: border-box;
     width: 100%;
-    padding: 120px 120px 30px 120px;  
+    padding: 120px 6rem 30px 6rem;  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     line-height: 1.4;
-    background-color: #00000014;
-}
-
-.Idea header h3 {
-    border: 3px solid #000;
 }
 
 .Idea .header-picture-container {
@@ -249,7 +240,6 @@ button {
     padding-bottom: 100px;
     display: flex;
     justify-content: center;
-    background-color: #00000014;
 }
 
 .Idea .header-picture-container img {
@@ -274,11 +264,22 @@ button {
     text-transform: uppercase;
 }
 
+.Idea .container .intro {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
 .Idea .container .highlight-line {
     width: 120px;
     height: 24px;
     border-bottom: 3px solid #000;
     position: absolute;
+}
+
+.Idea .container .highlight {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 160px;
 }
 
 .Idea .container .random-ideas {
@@ -365,7 +366,29 @@ footer span a:last-child {
 
 /* Media queries */
 
-/* Tablet - max-width: 1080px */
+/* Tablet landscape mode - max-width: 1080px */
+
+@media only screen and (max-width: 1081px) {
+
+    :root {
+        font-size: 18px;
+    }
+
+    .Idea .container .intro, .Idea .container .highlight {
+        font-size: 1rem;
+    }
+
+    .Idea .container article {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .Registry .content > *:not(:last-child) {
+        border-bottom-width: 2px;
+    }
+}
+
+/* Tablet portrait mode - max-width: 810px */
 
 @media only screen and (max-width: 811px) {
 
@@ -373,38 +396,80 @@ footer span a:last-child {
         font-size: 16px;
     }
 
-    /* .IdeasRow .title, h1 {
-        font-size: 38px;
-    } */
-
-
-
-
-
+    h3 {
+        border-width: 2px;
+    }
 }
 
-@media only screen and (max-width: 376px) {
+/* Smartphone portrait mode - max-width: 428px */
+
+@media only screen and (max-width: 429px) {
 
     :root {
-        font-size: 10px;
+        font-size: 12px;
     }
 
+    h3 {
+        padding: 10px;
+        border-width: 2px;
+    }
 
+    .Navigation .links:first-child {
+        margin-left: 0;
+    }
 
+    .Navigation {
+        box-sizing: border-box;
+        height: 120px;
+        padding: 30px 60px 30px 60px;
+        flex-direction: column-reverse;
+    }
 
+    .Navigation .links {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Navigation .links .link:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .Navigation .home {
+        margin: 0 0 20px 0;
+    }
+
+    .Ideas .container {
+        margin-top: 120px;
+    }
+
+    .Idea .container {
+        margin-top: 40px;
+    }
+
+    .Idea .container article {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .Idea .container .highlight-line {
+        display: none;
+    }
+    
+    .Idea .container .highlight {
+        padding-left: 0;
+    }
+
+    .Registry .content {
+        margin-top: 120px;
+    }
+
+    .Registry .content > *:not(:last-child) {
+        border-bottom-width: 1px;
+    }
+
+    .content-page {
+        margin-top: 120px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

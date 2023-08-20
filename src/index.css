@@ -6,6 +6,8 @@
     --font: rgb(0, 0, 0);
     --font-white: rgb(255, 255, 255);
     --border: rgb(0, 0, 0);
+    --page-margin: 60px;
+    --bars-height: 60px;
     font-size: 20px;
 }
 
@@ -78,14 +80,14 @@ button {
 }
 
 .content-page {
-    margin: 60px 60px 30px 60px;
+    margin: var(--bars-height) var(--page-margin) 30px var(--page-margin);
     display: flex;
     flex-direction: column;
     line-height: 1.6;
 }
 
 .content-page h1 {
-    margin-bottom: 30px;
+    margin-bottom: 1.5rem;
     font-size: 2.5rem;
     line-height: 1.4;
     color: var(--font);
@@ -101,7 +103,7 @@ button {
 
 .Navigation {
     width: 100%;
-    height: 60px;
+    height: var(--bars-height);
     position: fixed;
     top: 0; 
     display: flex;
@@ -112,7 +114,7 @@ button {
 }
 
 .Navigation .links:first-child {
-    margin-left: 60px;
+    margin-left: var(--page-margin);
 }
 
 .Navigation .links .link:not(:first-child) {
@@ -126,7 +128,7 @@ button {
 }
 
 .Navigation .home {
-    margin-right: 60px;
+    margin-right: var(--page-margin);
     color: #000;
     text-transform: uppercase;
     font-size: 0.8rem;
@@ -149,22 +151,24 @@ button {
 }
 
 .marker {
-    width: 30px;
-    height: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
     cursor: pointer;
 }
 
 .PopUp {
     line-height: 1.4;
-    padding: 50px 40px 60px 60px;
+    padding: 2.5rem 2rem 3rem 3rem;
     border-radius: 0;
     font-family: 'Jost', sans-serif;
-    font-size: 20px;
+    font-size: 1rem;
     position: absolute;
     z-index: 2;
     margin: 60px 60px 0 0;
     width: 25%;
+    max-height: 50%;
+    overflow-y: auto;
 }
 
 .PopUp .snippet {
@@ -172,8 +176,8 @@ button {
 }
 
 .PopUp .link {
-    font-weight:500;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 0.8rem;
     text-decoration: none;
     color: var(--font);
 }
@@ -188,7 +192,7 @@ button {
 .Ideas .container {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: var(--bars-height);
 }
 
 /* IdeasRow component */
@@ -197,7 +201,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 60px;
+    padding: 0 var(--page-margin);
     line-height: 1.6;
 }
 
@@ -294,8 +298,8 @@ button {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0 60px;
-    margin-top: 60px;
+    padding: 0 var(--page-margin);
+    margin-top: var(--bars-height);
 }
 
 .Registry .content > * {
@@ -336,11 +340,11 @@ button {
 /* Footer component */
 
 footer {
-    height: 60px;
+    height: var(--bars-height);
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 60px 0 0;
+    padding: 0 var(--page-margin) 0 0;
 }
 
 footer span {
@@ -364,6 +368,7 @@ footer span a:last-child {
 
 }
 
+
 /* Media queries */
 
 /* Tablet landscape mode - max-width: 1080px */
@@ -371,7 +376,15 @@ footer span a:last-child {
 @media only screen and (max-width: 1081px) {
 
     :root {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    h3 {
+        border-width: 2px;
+    }
+    
+    .content-page h1 {
+        font-size: 2.2rem;
     }
 
     .Idea .container .intro, .Idea .container .highlight {
@@ -388,16 +401,18 @@ footer span a:last-child {
     }
 }
 
-/* Tablet portrait mode - max-width: 810px */
+/* Smartphone landscape mode - max-width: 812px */
 
-@media only screen and (max-width: 811px) {
-
+@media only screen and (max-width: 813px) {
     :root {
-        font-size: 16px;
+        font-size: 14px;
+        --page-margin: 40px;
+        --bars-height: 50px;
     }
 
-    h3 {
-        border-width: 2px;
+    .PopUp {
+        margin-top: 0;
+        padding: 1rem 1rem 1rem 2rem;
     }
 }
 
@@ -407,6 +422,12 @@ footer span a:last-child {
 
     :root {
         font-size: 12px;
+        --page-margin: 30px;
+        --bars-height: 46px;
+    }
+
+    h1 {
+        font-size: 2.4rem;
     }
 
     h3 {
@@ -414,37 +435,16 @@ footer span a:last-child {
         border-width: 2px;
     }
 
-    .Navigation .links:first-child {
-        margin-left: 0;
-    }
-
-    .Navigation {
-        box-sizing: border-box;
-        height: 120px;
-        padding: 30px 60px 30px 60px;
-        flex-direction: column-reverse;
-    }
-
-    .Navigation .links {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
+    .content-page h1 {
+        font-size: 1.4rem;
     }
 
     .Navigation .links .link:not(:first-child) {
-        margin-left: 0;
+        margin-left: 20px;
     }
 
-    .Navigation .home {
-        margin: 0 0 20px 0;
-    }
-
-    .Ideas .container {
-        margin-top: 120px;
-    }
-
-    .Idea .container {
-        margin-top: 40px;
+    .IdeasRow .title {
+        font-size: 1.6rem;
     }
 
     .Idea .container article {
@@ -452,24 +452,25 @@ footer span a:last-child {
         padding-right: 4rem;
     }
 
+    .Idea .container article p {
+        margin-bottom: 20px;
+    }
+
     .Idea .container .highlight-line {
         display: none;
     }
-    
+
     .Idea .container .highlight {
         padding-left: 0;
     }
 
-    .Registry .content {
-        margin-top: 120px;
+    .PopUp {
+        padding: 2.5rem 2rem 3rem 3rem;
+        width: 50%;
+        max-height: 50%;
     }
 
-    .Registry .content > *:not(:last-child) {
-        border-bottom-width: 1px;
-    }
-
-    .content-page {
-        margin-top: 120px;
+    footer {
+        padding-right: 30px;
     }
 }
-

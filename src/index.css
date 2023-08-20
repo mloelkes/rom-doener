@@ -261,6 +261,10 @@ button {
     margin-bottom: 40px;
 }
 
+.Idea .container article a {
+    text-decoration: underline;
+}
+
 .Idea .container .author {
     margin-bottom: 60px;
     font-size: 0.8rem;

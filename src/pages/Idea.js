@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import ideasData from "../data/ideasData.json";
 import Footer from "../components/Footer.js";
 import IdeasRow from "../components/IdeasRow";
+import parse from "html-react-parser";
 
 function Idea() {
     const { id } = useParams();
@@ -62,14 +63,14 @@ function Idea() {
     }
 
     const ideaToDisplay = idea?.text.map((textEntry, i) => {
-        if (textEntry.type === "intro") return <p key={i} className="intro">{textEntry.paragraph}</p>
+        if (textEntry.type === "intro") return <p key={i} className="intro">{parse(textEntry.paragraph)}</p>
         else if (textEntry.type === "highlight") {
             return <>
                 <div className="highlight-line"></div>
-                <p key={i} className="highlight">{textEntry.paragraph}</p>
+                <p key={i} className="highlight">{parse(textEntry.paragraph)}</p>
             </>
         }
-        else return <p key={i} >{textEntry.paragraph}</p>
+        else return <p key={i} >{parse(textEntry.paragraph)}</p>
     })
 
     if (!idea) return <h3>Loading</h3>

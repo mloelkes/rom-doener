@@ -19,8 +19,11 @@ function Map() {
             container: "map-content",
             style: 'mapbox://styles/mapbox/light-v10',
             center: [8.680000, 50.110000],
-            zoom: 12
+            zoom: 12,
+            attributionControl: false
         })
+
+        mapboxMap.addControl(new mapboxgl.AttributionControl(), "bottom-left");
 
         mapboxMap.on("click", clickMap);
 

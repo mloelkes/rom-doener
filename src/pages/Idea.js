@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useState, useEffect, useRef } from "react";
+import { useParams, useSearchParams } from "react-router-dom";
 import ideasData from "../data/ideasData.json";
 import Footer from "../components/Footer.js";
 import IdeasRow from "../components/IdeasRow";
@@ -7,6 +7,8 @@ import parse from "html-react-parser";
 
 function Idea() {
     const { id } = useParams();
+    const [searchParams, setSearchParams] = useSearchParams();
+    const registryId = searchParams.get("registry-id");
 
     const [idea, setIdea] = useState(undefined);
     const [imageLoaded, setImageLoaded] = useState(false);
@@ -39,15 +41,28 @@ function Idea() {
         return randomIdeas
     }
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-        
+    useEffect(() => {        
         const idea = ideasData.filter(ideasEntry => {
             return ideasEntry.id === id;
         })[0];
 
         setIdea(idea)
     }, [id])
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+
+        if (registryId) {
+            const spans = document.querySelectorAll(`.${registryId}`)
+            if (spans.length > 0) {
+                spans.forEach(span => {
+                    span.style.backgroundColor = idea?.color;
+                })
+
+                spans[0].scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
+    }, [idea])
 
     const fontStyle = {
         color: idea?.color

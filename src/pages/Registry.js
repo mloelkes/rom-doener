@@ -17,7 +17,7 @@ function Registry() {
                 <p className="word">{registryEntry.term}</p>
                 {registryEntry.ideas.map(idea => {
                     return (
-                        <Link key={idea.id} to={`/ideas/${idea.id}`} className="link"><div style={{backgroundColor: idea.color}} className="dot"></div></Link>
+                        <Link key={idea.id} to={`/ideas/${idea.id}?registry-id=${registryEntry.id}`} className="link"><div style={{backgroundColor: idea.color}} className="dot"></div></Link>
                     )
                 })
                 }

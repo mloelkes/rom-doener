@@ -1,5 +1,6 @@
 [
     {
+        "id": "dada",
         "term": "Dada",
         "ideas": [
             {
@@ -9,6 +10,7 @@
         ]
     },
     {
+        "id": "vwpolo",
         "term": "VW-Polo",
         "ideas": [
             {
@@ -18,6 +20,7 @@
         ]
     },
     {
+        "id": "strassenlaterne",
         "term": "Straßenlaterne",
         "ideas": [
             {
@@ -27,6 +30,7 @@
         ]
     },
     {
+        "id": "petraroth",
         "term": "Petra Roth",
         "ideas": [
             {
@@ -36,6 +40,7 @@
         ]
     },
     {
+        "id": "johannesitten",
         "term": "Johannes Itten",
         "ideas": [
             {
@@ -45,6 +50,7 @@
         ]
     },
     {
+        "id": "bauhaus",
         "term": "Bauhaus",
         "ideas": [
             {
@@ -54,6 +60,7 @@
         ]
     },
     {
+        "id": "westend",
         "term": "Westend",
         "ideas": [
             {
@@ -71,6 +78,7 @@
         ]
     },
     {
+        "id": "nordend",
         "term": "Nordend",
         "ideas": [
             {
@@ -80,6 +88,7 @@
         ]
     },
     {
+        "id": "ostend",
         "term": "Ostend",
         "ideas": [
             {
@@ -93,6 +102,7 @@
         ]
     },
     {
+        "id": "sachsenhausen",
         "term": "Sachsenhausen",
         "ideas": [
             {
@@ -102,6 +112,7 @@
         ]
     },
     {
+        "id": "innenstadt",
         "term": "Innenstadt",
         "ideas": [
             {
@@ -111,6 +122,7 @@
         ]
     },
     {
+        "id": "goethe",
         "term": "Goethe",
         "ideas": [
             {
@@ -124,6 +136,7 @@
         ]
     },
     {
+        "id": "merian",
         "term": "Merian",
         "ideas": [
             {
@@ -133,6 +146,7 @@
         ]
     },
     {
+        "id": "durchdienachtmit",
         "term": "Durch die Nacht mit...",
         "ideas": [
             {
@@ -142,6 +156,7 @@
         ]
     },
     {
+        "id": "christophschlingensief",
         "term": "Christoph Schlingensief",
         "ideas": [
             {
@@ -151,6 +166,7 @@
         ]
     },
     {
+        "id": "michelfriedman",
         "term": "Michel Friedman",
         "ideas": [
             {
@@ -160,6 +176,7 @@
         ]
     },
     {
+        "id": "filmmuseum",
         "term": "Filmmuseum",
         "ideas": [
             {
@@ -169,6 +186,7 @@
         ]
     },
     {
+        "id": "hanneloreelsner",
         "term": "Hannelore Elsner",
         "ideas": [
             {
@@ -178,6 +196,7 @@
         ]
     },
     {
+        "id": "schirnkunsthalle",
         "term": "Schirn Kunsthalle",
         "ideas": [
             {
@@ -187,6 +206,7 @@
         ]
     },
     {
+        "id": "maintower",
         "term": "Maintower",
         "ideas": [
             {
@@ -196,6 +216,7 @@
         ]
     },
     {
+        "id": "johnnyklinke",
         "term": "Johnny Klinke",
         "ideas": [
             {
@@ -205,6 +226,7 @@
         ]
     },
     {
+        "id": "tigerpalast",
         "term": "Tigerpalast",
         "ideas": [
             {
@@ -214,6 +236,7 @@
         ]
     },
     {
+        "id": "tram",
         "term": "Tram",
         "ideas": [
             {
@@ -223,6 +246,7 @@
         ]
     },
     {
+        "id": "bus",
         "term": "Bus",
         "ideas": [
             {
@@ -236,6 +260,7 @@
         ]
     },
     {
+        "id": "hoechst",
         "term": "Höchst",
         "ideas": [
             {
@@ -245,6 +270,7 @@
         ]
     },
     {
+        "id": "fechenheim",
         "term": "Fechenheim",
         "ideas": [
             {
@@ -254,6 +280,7 @@
         ]
     },
     {
+        "id": "main",
         "term": "Main",
         "ideas": [
             {
@@ -267,6 +294,7 @@
         ]
     },
     {
+        "id": "seckbach",
         "term": "Seckbach",
         "ideas": [
             {
@@ -276,6 +304,7 @@
         ]
     },
     {
+        "id": "deutschebundesbank",
         "term": "Deutsche Bundesbank",
         "ideas": [
             {
@@ -285,6 +314,7 @@
         ]
     },
     {
+        "id": "fernsehturm",
         "term": "Fernsehturm",
         "ideas": [
             {
@@ -294,6 +324,7 @@
         ]
     },
     {
+        "id": "messe",
         "term": "Messe",
         "ideas": [
             {
@@ -303,6 +334,7 @@
         ]
     },
     {
+        "id": "frankfurterverkehrsgesellschaft",
         "term": "Frankfurter Verkehrsgesellschaft",
         "ideas": [
             {
@@ -312,6 +344,7 @@
         ]
     },
     {
+        "id": "barbaraklemm",
         "term": "Barbara Klemm",
         "ideas": [
             {
@@ -321,6 +354,7 @@
         ]
     },
     {
+        "id": "evademski",
         "term": "Eva Demski",
         "ideas": [
             {
@@ -330,6 +364,7 @@
         ]
     },
     {
+        "id": "andreasmeier",
         "term": "Andreas Meier",
         "ideas": [
             {
@@ -339,6 +374,7 @@
         ]
     },
     {
+        "id": "thomasbayrle",
         "term": "Thomas Bayrle",
         "ideas": [
             {
@@ -348,6 +384,7 @@
         ]
     },
     {
+        "id": "heinergoebbels",
         "term": "Heiner Goebbels",
         "ideas": [
             {
@@ -357,6 +394,7 @@
         ]
     },
     {
+        "id": "claudiameixner",
         "term": "Claudia Meixner",
         "ideas": [
             {
@@ -366,6 +404,7 @@
         ]
     },
     {
+        "id": "marietheresdeutsch",
         "term": "Marie-Theres Deutsch",
         "ideas": [
             {
@@ -375,7 +414,8 @@
         ]
     },
     {
-        "term": "Christoph Mäckler",
+        "id": "christophmaeckler",
+        "term": "Christoph Mäckler",
         "ideas": [
             {
                 "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",
@@ -388,6 +428,7 @@
         ]
     },
     {
+        "id": "stefanforster",
         "term": "Stefan Forster",
         "ideas": [
             {
@@ -397,6 +438,7 @@
         ]
     },
     {
+        "id": "paris",
         "term": "Paris",
         "ideas": [
             {
@@ -406,6 +448,7 @@
         ]
     },
     {
+        "id": "rom",
         "term": "Rom",
         "ideas": [
             {
@@ -415,6 +458,7 @@
         ]
     },
     {
+        "id": "piazzanovana",
         "term": "Piazza Novana",
         "ideas": [
             {
@@ -424,6 +468,7 @@
         ]
     },
     {
+        "id": "guydebord",
         "term": "Guy Debord",
         "ideas": [
             {
@@ -433,6 +478,7 @@
         ]
     },
     {
+        "id": "schweizerplatz",
         "term": "Schweizer Platz",
         "ideas": [
             {
@@ -446,6 +492,7 @@
         ]
     },
     {
+        "id": "rekonstruktion",
         "term": "Rekonstruktion",
         "ideas": [
             {
@@ -463,6 +510,7 @@
         ]
     },
     {
+        "id": "schwedlercarre",
         "term": "Schwedler-Carré",
         "ideas": [
             {
@@ -472,6 +520,7 @@
         ]
     },
     {
+        "id": "hanauerlandstrasse",
         "term": "Hanauer Landstraße",
         "ideas": [
             {
@@ -481,6 +530,7 @@
         ]
     },
     {
+        "id": "holbeinstrasse",
         "term": "Holbeinstraße",
         "ideas": [
             {
@@ -490,6 +540,7 @@
         ]
     },
     {
+        "id": "suedbahnhof",
         "term": "Südbahnhof",
         "ideas": [
             {
@@ -499,6 +550,7 @@
         ]
     },
     {
+        "id": "schweizerstrasse",
         "term": "Schweizer Straße",
         "ideas": [
             {
@@ -508,6 +560,7 @@
         ]
     },
     {
+        "id": "domroemerprojekt",
         "term": "Dom-Römer-Projekt",
         "ideas": [
             {
@@ -517,6 +570,7 @@
         ]
     },
     {
+        "id": "neuesfrankfurt",
         "term": "Neues Frankfurt",
         "ideas": [
             {
@@ -526,6 +580,7 @@
         ]
     },
     {
+        "id": "ernstmay",
         "term": "Ernst May",
         "ideas": [
             {
@@ -535,6 +590,7 @@
         ]
     },
     {
+        "id": "sowjetunion",
         "term": "Sowjetunion",
         "ideas": [
             {
@@ -544,6 +600,7 @@
         ]
     },
     {
+        "id": "nairobi",
         "term": "Nairobi",
         "ideas": [
             {
@@ -553,6 +610,7 @@
         ]
     },
     {
+        "id": "reginagoeckede",
         "term": "Regina Göckede",
         "ideas": [
             {
@@ -562,6 +620,7 @@
         ]
     },
     {
+        "id": "kenwoodhaus",
         "term": "Kenwood Haus",
         "ideas": [
             {
@@ -571,6 +630,7 @@
         ]
     },
     {
+        "id": "eckhardherrel",
         "term": "Eckhard Herrel",
         "ideas": [
             {
@@ -580,6 +640,7 @@
         ]
     },
     {
+        "id": "kenia",
         "term": "Kenia",
         "ideas": [
             {
@@ -589,6 +650,7 @@
         ]
     },
     {
+        "id": "erichmendelsohn",
         "term": "Erich Mendelsohn",
         "ideas": [
             {
@@ -598,6 +660,7 @@
         ]
     },
     {
+        "id": "breslau",
         "term": "Breslau",
         "ideas": [
             {
@@ -607,6 +670,7 @@
         ]
     },
     {
+        "id": "telschowhaus",
         "term": "Telschow-Haus",
         "ideas": [
             {
@@ -616,6 +680,7 @@
         ]
     },
     {
+        "id": "bruederluckhardt",
         "term": "Brüder Luckhardt",
         "ideas": [
             {
@@ -625,6 +690,7 @@
         ]
     },
     {
+        "id": "brunotaut",
         "term": "Bruno Taut",
         "ideas": [
             {
@@ -634,6 +700,7 @@
         ]
     },
     {
+        "id": "koeln",
         "term": "Köln",
         "ideas": [
             {
@@ -643,6 +710,7 @@
         ]
     },
     {
+        "id": "werkbundausstellung",
         "term": "Werkbundausstellung",
         "ideas": [
             {
@@ -652,6 +720,7 @@
         ]
     },
     {
+        "id": "berlin",
         "term": "Berlin",
         "ideas": [
             {
@@ -661,6 +730,7 @@
         ]
     },
     {
+        "id": "shellgebaeude",
         "term": "Shell-Gebäude",
         "ideas": [
             {
@@ -670,6 +740,7 @@
         ]
     },
     {
+        "id": "emilfahrenkamp",
         "term": "Emil Fahrenkamp",
         "ideas": [
             {
@@ -679,6 +750,7 @@
         ]
     },
     {
+        "id": "hadrianstrasse",
         "term": "Hadrianstraße",
         "ideas": [
             {
@@ -688,6 +760,7 @@
         ]
     },
     {
+        "id": "roemerstadt",
         "term": "Römerstadt",
         "ideas": [
             {
@@ -697,6 +770,7 @@
         ]
     },
     {
+        "id": "neuefrankfurteraltstadt",
         "term": "Neue Frankfurter Altstadt",
         "ideas": [
             {
@@ -706,6 +780,7 @@
         ]
     },
     {
+        "id": "frankfurternase",
         "term": "Frankfurter Nase",
         "ideas": [
             {
@@ -715,6 +790,7 @@
         ]
     },
     {
+        "id": "goethestantemelber",
         "term": "Goethes Tante Melber",
         "ideas": [
             {
@@ -724,6 +800,7 @@
         ]
     },
     {
+        "id": "hausgoldenewaage",
         "term": "Haus „Goldene Waage“",
         "ideas": [
             {
@@ -733,6 +810,7 @@
         ]
     },
     {
+        "id": "dom",
         "term": "Dom",
         "ideas": [
             {
@@ -742,6 +820,7 @@
         ]
     },
     {
+        "id": "ubahnstationbockenheimerwarte",
         "term": "U-Bahn-Station „Bockenheimer Warte“",
         "ideas": [
             {
@@ -751,6 +830,7 @@
         ]
     },
     {
+        "id": "strassenbahn",
         "term": "Straßenbahn",
         "ideas": [
             {
@@ -760,6 +840,7 @@
         ]
     },
     {
+        "id": "ubahn",
         "term": "U-Bahn",
         "ideas": [
             {
@@ -773,6 +854,7 @@
         ]
     },
     {
+        "id": "ubahnhoefe",
         "term": "U-Bahnhöfe",
         "ideas": [
             {
@@ -782,6 +864,7 @@
         ]
     },
     {
+        "id": "willybrandtplatz",
         "term": "Willy-Brandt-Platz",
         "ideas": [
             {
@@ -791,6 +874,7 @@
         ]
     },
     {
+        "id": "essenerhauptbahnhof",
         "term": "Essener Hauptbahnhof",
         "ideas": [
             {
@@ -800,6 +884,7 @@
         ]
     },
     {
+        "id": "entfremdung",
         "term": "Entfremdung",
         "ideas": [
             {
@@ -809,6 +894,7 @@
         ]
     },
     {
+        "id": "unbewusstes",
         "term": "Unbewusstes",
         "ideas": [
             {
@@ -818,6 +904,7 @@
         ]
     },
     {
+        "id": "michaelherl",
         "term": "Michael Herl",
         "ideas": [
             {
@@ -827,6 +914,7 @@
         ]
     },
     {
+        "id": "museumsufer",
         "term": "Museumsufer",
         "ideas": [
             {
@@ -836,6 +924,7 @@
         ]
     },
     {
+        "id": "alteoper",
         "term": "Alte Oper",
         "ideas": [
             {
@@ -845,6 +934,7 @@
         ]
     },
     {
+        "id": "schauspielhaus",
         "term": "Schauspielhaus",
         "ideas": [
             {
@@ -858,6 +948,7 @@
         ]
     },
     {
+        "id": "zoo",
         "term": "Zoo",
         "ideas": [
             {
@@ -871,6 +962,7 @@
         ]
     },
     {
+        "id": "palmengarten",
         "term": "Palmengarten",
         "ideas": [
             {
@@ -884,6 +976,7 @@
         ]
     },
     {
+        "id": "skyline",
         "term": "Skyline",
         "ideas": [
             {
@@ -893,6 +986,7 @@
         ]
     },
     {
+        "id": "hochhaus",
         "term": "Hochhaus",
         "ideas": [
             {
@@ -902,6 +996,7 @@
         ]
     },    
     {
+        "id": "messeturm",
         "term": "Messeturm",
         "ideas": [
             {
@@ -911,6 +1006,7 @@
         ]
     },    
     {
+        "id": "mainplaza",
         "term": "Main Plaza",
         "ideas": [
             {
@@ -920,6 +1016,7 @@
         ]
     },    
     {
+        "id": "westendtower",
         "term": "Westend Tower",
         "ideas": [
             {
@@ -929,6 +1026,7 @@
         ]
     },       
     {
+        "id": "bertramweisshaar",
         "term": "Bertram Weisshaar",
         "ideas": [
             {
@@ -938,6 +1036,7 @@
         ]
     },    
     {
+        "id": "kingkong",
         "term": "King Kong",
         "ideas": [
             {
@@ -947,6 +1046,7 @@
         ]
     },    
     {
+        "id": "empirestatebuilding",
         "term": "Empire State Building",
         "ideas": [
             {
@@ -956,6 +1056,7 @@
         ]
     },    
     {
+        "id": "architektur",
         "term": "Architektur",
         "ideas": [
             {
@@ -965,6 +1066,7 @@
         ]
     },    
     {
+        "id": "buchmesse",
         "term": "Buchmesse",
         "ideas": [
             {
@@ -974,6 +1076,7 @@
         ]
     },
     {
+        "id": "stadtraum",
         "term": "Stadtraum",
         "ideas": [
             {
@@ -983,6 +1086,7 @@
         ]
     },
     {
+        "id": "stadtgeschichte",
         "term": "Stadtgeschichte",
         "ideas": [
             {
@@ -992,6 +1096,7 @@
         ]
     },
     {
+        "id": "gabrielelorenzer",
         "term": "Gabriele Lorenzer",
         "ideas": [
             {
@@ -1001,6 +1106,7 @@
         ]
     },
     {
+        "id": "muhammadali",
         "term": "Muhammad Ali",
         "ideas": [
             {
@@ -1010,6 +1116,7 @@
         ]
     },
     {
+        "id": "karlmildenberger",
         "term": "Karl Mildenberger",
         "ideas": [
             {
@@ -1019,6 +1126,7 @@
         ]
     },
     {
+        "id": "waldstadion",
         "term": "Waldstadion",
         "ideas": [
             {
@@ -1028,6 +1136,7 @@
         ]
     },
     {
+        "id": "hitchcock",
         "term": "Hitchcock",
         "ideas": [
             {
@@ -1037,6 +1146,7 @@
         ]
     },
     {
+        "id": "turmpalastkino",
         "term": "Turmpalast-Kino",
         "ideas": [
             {
@@ -1046,6 +1156,7 @@
         ]
     },
     {
+        "id": "oskarschlemmer",
         "term": "Oskar Schlemmer",
         "ideas": [
             {
@@ -1055,6 +1166,7 @@
         ]
     },
     {
+        "id": "festhalle",
         "term": "Festhalle",
         "ideas": [
             {
@@ -1064,6 +1176,7 @@
         ]
     },
     {
+        "id": "phillippepetit",
         "term": "Phillippe Petit",
         "ideas": [
             {
@@ -1073,6 +1186,7 @@
         ]
     },
     {
+        "id": "historischesmuseum",
         "term": "Historisches Museum",
         "ideas": [
             {
@@ -1082,6 +1196,7 @@
         ]
     },
     {
+        "id": "zeitgeist",
         "term": "Zeitgeist",
         "ideas": [
             {
@@ -1091,6 +1206,7 @@
         ]
     },
     {
+        "id": "boulevardvitrine",
         "term": "Boulevardvitrine",
         "ideas": [
             {
@@ -1100,6 +1216,7 @@
         ]
     },
     {
+        "id": "alteboerse",
         "term": "Alte Börse",
         "ideas": [
             {
@@ -1109,6 +1226,7 @@
         ]
     },
     {
+        "id": "rossmarkt",
         "term": "Roßmarkt",
         "ideas": [
             {
@@ -1118,6 +1236,7 @@
         ]
     },
     {
+        "id": "stadtplanungsamt",
         "term": "Stadtplanungsamt",
         "ideas": [
             {
@@ -1127,6 +1246,7 @@
         ]
     },
     {
+        "id": "deutschesarchitekturmuseum",
         "term": "Deutsches Architekturmuseum",
         "ideas": [
             {
@@ -1136,6 +1256,7 @@
         ]
     },
     {
+        "id": "tuerme",
         "term": "Türme",
         "ideas": [
             {
@@ -1145,6 +1266,7 @@
         ]
     },
     {
+        "id": "roemerberg",
         "term": "Römerberg",
         "ideas": [
             {
@@ -1154,6 +1276,7 @@
         ]
     },
     {
+        "id": "wilhelmopatz",
         "term": "Wilhelm Opatz",
         "ideas": [
             {
@@ -1163,6 +1286,7 @@
         ]
     },
     {
+        "id": "postmoderne",
         "term": "Postmoderne",
         "ideas": [
             {
@@ -1172,6 +1296,7 @@
         ]
     },
     {
+        "id": "robertbyron",
         "term": "Robert Byron",
         "ideas": [
             {
@@ -1181,6 +1306,7 @@
         ]
     },
     {
+        "id": "autogerechtestadt",
         "term": "Autogerechte Stadt",
         "ideas": [
             {
@@ -1190,6 +1316,7 @@
         ]
     },
     {
+        "id": "ubahnstation",
         "term": "U-Bahn-Station",
         "ideas": [
             {
@@ -1199,6 +1326,7 @@
         ]
     },
     {
+        "id": "stadtbahnstation",
         "term": "Stadtbahn-Station",
         "ideas": [
             {
@@ -1208,6 +1336,7 @@
         ]
     },
     {
+        "id": "ubahnstationeschenheimertor",
         "term": "U-Bahn-Station „Eschenheimer Tor“",
         "ideas": [
             {
@@ -1217,6 +1346,7 @@
         ]
     },
     {
+        "id": "ubahnstationdornbusch",
         "term": "U-Bahn-Station „Dornbusch“",
         "ideas": [
             {
@@ -1226,6 +1356,7 @@
         ]
     },
     {
+        "id": "thedoors",
         "term": "The Doors",
         "ideas": [
             {
@@ -1235,6 +1366,7 @@
         ]
     },
     {
+        "id": "kongresshalle",
         "term": "Kongresshalle",
         "ideas": [
             {
@@ -1244,6 +1376,7 @@
         ]
     },
     {
+        "id": "frankfurterroemer",
         "term": "Frankfurter Römer",
         "ideas": [
             {

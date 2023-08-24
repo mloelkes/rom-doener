@@ -5,8 +5,9 @@ import ideasData from "../data/ideasData.json";
 import PopUp from "./PopUp.js"
 
 function Map() {
-    const [showPopUp, setShopPopUp] = useState(false);
+    const [showPopUp, setShowPopUp] = useState(false);
     const [popUpContent, setPopUpContent] = useState(undefined);
+    const [clickedMarkerPosition, setClickedMarkerPosition] = useState({})
 
     function initializeMap() {
         const mapboxMap = createMap();
@@ -53,14 +54,14 @@ function Map() {
     }
 
     function clickMarker(e, ideasEntry) {
-        setShopPopUp(true);
+        setClickedMarkerPosition({ x: e.target.getBoundingClientRect().x, y: e.target.getBoundingClientRect().y })
+        setShowPopUp(true);
         setPopUpContent(ideasEntry)
-
         e.stopPropagation();
     }
  
     function clickMap() {
-        setShopPopUp(false);
+        setShowPopUp(false);
     }
 
     useEffect(() => {
@@ -69,7 +70,7 @@ function Map() {
 
     return (
         <div className="Map">
-            {showPopUp && <PopUp popUpContent= {popUpContent}/>}
+            {showPopUp && <PopUp popUpContent={popUpContent} clickedMarkerPosition={clickedMarkerPosition}/>}
             <div id="map-content"></div>
         </div>
     )

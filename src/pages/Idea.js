@@ -59,10 +59,15 @@ function Idea() {
                     span.style.backgroundColor = idea?.color;
                 })
 
-                spans[0].scrollIntoView({ behavior: "smooth", block: "start" });
+                scrollToElement(spans[0]);
             }
         }
     }, [idea])
+
+    function scrollToElement(el) {
+        const y = el.getBoundingClientRect().top - 120;
+        window.scrollTo({ top: y, behavior: "smooth" });
+    }
 
     const fontStyle = {
         color: idea?.color

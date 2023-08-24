@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import registryData from "../data/registryData.json";
 import Footer from "../components/Footer";
+import { useEffect } from "react";
 
 function Registry() {
 
@@ -24,6 +25,10 @@ function Registry() {
             </span>
         )
     })
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
 
     return (
         <div className="Registry">

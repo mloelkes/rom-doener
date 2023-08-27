@@ -55,10 +55,7 @@ function Discover() {
     }
 
     function definePopUpMaxWidth() {
-        if (window.innerWidth < 429) {
-            return 60;
-        }
-
+        if (window.innerWidth < 429) return 60;
         return 50;
     }
 

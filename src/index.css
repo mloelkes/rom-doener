@@ -317,7 +317,7 @@ button {
     background-color:white;
     z-index: 2;
     /* border-bottom: 3px dotted #000; */
-    box-shadow: 6px 4px 10px rgb(120,120,120,0.5);
+    /* box-shadow: 6px 4px 10px rgb(120,120,120,0.5); */
 }
 
 .Navigation .links:first-child {

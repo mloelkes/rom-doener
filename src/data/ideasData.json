@@ -286,7 +286,7 @@
                 "paragraph": "So auch in Frankfurt am Main, wo bis vor Kurzem die letzten innerstädtischen Exemplare unweit der <span className='alteboerse'>Alten Börse</span> und am zentral gelegenen <span className='rossmarkt'>Roßmarkt</span> standen. Nun sind sie verschwunden. Obwohl an ihnen täglich tausende Menschen vorbeigingen, war auch ihr Zustand zugegeben trostlos. Zu einem Drittel leer, zum weiten foliert, waren die übrigen Kästen derart miserabel dekoriert, dass das Ensemble den Fußweg mehr entstellte als bereicherte."
             },
             {
-                "type": "highlight",
+                "type": "default",
                 "paragraph": "Ihr Verschwinden ist trotz allem ein Verlust von Stadtraumgeschichte. Der Rückzug der Warenwelt hätte durchaus Chancen geboten. In Frankfurt hat man sie vorerst verpasst. Vorerst, denn nun gilt es eben, sie wieder aus der städtischen Versenkung zu holen."
             },
             {

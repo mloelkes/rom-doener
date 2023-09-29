@@ -351,7 +351,7 @@ footer {
     align-items: center;
     padding: 0 var(--page-margin) 0 0;
     /* border-top: 3px dotted #000; */
-    box-shadow: -6px -4px 10px rgb(120,120,120,0.5);
+    /* box-shadow: -6px -4px 10px rgb(120,120,120,0.5); */
 }
 
 footer span {
@@ -369,7 +369,7 @@ footer span a:last-child {
     bottom: 0;
     right: 0;
     /* border-top: none; */
-    box-shadow: none;
+    /* box-shadow: none; */
 }
 
 .Discover footer Link {

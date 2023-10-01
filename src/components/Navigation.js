@@ -11,7 +11,8 @@ function Navigation(props) {
                 <Link className="link" to="/about">Über</Link>
             </div>
 
-            <Link className="link home" to="/">Rom/Döner</Link>
+            {/* <Link className="link home" to="/">Rom/Döner</Link> */}
+            <img src={process.env.PUBLIC_URL + "/images/logo_white.png"}  alt="logo" />
         </div>
     )
 }

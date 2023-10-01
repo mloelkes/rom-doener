@@ -348,6 +348,11 @@ button {
     cursor: pointer;
 }
 
+.Navigation img {
+    height: 75%;
+    margin-right: 1rem;
+}
+
 .Navigation .home {
     margin-right: var(--page-margin);
     color: #000;

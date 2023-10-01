@@ -12,7 +12,7 @@ function Navigation(props) {
             </div>
 
             {/* <Link className="link home" to="/">Rom/Döner</Link> */}
-            <Link className="home" to="/"><img src={process.env.PUBLIC_URL + "/images/logo_white.png"}  alt="logo" /></Link>
+            <Link className="home" to="/"><img src={process.env.PUBLIC_URL + "/images/logo.png"}  alt="logo" /></Link>
         </div>
     )
 }

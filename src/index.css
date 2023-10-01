@@ -435,7 +435,7 @@ footer span a:last-child {
         width: 100%;
     }
 
-    .PopUpContent {
+    .PopUpContent .link {
         padding: 1rem 1rem 1rem 2rem;
     }
 }

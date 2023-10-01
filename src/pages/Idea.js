@@ -81,12 +81,15 @@ function Idea() {
     const backgroundStyle = {
         backgroundColor: idea?.color
     }
+    const highlightLineStyle = {
+        borderColor: idea?.color
+    }
 
     const ideaToDisplay = idea?.text.map((textEntry, i) => {
         if (textEntry.type === "intro") return <p key={i} className="intro">{parse(textEntry.paragraph)}</p>
         else if (textEntry.type === "highlight") {
             return <>
-                <div className="highlight-line"></div>
+                <div style={highlightLineStyle} className="highlight-line"></div>
                 <p key={i} className="highlight">{parse(textEntry.paragraph)}</p>
             </>
         }

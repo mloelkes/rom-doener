@@ -32,7 +32,7 @@ function Imprint() {
                 <p>Anbieterkennzeichnung i.S.d. § 5 TMG</p>
                 <p>Anbieter dieser Internetpräsenz ist Kenneth Hujer.</p>
                 <p>Postanschrift</p>
-                <p>Kenneth Hujer<br/>Freiligrathstraße 56<br/>60385 Frankfurt am Main<br/>Telefon: 0157 53433551<br/>E-Mail: kennethhujer@gmail.com</p>
+                <p>Kenneth Hujer<br/>Freiligrathstraße 56<br/>60385 Frankfurt am Main<br/>Telefon: <a href="tel:+4915753433551">0157 534 335 51</a><br/>E-Mail: <a href="kennethhujer@gmail.com">kennethhujer@gmail.com</a></p>
                 <p>Inhaltlich verantwortlich für diese Webseite i.S.d. § 55 II RStV: Kenneth Hujer</p>
                 <br/>
                 <p>© 2023 Kenneth Hujer</p>

@@ -91,7 +91,13 @@ button {
     font-size: 2.5rem;
     line-height: 1.4;
     color: var(--font);
-    
+}
+
+.content-page a:hover {
+    text-decoration: underline;
+}
+.content-page img {
+    width: 40%;
 }
 
 .content-page > * {
@@ -116,7 +122,16 @@ button {
     height: 1.5rem;
     border-radius: 50%;
     cursor: pointer;
+    transition: width 0.5s, height 0.5s;
 }
+
+.Pin:hover {
+    width: 2rem;
+    height: 2rem;
+    transition: width 0.5s, height 0.5s;
+}
+
+
 
 .mapboxgl-popup-content {
     padding: 0;

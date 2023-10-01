@@ -15,7 +15,7 @@ function Imprint() {
                 <p>Kenneth Hujer</p>
                 <br/>
                 <h2>Gestaltung</h2>
-                <p>Marco Lölkes, Kenneth Hujer</p>
+                <p>Marco Lölkes, Kenneth Hujer, Yuriy Matveev</p>
                 <br/>
                 <h2>Technische Umsetzung</h2>
                 <p>Marco Lölkes</p>

@@ -123,13 +123,11 @@ button {
     height: 1.5rem;
     border-radius: 50%;
     cursor: pointer;
-    transition: width 0.5s, height 0.5s;
+    transition: transform 0.5s;
 }
 
 .Pin:hover {
-    width: 2rem;
-    height: 2rem;
-    transition: width 0.5s, height 0.5s;
+    transform: scale(1.2);
 }
 
 .mapboxgl-popup-content {
@@ -283,6 +281,11 @@ button {
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
+    transition: transform 0.5s;
+}
+
+.Registry .content .dot:hover {
+    transform: scale(1.2)
 }
 
 /* About page, PrivacyPolicy page, Imprint page, Registry page */

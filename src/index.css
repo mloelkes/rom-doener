@@ -477,11 +477,13 @@ footer span a:last-child {
     }
 
     .Idea .container article p {
-        margin-bottom: 20px;
+        margin-bottom: 1.5rem;
     }
 
     .Idea .container .highlight-line {
-        display: none;
+        position: relative;
+        height: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     .Idea .container .highlight {

@@ -144,7 +144,6 @@ button {
     font-size: 1rem;
     line-height: 1.4;
     box-shadow: 6px 4px 10px rgb(120,120,120,0.5);
-    color: #fff;
 }
 
 .PopUpContent .snippet {
@@ -155,7 +154,6 @@ button {
     font-weight: 500;
     font-size: 0.8rem;
     text-decoration: none;
-    color: #fff;
 }
 
 .PopUpContent .link:hover {

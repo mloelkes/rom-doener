@@ -46,7 +46,7 @@
             },
             {
                 "type": "default",
-                "paragraph": "Als Schluss-Zugabe ein „Fun Fact“ zum Thema <span className='thedoors'>„The Doors“</span>: Die gleichnamige US- amerikanische-Rockband spielte in Deutschland nur ganze zwei Konzerte, beide in Frankfurt, an ein und demselben Abend des 14. Septembers 1968 in der längst abgerissenen <span className='kongresshalle'>Kongresshalle</span>. Am Vortag gab es zudem eine kurze Playback-Aufnahme für die ZDF-Fernsehsendung „4-3-2-1 Hot & Sweet“ und zwar vor den altehrwürdigen Türen des <span className='frankfurterroemer'>Frankfurter Römers</span>, die es selbstredend nicht in den „Architektur-Korridor“ schaffen würden, epochenbedingt."
+                "paragraph": "Als Schluss-Zugabe ein „Fun Fact“ zum Thema <span className='thedoors'>„The Doors“</span>: Die gleichnamige US- amerikanische-Rockband spielte in Deutschland nur ganze zwei Konzerte, beide in Frankfurt, an ein und demselben Abend des 14. Septembers 1968 in der längst abgerissenen <span className='kongresshalle'>Kongresshalle</span>. Am Vortag gab es zudem eine kurze Playback-Aufnahme für die ZDF-Fernsehsendung „4-3-2-1 Hot & Sweet“ und zwar vor den altehrwürdigen Türen des <span className='roemer'>Frankfurter Römers</span>, die es selbstredend nicht in den „Architektur-Korridor“ schaffen würden, epochenbedingt."
             }
         ],
         "snippet": "So kam mir die Idee eines 'Architektur-Korridors', bei dem ein jedes Jahrzehnt (ebenfalls beginnend mit den 1950er Jahren) durch ein Frankfurter Gebäude vertreten ist, das auf seine wohl zentralste Gestalt, sozusagen auf das Schlüsselelement seiner Fassade reduziert wird: nämlich seine Eingangs-Tür.",
@@ -71,7 +71,7 @@
             },
             {
                 "type": "default",
-                "paragraph": "In Frankfurt hat man ab den 1980er Jahren versucht, durch eine abwechslungsreiche Architektur der <span className='ubahnhoefe'>U-Bahnhöfe</span>, diesem Verlust entgegenzuwirken. Zumeist orientiert sich die Gestaltung hierbei an den oberirdisch liegenden Quartieren oder Institutionen und ermöglicht so zugleich eine Orientierung im Stadtraum. Weil <span className='ubahn'>U-Bahn</span>-Fahrten aber vornehmlich aus der Durchfahrt dunkler Tunnel bestehen, bleiben ihre Fahrgäste weiterhin arm an Sinneseindrücken und von der oberirdischen Stadt größtenteils abgetrennt."
+                "paragraph": "In Frankfurt hat man ab den 1980er Jahren versucht, durch eine abwechslungsreiche Architektur der U-Bahnhöfe, diesem Verlust entgegenzuwirken. Zumeist orientiert sich die Gestaltung hierbei an den oberirdisch liegenden Quartieren oder Institutionen und ermöglicht so zugleich eine Orientierung im Stadtraum. Weil <span className='ubahn'>U-Bahn</span>-Fahrten aber vornehmlich aus der Durchfahrt dunkler Tunnel bestehen, bleiben ihre Fahrgäste weiterhin arm an Sinneseindrücken und von der oberirdischen Stadt größtenteils abgetrennt."
             },
             {
                 "type": "default",

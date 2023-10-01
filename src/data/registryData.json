@@ -854,16 +854,6 @@
         ]
     },
     {
-        "id": "ubahnhoefe",
-        "term": "U-Bahnhöfe",
-        "ideas": [
-            {
-                "id": "53731126-288a-4bc8-bb9a-4672400a1da8",
-                "color": "rgb(48, 57, 255)"
-            }
-        ]
-    },
-    {
         "id": "willybrandtplatz",
         "term": "Willy-Brandt-Platz",
         "ideas": [
@@ -1376,8 +1366,8 @@
         ]
     },
     {
-        "id": "frankfurterroemer",
-        "term": "Frankfurter Römer",
+        "id": "roemer",
+        "term": "Römer",
         "ideas": [
             {
                 "id": "1aca6da0-4aca-4386-ae87-500a62dcd787",

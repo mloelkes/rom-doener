@@ -131,8 +131,6 @@ button {
     transition: width 0.5s, height 0.5s;
 }
 
-
-
 .mapboxgl-popup-content {
     padding: 0;
 }

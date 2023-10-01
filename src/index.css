@@ -485,6 +485,14 @@ footer span a:last-child {
         padding-left: 0;
     }
 
+    .Registry .content > *:not(:last-child) {
+        border-bottom: 1.5px solid #000;
+    }
+
+    .Registry .content > * {
+        height: 3.2rem;
+    }
+
     footer {
         padding-right: 30px;
     }

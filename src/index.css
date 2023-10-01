@@ -139,26 +139,21 @@ button {
 }
 
 .PopUpContent {
-    padding: 2.5rem 2rem 3rem 3rem;
     font-family: 'Jost', sans-serif;
     font-size: 1rem;
     line-height: 1.4;
     box-shadow: 6px 4px 10px rgb(120,120,120,0.5);
 }
 
-.PopUpContent .snippet {
-    margin: 10px 10px 10px 0;
+.PopUpContent .link {
+    display: inline-block;
+    padding: 2.5rem 2rem 3rem 3rem;
 }
 
-.PopUpContent .link {
+.PopUpContent .snippet-info {
     font-weight: 500;
     font-size: 0.8rem;
     text-decoration: none;
-}
-
-.PopUpContent .link:hover {
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 /* Ideas page */

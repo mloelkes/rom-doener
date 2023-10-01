@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 function IdeasRow({ideasEntry}) {
 
     return (
-        <div className="IdeasRow" style={{ backgroundColor: ideasEntry?.color }}>
+        <Link to={`/ideas/${ideasEntry.id}`} className="IdeasRow" style={{ backgroundColor: ideasEntry?.color }}>
             <h3 className="tag">{ideasEntry?.tag}</h3>
-            <Link to={`/ideas/${ideasEntry.id}`} className="title">{ideasEntry?.title}</Link>
-        </div>
+            <p className="title">{ideasEntry?.title}</p>
+        </Link>
     )
 }
 

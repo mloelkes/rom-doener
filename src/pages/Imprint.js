@@ -1,14 +1,24 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Footer from "../components/Footer";
+import ideasData from "../data/ideasData.json";
 
 function Imprint() {
+    const [randomColor, setRandomColor] = useState("rgb(255,255,255)");
 
     useEffect(() => {
         window.scrollTo(0, 0);
+
+        setRandomColor(getRandomColor());
     }, [])
 
+    function getRandomColor() {
+        const randomIndex = Math.floor(Math.random() * ideasData.length);
+
+        return ideasData[randomIndex].color;
+    }
+
     return (
-        <div className="Imprint">
+        <div className="Imprint" style={{ backgroundColor: randomColor }}>
             <div className="content-page">
                 <h1>Impressum</h1>
                 <h2>Konzept und Projektleitung</h2>

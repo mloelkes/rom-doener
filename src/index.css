@@ -80,7 +80,7 @@ button {
 }
 
 .content-page {
-    margin: var(--bars-height) 12rem 30px 12rem;
+    margin: calc(var(--bars-height) * 2) 12rem 30px 12rem;
     display: flex;
     flex-direction: column;
     line-height: 1.6;
@@ -431,8 +431,8 @@ footer span a:last-child {
     }
 
     .content-page {
-        padding-left: 6rem;
-        padding-right: 6rem;
+        margin-right: 4rem;
+        margin-left: 4rem;
     }
     
     .content-page h1 {
@@ -489,9 +489,11 @@ footer span a:last-child {
         padding: 10px;
         border-width: 2px;
     }
+
     .content-page {
-        padding-left: 4rem;
-        padding-right: 4rem;
+        margin-top: calc(var(--bars-height) * 1.5);
+        margin-right: 2rem;
+        margin-left: 2rem;
     }
 
     .content-page h1 {

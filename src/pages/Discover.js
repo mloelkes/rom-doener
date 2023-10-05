@@ -1,4 +1,4 @@
-import Map, { Marker, Popup } from "react-map-gl";
+import Map, { Marker, Popup, NavigationControl } from "react-map-gl";
 import Footer from "../components/Footer";
 import ideasData from "../data/ideasData.json";
 import { useEffect, useState } from "react";
@@ -19,7 +19,6 @@ function Discover() {
                     id={ideasEntry.id} 
                     longitude={coordinate.lng} 
                     latitude={coordinate.lat}
-                    showZoom="true"
                     onClick={(e) => {
                         e.originalEvent.stopPropagation(); 
                         clickMarker(ideasEntry, coordinate);
@@ -56,9 +55,13 @@ function Discover() {
     }
 
     function definePopUpMaxWidth() {
-        if (window.innerWidth < 429) return 60;
+        if (isSmallDevice()) return 60;
         return 50;
     }
+
+    function isSmallDevice() {
+        return window.innerWidth < 429;
+      }
 
     useEffect(() => {
         setMarkers(() => createAllMarkers());
@@ -79,6 +82,7 @@ function Discover() {
             >
                 { markers }
                 { popUps }
+                {!isSmallDevice() && <NavigationControl showZoom="true" position="bottom-left" />}
             </Map>
             <Footer />
         </div>

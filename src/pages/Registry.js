@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import registryData from "../data/registryData.json";
+import ideasData from "../data/ideasData.json";
 import Footer from "../components/Footer";
 import { useEffect } from "react";
 
@@ -18,7 +19,7 @@ function Registry() {
                 <p className="word">{registryEntry.term}</p>
                 {registryEntry.ideas.map(idea => {
                     return (
-                        <Link key={idea.id} to={`/ideas/${idea.id}?registry-id=${registryEntry.id}`} className="link"><div style={{backgroundColor: idea.color}} className="dot"></div></Link>
+                        <Link key={idea} to={`/ideas/${idea}?registry-id=${registryEntry.id}`} className="link"><div style={{backgroundColor: getColorForIdea(idea)}} className="dot"></div></Link>
                     )
                 })
                 }
@@ -29,6 +30,10 @@ function Registry() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
+
+    function getColorForIdea(id) {
+        return ideasData.find(ideasEntry => ideasEntry.id === id).color;
+    }
 
     return (
         <div className="Registry">

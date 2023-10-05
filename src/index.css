@@ -106,14 +106,14 @@ button {
     color: var(--font);
 }
 
-.link {
+.navlink {
     position: relative;
     line-height: 1.6;
     text-decoration: none;
     cursor: pointer;
 }
 
-.link::after {
+.navlink::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -126,7 +126,7 @@ button {
     transition: transform 0.25s ease-out;
 }
 
-.link:hover::after {
+.navlink:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -371,7 +371,7 @@ button {
     margin-left: var(--page-margin);
 }
 
-.Navigation .links .link:not(:first-child) {
+.Navigation .links .navlink:not(:first-child) {
     margin-left: 40px;
 }
 

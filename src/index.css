@@ -498,8 +498,8 @@ footer span a:last-child {
         font-size: 1.4rem;
     }
 
-    .Navigation .links .link:not(:first-child) {
-        margin-left: 20px;
+    .Navigation .links .navlink:not(:first-child) {
+        margin-left: 12px;
     }
 
     .IdeasRow .title {
@@ -543,5 +543,9 @@ footer span a:last-child {
 
     footer {
         padding-right: 30px;
+    }
+
+    footer span a:last-child {
+        margin-left: 12px;
     }
 }

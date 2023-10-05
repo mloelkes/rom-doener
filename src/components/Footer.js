@@ -4,7 +4,7 @@ function Footer({backgroundStyle}) {
 
     return (
         <footer style={backgroundStyle}>
-            <span><NavLink to="/privacy" className={({isActive}) => (isActive ? "link selected" : "link")}>Datenschutz</NavLink><NavLink to="/imprint" className={({isActive}) => (isActive ? "link selected" : "link")}>Impressum</NavLink></span>
+            <span><NavLink to="/privacy" className={({isActive}) => (isActive ? "navlink selected" : "navlink")}>Datenschutz</NavLink><NavLink to="/imprint" className={({isActive}) => (isActive ? "navlink selected" : "navlink")}>Impressum</NavLink></span>
         </footer>
     )
 }

@@ -533,6 +533,14 @@ footer span a:last-child {
         height: 3.2rem;
     }
 
+    .Registry .content .word {
+        margin-right: 24px;
+    }
+
+    .Registry .content .link {
+        margin-right: 12px;
+    }
+
     footer {
         padding-right: 30px;
     }

@@ -19,6 +19,7 @@ function Discover() {
                     id={ideasEntry.id} 
                     longitude={coordinate.lng} 
                     latitude={coordinate.lat}
+                    showZoom="true"
                     onClick={(e) => {
                         e.originalEvent.stopPropagation(); 
                         clickMarker(ideasEntry, coordinate);

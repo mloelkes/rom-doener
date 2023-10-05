@@ -7,6 +7,8 @@ function PrivacyPolicy() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
+
+        setRandomColor(getRandomColor());
     }, [])
 
     function getRandomColor() {

@@ -69,15 +69,6 @@ function Idea() {
         window.scrollTo({ top: y, behavior: "smooth" });
     }
 
-    const fontStyle = {
-        color: idea?.color
-    }
-
-    const fontAndBorderStyle = {
-        color: idea?.color,
-        border: `3px solid ${idea?.color}`
-    }
-
     const backgroundStyle = {
         backgroundColor: idea?.color
     }
@@ -110,7 +101,7 @@ function Idea() {
                 </section>
                 <article>
                     {ideaToDisplay}
-                    <p className="author" style={fontStyle}>Idee von {idea.author}</p>
+                    <p className="author">Idee von {idea.author}</p>
                 </article>
                 <section className="random-ideas">
                     {randomIdeasList}

@@ -331,7 +331,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #F6F6F4;
 }
 
 /* IdeasRow component */
@@ -408,6 +408,10 @@ footer span {
 
 footer span a:last-child {
     margin-left: 30px;
+}
+
+.About footer, .PrivacyPolicy footer, .Imprint footer, .Registry footer {
+    background-color: #fff;
 }
 
 .Discover footer {

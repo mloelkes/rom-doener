@@ -1,24 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Footer from "../components/Footer";
-import ideasData from "../data/ideasData.json";
 
 function PrivacyPolicy() {
-    const [randomColor, setRandomColor] = useState("rgb(255,255,255)");
-
     useEffect(() => {
         window.scrollTo(0, 0);
-
-        setRandomColor(getRandomColor());
     }, [])
 
-    function getRandomColor() {
-        const randomIndex = Math.floor(Math.random() * ideasData.length);
-
-        return ideasData[randomIndex].color;
-    }
-
     return (
-        <div className="PrivacyPolicy" style={{ backgroundColor: randomColor }}>
+        <div className="PrivacyPolicy">
             <div className="content-page">
                 <h1>Datenschutzerklärung</h1>
                 <h2>Geltungsbereich und Umgang mit personenbezogenen Daten</h2>

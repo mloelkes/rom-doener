@@ -1,25 +1,13 @@
-
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Footer from "../components/Footer";
-import ideasData from "../data/ideasData.json";
 
 function About() {
-    const [randomColor, setRandomColor] = useState("rgb(255,255,255)");
-
     useEffect(() => {
         window.scrollTo(0, 0);
-
-        setRandomColor(getRandomColor());
     }, [])
 
-    function getRandomColor() {
-        const randomIndex = Math.floor(Math.random() * ideasData.length);
-
-        return ideasData[randomIndex].color;
-    }
-
     return(
-        <div className="About" style={{ backgroundColor: randomColor }}>
+        <div className="About">
             <div className="content-page">
                 <h1>Über das Projekt</h1>
                 <img src={process.env.PUBLIC_URL + "/images/romdoener.jpg"}  alt="about" />

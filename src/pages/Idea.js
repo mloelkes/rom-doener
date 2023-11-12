@@ -11,7 +11,6 @@ function Idea() {
     const registryId = searchParams.get("registry-id");
 
     const [idea, setIdea] = useState(undefined);
-    const [imageLoaded, setImageLoaded] = useState(false);
     
     const randomIdeasList = getRandomIdeas().map(ideasEntry => 
         <IdeasRow ideasEntry={ideasEntry}/>
@@ -96,8 +95,7 @@ function Idea() {
                     <h1>{idea.title}</h1>
                 </header>
                 <section style={backgroundStyle} className="header-picture-container">
-                    <img style={{display: imageLoaded ? "none" : "initial"}} src={process.env.PUBLIC_URL + "/images/loading.png"} alt="header"/> 
-                    <img style={{display: imageLoaded ? "initial" : "none"}} src={process.env.PUBLIC_URL + "/images/" + idea.image} alt="header" onLoad={() => setImageLoaded(true)}/> 
+                    <img src={process.env.PUBLIC_URL + "/images/" + idea.image} alt="header"/> 
                 </section>
                 <article>
                     {ideaToDisplay}

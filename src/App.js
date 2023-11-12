@@ -11,6 +11,7 @@ import Imprint from "./pages/Imprint.js";
 import Error from "./pages/Error.js";
 
 function App() {
+
     return (
         <div className="App">
             <Navigation></Navigation>

@@ -1,14 +1,17 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useContext } from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 import ideasData from "../data/ideasData.json";
 import Footer from "../components/Footer.js";
 import IdeasRow from "../components/IdeasRow";
 import parse from "html-react-parser";
+import { IdeaColorContext } from "../context/ideaColor.context.js";
 
 function Idea() {
     const { id } = useParams();
     const [searchParams, setSearchParams] = useSearchParams();
     const registryId = searchParams.get("registry-id");
+
+    const { setIdeaColor } = useContext(IdeaColorContext);
 
     const [idea, setIdea] = useState(undefined);
     
@@ -46,6 +49,7 @@ function Idea() {
         })[0];
 
         setIdea(idea)
+        setIdeaColor(idea.color);
     }, [id])
 
     useEffect(() => {

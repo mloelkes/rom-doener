@@ -201,6 +201,10 @@ button {
 
 /* Ideas page */
 
+.Ideas {
+    overflow: hidden;
+}
+
 .Ideas .container {
     display: flex;
     flex-direction: column;
@@ -213,6 +217,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
     background-color: var(--background);
 }
 

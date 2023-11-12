@@ -201,6 +201,10 @@ button {
 
 /* Ideas page */
 
+.Ideas {
+    overflow: hidden;
+}
+
 .Ideas .container {
     display: flex;
     flex-direction: column;
@@ -213,6 +217,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
     background-color: var(--background);
 }
 
@@ -525,6 +530,10 @@ footer span a:last-child {
         width: 100%;
     }
 
+    .Idea .header-picture-container img {
+        width: 70%;
+    }
+
     .PopUpContent .link {
         padding: 1rem 1rem 1rem 2rem;
     }
@@ -565,6 +574,10 @@ footer span a:last-child {
 
     .IdeasRow .title {
         font-size: 1.6rem;
+    }
+
+    .Idea .header-picture-container img {
+        width: 90%;
     }
 
     .Idea .container article {

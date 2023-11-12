@@ -249,6 +249,20 @@ button {
     margin-bottom: 40px;
 }
 
+.Idea .container article p:first-of-type:first-letter {
+    font-size: 318%;
+    line-height: 1;
+    float: left;
+    padding-right: .125em;
+  }
+
+  /* Anpassungen für Firefox */
+  @-moz-document url-prefix() {
+    .Idea .container article p:first-of-type:first-letter {
+      margin-top: .13em;
+    }
+  }
+
 .Idea .container article a {
     text-decoration: underline;
 }

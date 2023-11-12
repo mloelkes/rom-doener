@@ -181,6 +181,11 @@ button {
     font-family: 'Jost', sans-serif;
     font-size: 1rem;
     line-height: 1.4;
+    transition: transform 0.5s;
+}
+
+.PopUpContent:hover {
+    transform: scale(1.01);
 }
 
 .PopUpContent .link {
@@ -335,7 +340,7 @@ button {
 }
 
 .Registry .content .dot:hover {
-    transform: scale(1.2)
+    transform: scale(1.2);
 }
 
 /* About page, PrivacyPolicy page, Imprint page, Registry page */
@@ -356,6 +361,11 @@ button {
     align-items: flex-start;
     padding: 0 var(--page-margin);
     line-height: 1.6;
+    transition: transform 0.5s;
+}
+
+.IdeasRow:hover {
+    transform: scale(1.01);
 }
 
 .IdeasRow .tag {

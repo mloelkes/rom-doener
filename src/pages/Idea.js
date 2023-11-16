@@ -71,7 +71,7 @@ function Idea() {
     }, [idea])
 
     function scrollToElement(el) {
-        const y = el.getBoundingClientRect().top - 240;
+        const y = el.getBoundingClientRect().top - (window.innerHeight / 3);
         window.scrollTo({ top: y, behavior: "smooth" });
     }
 

@@ -11,7 +11,7 @@ function Idea() {
     const [searchParams, setSearchParams] = useSearchParams();
     const registryId = searchParams.get("registry-id");
 
-    const { setIdeaColor } = useContext(IdeaColorContext);
+    const { setIdeaColor, setShowColor } = useContext(IdeaColorContext);
 
     const [idea, setIdea] = useState(undefined);
     
@@ -50,6 +50,9 @@ function Idea() {
 
         setIdea(idea)
         setIdeaColor(idea.color);
+        setShowColor(true);
+
+        return () => setShowColor(false);
     }, [id])
 
     useEffect(() => {

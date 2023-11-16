@@ -67,6 +67,8 @@ button {
     cursor: pointer;
 }
 
+ /* Content page */
+
 .content-page {
     margin: calc(var(--bars-height) * 2) 12rem 30px 12rem;
     display: flex;
@@ -415,10 +417,26 @@ button {
     width: 1.4rem;
     height: 1.4rem;
     border-radius: 50%;
-    cursor: pointer;
     background: linear-gradient(-45deg, rgb(227,220,202), rgb(233,178,42), rgb(239,144,36), rgb(237,73,48), rgb(211, 36, 41), rgb(143, 72, 148), rgb(0, 139, 149), rgb(75,140,178), rgb(159,128,148));
     background-size: 3000% 3000%;
     animation: gradient 60s ease infinite;
+    transition: opacity 5s;
+}
+
+.Navigation .logo .dot-overlay {
+    width: 1.4rem;
+    height: 1.4rem;
+    position: absolute;
+    border-radius: 50%;
+    transition: opacity 5s;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.invisible {
+    opacity: 0;
 }
 
 @keyframes gradient {

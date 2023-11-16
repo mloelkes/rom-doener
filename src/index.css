@@ -67,18 +67,6 @@ button {
     cursor: pointer;
 }
 
-.visible {
-    opacity: 1;
-    z-index: 1;
-    transition: opacity 0.05s linear;
-}
-
-.invisible {
-    opacity: 0;
-    z-index: 0;
-    transition: opacity 0.05s linear, z-index 0.05s step-end;
-}
-
 .content-page {
     margin: calc(var(--bars-height) * 2) 12rem 30px 12rem;
     display: flex;
@@ -158,8 +146,8 @@ button {
 }
 
 .Pin {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.4rem;
+    height: 1.4rem;
     border-radius: 50%;
     cursor: pointer;
     transition: transform 0.5s;
@@ -338,8 +326,8 @@ button {
 }
 
 .Registry .content .dot {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.4rem;
+    height: 1.4rem;
     border-radius: 50%;
     transition: transform 0.5s;
 }
@@ -423,27 +411,32 @@ button {
     margin-right: 1rem;
 }
 
-.Navigation .logo .Pin {
-    /* background-color: #F6F6F4; */
-    background: linear-gradient(-45deg, rgb(211, 36, 41), rgb(233,178,42), rgb(239,144,36), rgb(237,73,48), rgb(143, 72, 148), rgb(159,128,148), rgb(75,140,178), rgb(0, 139, 149), rgb(227,220,202));
-    background-size: 900% 900%;
-    animation: gradient 25s ease infinite;
+.Navigation .logo .dot {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background: linear-gradient(-45deg, rgb(227,220,202), rgb(233,178,42), rgb(239,144,36), rgb(237,73,48), rgb(211, 36, 41), rgb(143, 72, 148), rgb(0, 139, 149), rgb(75,140,178), rgb(159,128,148));
+    background-size: 3000% 3000%;
+    animation: gradient 60s ease infinite;
 }
 
 @keyframes gradient {
 	0% {
-		background-position: 0% 50%;
+		background-position: 0% 0%;
 	}
+    25% {
+        background-position: 0% 100%;
+    }
 	50% {
-		background-position: 100% 40%;
+		background-position: 100% 100%;
 	}
+    75% {
+        background-position: 100% 0%;
+    }
 	100% {
-		background-position: 0% 50%;
+		background-position: 0% 0%;
 	}
-}
-
-.Navigation .logo .Pin:hover {
-    transform: scale(1);
 }
 
 .Navigation .logo img {

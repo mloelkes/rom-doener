@@ -18,7 +18,7 @@ function Navigation() {
                 <NavLink className={({isActive}) => (isActive ? "navlink selected" : "navlink")} to="/about">Über</NavLink>
             </div>
             <Link className="logo" to="/">
-                <div style={pinStyle} className="Pin"></div>
+                <div style={pinStyle} className="dot"></div>
                 <img src={process.env.PUBLIC_URL + "/images/logo.png"}  alt="logo-font"/>
             </Link>
         </div>  

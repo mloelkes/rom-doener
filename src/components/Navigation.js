@@ -12,7 +12,7 @@ function Navigation() {
     return (
         <div className="Navigation">
             <div className="links">
-                <NavLink className={["/registry", "/discover", "/about"].includes(location.pathname) ? "navlink" : "navlink selected"} to="/ideas">Ideen</NavLink>
+                <NavLink className={location.pathname.includes("ideas") ? "navlink selected" : "navlink"} to="/ideas">Ideen</NavLink>
                 <NavLink className={({isActive}) => (isActive ? "navlink selected" : "navlink")} to="/registry">Register</NavLink>
                 <NavLink className={({isActive}) => (isActive ? "navlink selected" : "navlink")} to="/discover">Karte</NavLink>
                 <NavLink className={({isActive}) => (isActive ? "navlink selected" : "navlink")} to="/about">Über</NavLink>

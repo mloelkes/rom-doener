@@ -340,7 +340,7 @@ button {
 
 /* About page, PrivacyPolicy page, Imprint page, Registry page */
 
-.About, .PrivacyPolicy, .Imprint, .Registry {
+.About, .PrivacyPolicy, .Imprint, .Registry, .Error {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -481,7 +481,7 @@ footer span a:last-child {
     margin-left: 30px;
 }
 
-.About footer, .PrivacyPolicy footer, .Imprint footer, .Registry footer {
+.About footer, .PrivacyPolicy footer, .Imprint footer, .Registry footer, .Error footer {
     background-color: #fff;
 }
 

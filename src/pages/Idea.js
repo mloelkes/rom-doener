@@ -93,20 +93,20 @@ function Idea() {
         else return <p key={i} >{parse(textEntry.paragraph)}</p>
     })
 
-    if (!idea) return <h3>Loading</h3>
-    else return (
+    // if (!idea) return <h3>Loading</h3>
+    return (
         <div className="Idea">
             <div className="container">
                 <header style={backgroundStyle}>
-                    <h3 className="tag">{idea.tag}</h3>
-                    <h1>{idea.title}</h1>
+                    <h3 className="tag">{idea?.tag}</h3>
+                    <h1>{idea?.title}</h1>
                 </header>
                 <section style={backgroundStyle} className="header-picture-container">
-                    <img src={process.env.PUBLIC_URL + "/images/" + idea.image} alt="header"/> 
+                    <img src={process.env.PUBLIC_URL + "/images/" + idea?.image} alt="header"/> 
                 </section>
                 <article>
                     {ideaToDisplay}
-                    <p className="author">Idee von {idea.author}</p>
+                    <p className="author">Idee von {idea?.author}</p>
                 </article>
                 <section className="random-ideas">
                     {randomIdeasList}

@@ -3,6 +3,7 @@
 
 :root {
     --background: rgb(255, 255, 255);
+    --content-background: #F6F6F4;
     --font: rgb(0, 0, 0);
     --font-white: rgb(255, 255, 255);
     --border: rgb(0, 0, 0);
@@ -49,7 +50,7 @@ h3 {
 }
 
 a {
-    color: #000;
+    color: var(--font);
     text-decoration: none;
 }
 
@@ -111,7 +112,7 @@ button {
     height: 1.5px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: var(--font);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -128,7 +129,7 @@ button {
     height: 1.5px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: var(--font);
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -282,7 +283,7 @@ button {
 .Idea .container .highlight-line {
     width: 120px;
     height: 24px;
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid var(--border);
     position: absolute;
 }
 
@@ -316,7 +317,7 @@ button {
 }
 
 .Registry .content > *:not(:last-child) {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid var(--border);
 }
 
 .Registry .content .word {
@@ -345,7 +346,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #F6F6F4;
+    background-color: var(--content-background);
 }
 
 /* IdeasRow component */
@@ -386,7 +387,7 @@ button {
 
 /* Navigation component */
 
-.Navigation {
+.Navigation .navigation-bar {
     width: 100%;
     height: var(--bars-height);
     position: fixed;
@@ -394,11 +395,11 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:white;
+    background-color: var(--background);
     z-index: 2;
 }
 
-.Navigation .links:first-child {
+.Navigation .links {
     margin-left: var(--page-margin);
 }
 
@@ -461,6 +462,10 @@ button {
     height: 75%;
 }
 
+.Navigation .Hamburger, .Navigation .Menu {
+    display: none;
+}
+
 /* Footer component */
 
 footer {
@@ -482,7 +487,7 @@ footer span a:last-child {
 }
 
 .About footer, .PrivacyPolicy footer, .Imprint footer, .Registry footer, .Error footer {
-    background-color: #fff;
+    background-color: var(--background);
 }
 
 .Discover footer {
@@ -576,7 +581,7 @@ footer span a:last-child {
     }
 
     .content-page {
-        margin-top: calc(var(--bars-height) * 1.5);
+        margin-top: var(--bars-height);
         margin-right: 2rem;
         margin-left: 2rem;
     }
@@ -585,8 +590,52 @@ footer span a:last-child {
         font-size: 1.4rem;
     }
 
-    .Navigation .links .navlink:not(:first-child) {
-        margin-left: 12px;
+    .Navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Navigation .Hamburger {
+        width: 1.4rem;
+        height: 1.4rem;
+        margin-left: 1.6rem;
+        padding: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    
+    .Navigation .Hamburger > * {
+        flex: 1;
+    }
+
+    .Navigation .Hamburger > *:not(:last-child) {
+        border-bottom: 2px solid var(--border);
+    }
+
+    .Navigation .links {
+        display: none;
+    }
+
+    .Navigation .Menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: var(--bars-height);
+        width: 100vw;
+        z-index: 1;
+        background-color: var(--content-background);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .Navigation .hide {
+        transform: translate(0, -100%);
+    }
+
+    .Navigation .Menu > * {
+        margin: 0.6rem 0;
     }
 
     .IdeasRow .title {
@@ -617,7 +666,7 @@ footer span a:last-child {
     }
 
     .Registry .content > *:not(:last-child) {
-        border-bottom: 1.5px solid #000;
+        border-bottom: 1.5px solid var(--border);
     }
 
     .Registry .content > * {

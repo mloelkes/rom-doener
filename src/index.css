@@ -200,6 +200,7 @@ button {
     display: flex;
     flex-direction: column;
     margin-top: var(--bars-height);
+    border-bottom: 0.6rem solid var(--content-background);
 }
 
 /* Idea page */
@@ -246,6 +247,7 @@ button {
     line-height: 1.6;
     white-space: pre-line;
     max-width: 1600px;
+    border-bottom: 0.6rem solid var(--content-background);
 }
 
 .Idea .container article p {
@@ -306,7 +308,7 @@ button {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0 var(--page-margin);
+    padding: 0.6rem var(--page-margin);
     margin-top: var(--bars-height);
 }
 

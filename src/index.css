@@ -234,6 +234,7 @@ button {
     padding-bottom: 100px;
     display: flex;
     justify-content: center;
+    border-bottom: 0.6rem solid var(--content-background);
 }
 
 .Idea .header-picture-container img {

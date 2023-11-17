@@ -241,7 +241,6 @@ button {
     line-height: 1.6;
     white-space: pre-line;
     max-width: 1600px;
-    border-bottom: 0.6rem solid var(--content-background);
 }
 
 .Idea .container article p {
@@ -293,6 +292,7 @@ button {
 .Idea .container .random-ideas {
     width: 100%;
     box-sizing: border-box;
+    border-top: 0.6rem solid var(--content-background);
 }
 
 /* Registry page */

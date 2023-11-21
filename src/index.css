@@ -686,3 +686,23 @@ footer span a:last-child {
         margin-left: 12px;
     }
 }
+
+/* Small smartphone portrait mode - max-width: 428px */
+
+@media only screen and (max-width: 360px) {
+
+    :root {
+        font-size: 10px;
+        --page-margin: 30px;
+        --bars-height: 46px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        padding: 8px;
+        border-width: 2px;
+    }
+}

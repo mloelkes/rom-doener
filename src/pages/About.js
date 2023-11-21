@@ -9,7 +9,7 @@ function About() {
     return(
         <div className="About">
             <div className="content-page">
-                <h1>Über das Projekt</h1>
+                <h1>Das Ideenprojekt „Rom/Döner“</h1>
                 <img src={process.env.PUBLIC_URL + "/images/romdoener.jpg"}  alt="about" />
                 <p>„Rom/Döner“ – kein unbedingt naheliegendes Begriffspaar. Frankfurterinnen und Frankfurtern kommt dabei allerdings sofort eine Assoziation in den Sinn: die U-Bahn-Station Dom/Römer. Vor einigen Jahren wurde sie auf einer ihrer Bahnsteigtafeln tatsächlich so unbenannt – eine künstlerische Intervention im öffentlichen Raum. Nach wenigen Tagen wieder rückgängig gemacht, hat die Umbenennung dennoch ihre Spuren hinterlassen. Einmal auf den Begriffswitz gebracht, denkt man beim Passieren der Station oder Hören ihres Namens mit einem Schmunzeln fortan gern an die Hauptstadt Italiens und das bekannteste Gericht der türkischen Küche.</p>
                 <p>Darum geht es im übertragenen Sinn auch beim Projekt „Rom/Döner“. Es möchte Frankfurt im Kleinen verändern. Das Projekt versteht die Mainmetropole dabei als historisch gewachsenen Raum veränderbarer Begebenheiten. Jede der Ideen schafft Bewusstsein, unterhält, erzählt Geschichte(n), verbindet scheinbar Unzusammenhängendes und verschiebt so die Wahrnehmung der Stadt, ohne zugleich Wirklichkeit werden zu müssen. Wenn manche der hier veröffentlichten Ideen eines Tages realisiert werden sollten: Umso besser!</p>

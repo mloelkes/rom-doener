@@ -642,6 +642,10 @@ footer span a:last-child {
         width: 80%;
     }
 
+    .Idea .container {
+        border-bottom: 0.6rem solid var(--content-background);
+    }
+
     .Idea .container article {
         padding: 1rem 2rem 1rem 2rem;
     }
@@ -677,11 +681,7 @@ footer span a:last-child {
     }
 
     footer {
-        padding-right: 30px;
-    }
-
-    footer span a:last-child {
-        margin-left: 12px;
+        display: none;
     }
 }
 

@@ -215,7 +215,7 @@ button {
 .Idea header {
     box-sizing: border-box;
     width: 100%;
-    padding: 120px 2rem 30px 2rem;  
+    padding: 7rem 2rem 0 2rem;  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,7 +226,7 @@ button {
 
 .Idea .header-picture-container {
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 3rem;
     display: flex;
     justify-content: center;
     border-bottom: 0.6rem solid var(--content-background);
@@ -237,7 +237,7 @@ button {
 }
 
 .Idea .container article {
-    padding: 60px 12rem 0 12rem;
+    padding: 3rem 12rem 3rem 12rem;
     line-height: 1.6;
     white-space: pre-line;
     max-width: 1600px;
@@ -265,7 +265,6 @@ button {
 }
 
 .Idea .container .author {
-    margin-bottom: 60px;
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -644,8 +643,7 @@ footer span a:last-child {
     }
 
     .Idea .container article {
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding: 1rem 2rem 1rem 2rem;
     }
 
     .Idea .container article p {

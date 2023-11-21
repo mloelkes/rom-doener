@@ -44,12 +44,14 @@ function Idea() {
         return randomIdeas
     }
 
-    useEffect(() => {        
+    useEffect(() => {
+        setImageLoaded(false);
+
         const idea = ideasData.filter(ideasEntry => {
             return ideasEntry.id === id;
         })[0];
 
-        setIdea(idea)
+        setIdea(idea);
         setIdeaColor(idea.color);
         setShowColor(true);
 
@@ -102,7 +104,8 @@ function Idea() {
                     <h1>{idea?.title}</h1>
                 </header>
                 <section style={backgroundStyle} className="header-picture-container">
-                    <img src={process.env.PUBLIC_URL + "/images/" + idea?.image} onLoad={() => setImageLoaded(true)} alt="header"/>
+                    <img src={process.env.PUBLIC_URL + "/images/" + idea?.image} style={ imageLoaded ? { } : { display: "none" } } onLoad={() => setImageLoaded(true)} alt="header"/>
+                    <div className="imageLoading" style={ imageLoaded ? { display: "none" } : { } }></div>
                 </section>
                 <article>
                     {ideaToDisplay}

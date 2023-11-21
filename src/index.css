@@ -237,6 +237,11 @@ button {
     border-bottom: 0.6rem solid var(--content-background);
 }
 
+.Idea .imageLoading {
+    width: 70%;
+    height: 100vh;
+}
+
 .Idea .header-picture-container img {
     width: 70%;
 }

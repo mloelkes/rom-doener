@@ -14,6 +14,7 @@ function Idea() {
     const { setIdeaColor, setShowColor } = useContext(IdeaColorContext);
 
     const [idea, setIdea] = useState(undefined);
+    const [imageLoaded, setImageLoaded] = useState(false);
     
     const randomIdeasList = getRandomIdeas().map(ideasEntry => 
         <IdeasRow ideasEntry={ideasEntry}/>
@@ -52,12 +53,12 @@ function Idea() {
         setIdeaColor(idea.color);
         setShowColor(true);
 
+        window.scrollTo(0, 0);
+
         return () => setShowColor(false);
     }, [id])
 
     useEffect(() => {
-        window.scrollTo(0, 0);
-
         if (registryId) {
             const spans = document.querySelectorAll(`.${registryId}`)
             if (spans.length > 0) {
@@ -65,10 +66,10 @@ function Idea() {
                     span.style.backgroundColor = idea?.color;
                 })
 
-                scrollToElement(spans[0]);
+                if (imageLoaded) scrollToElement(spans[0]);
             }
         }
-    }, [idea])
+    }, [imageLoaded])
 
     function scrollToElement(el) {
         const y = el.getBoundingClientRect().top - (window.innerHeight / 3);
@@ -93,7 +94,6 @@ function Idea() {
         else return <p key={i} >{parse(textEntry.paragraph)}</p>
     })
 
-    // if (!idea) return <h3>Loading</h3>
     return (
         <div className="Idea">
             <div className="container">
@@ -102,7 +102,7 @@ function Idea() {
                     <h1>{idea?.title}</h1>
                 </header>
                 <section style={backgroundStyle} className="header-picture-container">
-                    <img src={process.env.PUBLIC_URL + "/images/" + idea?.image} alt="header"/> 
+                    <img src={process.env.PUBLIC_URL + "/images/" + idea?.image} onLoad={() => setImageLoaded(true)} alt="header"/>
                 </section>
                 <article>
                     {ideaToDisplay}

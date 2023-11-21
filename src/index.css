@@ -566,9 +566,9 @@ footer span a:last-child {
     }
 }
 
-/* Smartphone portrait mode - max-width: 428px */
+/* Smartphone portrait mode - max-width: 550px */
 
-@media only screen and (max-width: 429px) {
+@media only screen and (max-width: 550px) {
 
     :root {
         font-size: 14px;
@@ -632,7 +632,7 @@ footer span a:last-child {
         width: 100vw;
         z-index: 1;
         background-color: var(--content-background);
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.5s;
     }
 
     .Navigation .hide {

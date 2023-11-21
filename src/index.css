@@ -175,6 +175,11 @@ button {
     transition: transform 0.5s;
 }
 
+.PopUpContent .snippet-info {
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
 .PopUpContent:hover {
     transform: scale(1.01);
 }
@@ -666,6 +671,10 @@ footer span a:last-child {
 
     .Idea .container .highlight {
         padding-left: 0;
+    }
+
+    .PopUpContent {
+        font-size: 0.9rem;
     }
 
     .Registry .content > *:not(:last-child) {

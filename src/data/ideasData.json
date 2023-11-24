@@ -225,7 +225,7 @@
                 "lat": 50.110818
             }
         ],
-        "color": "rgb(75,140,178)",
+        "color": "rgb(212, 162, 85)",
         "fontColor": "rgb(255,255,255)",
         "tag": "Architektur",
         "text": [
@@ -264,6 +264,48 @@
         ],
         "snippet": "Warum nicht eines der Gebäude, die Ernst May im Geiste des Neuen Frankfurt in Kenia baute, in Frankfurt ein zweites Mal errichten! Solch eine Rekonstruktion könnte gerade im Widerspruch zu dem, was gemeinhin rekonstruiert wird, und mit welcher Haltung dies geschieht, vielfältige Lernprozesse provozieren.",
         "image": "eineandererekonstruktionistmoeglich.jpg"
+    },
+    {
+        "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
+        "author": "Kenneth Hujer",
+        "coordinates": [
+            {
+                "lng": 8.68308003475796,
+                "lat": 50.110682014869866
+            }
+        ],
+        "color": "rgb(237,73,48)",
+        "fontColor": "rgb(255,255,255)",
+        "title": "Stadtgeschichte ankündigen",
+        "tag": "Installation",
+        "text": [
+            {
+                "type": "intro",
+                "paragraph": "Als im Zuge der Sanierungsarbeiten der <span className='ubahn'>U-Bahn</span>-Haltestelle „Dom/Römer“ bei laufendem Betrieb die Wandverkleidung teils entfernt werden musste, staunten viele auf die Bahn Wartende nicht schlecht: Plakate aus dem Jahr 1973 waren plötzlich freigelegt. Sie bewarben die 25. Frankfurter <span className='buchmesse'>Buchmesse</span>, die anstehende Internationale Automobilausstellung oder ein Jazz-Konzert im <span className='palmengarten'>Palmengarten</span>. Allesamt Ereignisse, die ein halbes Jahrhundert zurückliegen. Der <span className='zoo'>Zoo</span> machte mit collagierten Tiermalereien im Stile Henri Rousseaus auf sich aufmerksam, das <span className='schauspielhaus'>Schauspielhaus</span> kündigte im zeittypischen Orange drei seiner Aufführungen an. Aber nicht nur gestalterisch und typographisch bezeugten die Plakate den Geist einer anderen Zeit. Ein Plakat mit lila gefärbter <span className='goethe'>Goethe</span>-Büste amüsierte durch seinen antiquierten, weil korrekt gebildeten Konjunktiv: „Er wäre sauer, wenn Sie Frankfurts Museen nicht besuchten.“"
+            },
+            {
+                "type": "default",
+                "paragraph": "Es war ein sonderbares Gefühl, jenen Plakaten im eigenen Alltagsgeschehen zu begegnen. Immerhin befand man sich in keinem Stadtmuseum, sondern wartete am Gleis auf die nächste <span className='ubahn'>U-Bahn</span>. Wie archäologisch freigelegte Zeitschichten traten die Plakate dem Betrachter entgegen. Sie waren sich selbst genug, hatten ihre Aufgabe längst erfüllt, mussten für nichts mehr werben und versprühten damit eine eigentümlich lässige Melancholie. Zwar bestehen die Orte und Veranstaltungen, die sie bewarben, noch heute. Der Geist der Zeit, der aus den alten Anzeigen herüberwehte, ist allerdings ein ganz anderer als heute. So tauchte in ihrer Gegenwart die Frage nach der Kontinuität des <span className='stadtraum'>Stadtraums</span> auf. Weil die Plakate nicht museal aushingen, sondern im öffentlichen Raum, trat zu Bewusstsein: Auch das Hier und Heute ist Teil dieser fortschreitenden <span className='stadtgeschichte'>Stadtgeschichte</span>, Teil ihres beständigen Wandels. Auch das, was sich uns gerade als Gegenwart präsentiert, wird einmal als Zeitdokument zum archivierten <span className='zeitgeist'>Zeitgeist</span> werden. Der ist nicht gegenwärtiger als er es im Jahr 1973 war, aber ebenso schwierig zu fassen."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Warum nicht diese frappierende Nahbarkeit dokumentierter <span className='stadtgeschichte'>Stadtgeschichte</span> in eine öffentliche Ausstellungspraxis überführen? In den Archiven der Stadt und ihrer Institutionen sind allerhand Plakate vergangener Jahrzehnte aufzufinden, die manchmal verstörend, manchmal aberwitzig, oft kunstvoll und eigensinnig die Geschichte der Stadt dokumentieren, die sie einst als Zukünftige ankündigten."
+            },
+            {
+                "type": "default",
+                "paragraph": "Ich denke da beispielsweise an das von <span className=''>Gabriele Lorenzer</span> 1970 gestaltete „Oben-ohne“-Plakat zum Frankfurter <span className=''>U-Bahn</span>-Bau, an Plakate zu <span className='muhammadali'>Muhammad Alis</span> im September 1966 stattgefundenen Boxkampf gegen <span className='karlmildenberger'>Karl Mildenberger</span> im Frankfurter <span className='waldstadion'>Waldstadion</span> und zur Filmpremiere von <span className='hitchcock'>Hitchcocks</span> Film „Psycho“ im <span className='turmpalastkino'>Turmpalast-Kino</span>, wofür der Regisseur im September 1960 eigens nach Frankfurt reiste, oder an das von <span className='oskarschlemmer'>Oskar Schlemmer</span> entworfene Plakat zur „Großen Brücken Revue“, die an vier Augusttagen des Jahres 1926 in der <span className='festhalle'>Festhalle</span> stattfand. Sicherlich gab es auch ein Plakat für die Feierlichkeiten zum 1200. Jahresjubiläum Frankfurts, als <span className='phillippepetit'>Phillippe Petit</span> am 12. Juni 1994 in einem atemberaubenden Drahtseilakt vom Dach der Paulskirche hinüber auf die Spitze des Kaiserdoms wandelte."
+            },
+            {
+                "type": "highlight",
+                "paragraph": "Eine vielseitige Auswahl kopiert und im Beisein heutiger Werbungen plakatiert, würde den öffentlichen Raum um manche Qualitäten des <span className='historischesmuseum'>Historischen Museums</span> bereichern und dabei ein größeres Publikum erreichen."
+            },
+            {
+                "type": "default",
+                "paragraph": "Ereignisse der <span className='stadtgeschichte'>Stadtgeschichte</span> würden wieder ins Bewusstsein gerückt und das zuvor angeführte Phänomen, das wir <span className='zeitgeist'>Zeitgeist</span> nennen, in den Blick geraten. Darüber hinaus würde die Plakatkunst selbst zum Gegenstand und ihre Möglichkeiten von Typographie und Illustration. Nicht zuletzt würden wir in Kontakt gebracht mit den Menschen, denen die Plakate einmal galten: Frankfurterinnen und Frankfurter wie wir es sind."
+            }
+        ],
+        "snippet": "Als im Zuge der Sanierungsarbeiten der U-Bahn-Haltestelle 'Dom/Römer' bei laufendem Betrieb die Wandverkleidung teils entfernt werden musste, staunten viele auf die Bahn Wartende nicht schlecht: Plakate aus dem Jahr 1973 waren plötzlich freigelegt.",
+        "image": "Stadtgeschichte_ankuendigen.png"
     },
     {
         "id": "a58341ee-6ad2-4dd9-8ab2-f18b4136fdf9",
@@ -376,48 +418,6 @@
         ],
         "snippet": "Um meine eigene Stimmung zu heben, kam mir bei einem meiner Spaziergänge in den Sinn, den allgegenwärtigen Anthrazit-Anstrich der Frankfurter Straßenlaternen fortan bloß als Grundierung zu verstehen – gewissermaßen als Vorbereitungsarbeit –, durch die in den kommenden Jahren eine farbige Sichtbarmachung aller 43 Frankfurter Stadtteile möglich wird.",
         "image": "Laternen.png"
-    },
-    {
-        "id": "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c",
-        "author": "Kenneth Hujer",
-        "coordinates": [
-            {
-                "lng": 8.68308003475796,
-                "lat": 50.110682014869866
-            }
-        ],
-        "color": "rgb(237,73,48)",
-        "fontColor": "rgb(255,255,255)",
-        "title": "Stadtgeschichte ankündigen",
-        "tag": "Installation",
-        "text": [
-            {
-                "type": "intro",
-                "paragraph": "Als im Zuge der Sanierungsarbeiten der <span className='ubahn'>U-Bahn</span>-Haltestelle „Dom/Römer“ bei laufendem Betrieb die Wandverkleidung teils entfernt werden musste, staunten viele auf die Bahn Wartende nicht schlecht: Plakate aus dem Jahr 1973 waren plötzlich freigelegt. Sie bewarben die 25. Frankfurter <span className='buchmesse'>Buchmesse</span>, die anstehende Internationale Automobilausstellung oder ein Jazz-Konzert im <span className='palmengarten'>Palmengarten</span>. Allesamt Ereignisse, die ein halbes Jahrhundert zurückliegen. Der <span className='zoo'>Zoo</span> machte mit collagierten Tiermalereien im Stile Henri Rousseaus auf sich aufmerksam, das <span className='schauspielhaus'>Schauspielhaus</span> kündigte im zeittypischen Orange drei seiner Aufführungen an. Aber nicht nur gestalterisch und typographisch bezeugten die Plakate den Geist einer anderen Zeit. Ein Plakat mit lila gefärbter <span className='goethe'>Goethe</span>-Büste amüsierte durch seinen antiquierten, weil korrekt gebildeten Konjunktiv: „Er wäre sauer, wenn Sie Frankfurts Museen nicht besuchten.“"
-            },
-            {
-                "type": "default",
-                "paragraph": "Es war ein sonderbares Gefühl, jenen Plakaten im eigenen Alltagsgeschehen zu begegnen. Immerhin befand man sich in keinem Stadtmuseum, sondern wartete am Gleis auf die nächste <span className='ubahn'>U-Bahn</span>. Wie archäologisch freigelegte Zeitschichten traten die Plakate dem Betrachter entgegen. Sie waren sich selbst genug, hatten ihre Aufgabe längst erfüllt, mussten für nichts mehr werben und versprühten damit eine eigentümlich lässige Melancholie. Zwar bestehen die Orte und Veranstaltungen, die sie bewarben, noch heute. Der Geist der Zeit, der aus den alten Anzeigen herüberwehte, ist allerdings ein ganz anderer als heute. So tauchte in ihrer Gegenwart die Frage nach der Kontinuität des <span className='stadtraum'>Stadtraums</span> auf. Weil die Plakate nicht museal aushingen, sondern im öffentlichen Raum, trat zu Bewusstsein: Auch das Hier und Heute ist Teil dieser fortschreitenden <span className='stadtgeschichte'>Stadtgeschichte</span>, Teil ihres beständigen Wandels. Auch das, was sich uns gerade als Gegenwart präsentiert, wird einmal als Zeitdokument zum archivierten <span className='zeitgeist'>Zeitgeist</span> werden. Der ist nicht gegenwärtiger als er es im Jahr 1973 war, aber ebenso schwierig zu fassen."
-            },
-            {
-                "type": "highlight",
-                "paragraph": "Warum nicht diese frappierende Nahbarkeit dokumentierter <span className='stadtgeschichte'>Stadtgeschichte</span> in eine öffentliche Ausstellungspraxis überführen? In den Archiven der Stadt und ihrer Institutionen sind allerhand Plakate vergangener Jahrzehnte aufzufinden, die manchmal verstörend, manchmal aberwitzig, oft kunstvoll und eigensinnig die Geschichte der Stadt dokumentieren, die sie einst als Zukünftige ankündigten."
-            },
-            {
-                "type": "default",
-                "paragraph": "Ich denke da beispielsweise an das von <span className=''>Gabriele Lorenzer</span> 1970 gestaltete „Oben-ohne“-Plakat zum Frankfurter <span className=''>U-Bahn</span>-Bau, an Plakate zu <span className='muhammadali'>Muhammad Alis</span> im September 1966 stattgefundenen Boxkampf gegen <span className='karlmildenberger'>Karl Mildenberger</span> im Frankfurter <span className='waldstadion'>Waldstadion</span> und zur Filmpremiere von <span className='hitchcock'>Hitchcocks</span> Film „Psycho“ im <span className='turmpalastkino'>Turmpalast-Kino</span>, wofür der Regisseur im September 1960 eigens nach Frankfurt reiste, oder an das von <span className='oskarschlemmer'>Oskar Schlemmer</span> entworfene Plakat zur „Großen Brücken Revue“, die an vier Augusttagen des Jahres 1926 in der <span className='festhalle'>Festhalle</span> stattfand. Sicherlich gab es auch ein Plakat für die Feierlichkeiten zum 1200. Jahresjubiläum Frankfurts, als <span className='phillippepetit'>Phillippe Petit</span> am 12. Juni 1994 in einem atemberaubenden Drahtseilakt vom Dach der Paulskirche hinüber auf die Spitze des Kaiserdoms wandelte."
-            },
-            {
-                "type": "highlight",
-                "paragraph": "Eine vielseitige Auswahl kopiert und im Beisein heutiger Werbungen plakatiert, würde den öffentlichen Raum um manche Qualitäten des <span className='historischesmuseum'>Historischen Museums</span> bereichern und dabei ein größeres Publikum erreichen."
-            },
-            {
-                "type": "default",
-                "paragraph": "Ereignisse der <span className='stadtgeschichte'>Stadtgeschichte</span> würden wieder ins Bewusstsein gerückt und das zuvor angeführte Phänomen, das wir <span className='zeitgeist'>Zeitgeist</span> nennen, in den Blick geraten. Darüber hinaus würde die Plakatkunst selbst zum Gegenstand und ihre Möglichkeiten von Typographie und Illustration. Nicht zuletzt würden wir in Kontakt gebracht mit den Menschen, denen die Plakate einmal galten: Frankfurterinnen und Frankfurter wie wir es sind."
-            }
-        ],
-        "snippet": "Als im Zuge der Sanierungsarbeiten der U-Bahn-Haltestelle 'Dom/Römer' bei laufendem Betrieb die Wandverkleidung teils entfernt werden musste, staunten viele auf die Bahn Wartende nicht schlecht: Plakate aus dem Jahr 1973 waren plötzlich freigelegt.",
-        "image": "Stadtgeschichte_ankuendigen.png"
     },
     {
         "id": "e014e182-a50d-4ea2-9bc5-09545d9242ce",

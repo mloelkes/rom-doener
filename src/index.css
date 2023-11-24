@@ -220,7 +220,7 @@ button {
 .Idea header {
     box-sizing: border-box;
     width: 100%;
-    padding: 7rem 2rem 0 2rem;  
+    padding-top: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -231,7 +231,7 @@ button {
 
 .Idea .header-picture-container {
     width: 100%;
-    padding-bottom: 3rem;
+    padding: 3rem 0 5rem 0;
     display: flex;
     justify-content: center;
     border-bottom: 0.6rem solid var(--content-background);
@@ -253,10 +253,6 @@ button {
     max-width: 1600px;
 }
 
-.Idea .container article p {
-    margin-bottom: 40px;
-}
-
 .Idea .container article p:first-of-type:first-letter {
     font-size: 316%;
     line-height: 1;
@@ -275,6 +271,7 @@ button {
 }
 
 .Idea .container .author {
+    margin-top: 3rem;
     font-size: 0.8rem;
     font-weight: 600;
     text-transform: uppercase;

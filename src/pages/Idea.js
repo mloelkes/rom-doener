@@ -105,7 +105,9 @@ function Idea() {
                 </header>
                 <section style={backgroundStyle} className="header-picture-container">
                     <img src={process.env.PUBLIC_URL + "/images/" + idea?.image} style={ imageLoaded ? { } : { display: "none" } } onLoad={() => setImageLoaded(true)} alt="header"/>
-                    <div className="imageLoading" style={ imageLoaded ? { display: "none" } : { } }></div>
+                    <div className="loaderContainer" style={ imageLoaded ? { display: "none" } : { } }>
+                        <div className="loader"></div>
+                    </div>
                 </section>
                 <article>
                     {ideaToDisplay}

@@ -10,21 +10,23 @@ function Imprint() {
         <div className="Imprint">
             <div className="content-page">
                 <h1>Impressum</h1>
+                <h2>Ermöglicht durch</h2>
+                <br/>
+                <br/>
                 <h2>Konzept und Projektleitung</h2>
+                <p>Kenneth Hujer</p>
+                <br/>
+                <h2>Redaktion</h2>
                 <p>Kenneth Hujer</p>
                 <br/>
                 <h2>Gestaltung</h2>
                 <p>Marco Lölkes, Kenneth Hujer, Yuriy Matveev</p>
                 <br/>
-                <h2>Technische Umsetzung</h2>
-                <p>Marco Lölkes</p>
-                <br/>
-                <h2>Redaktion</h2>
-                <p>Kenneth Hujer</p>
-                <br/>
                 <h2>Illustration</h2>
                 <p>Fabia Matveev (<a href="https://www.fabiafabia.com">fabiafabia.com</a>)</p>
                 <br/>
+                <h2>Technische Umsetzung</h2>
+                <p>Marco Lölkes</p>
                 <br/>
                 <h2>Rechtliche Hinweise</h2>
                 <p>Anbieterkennzeichnung i.S.d. § 5 TMG</p>

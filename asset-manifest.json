@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rom-doener/static/css/main.4b7c7357.css",
-    "main.js": "/rom-doener/static/js/main.d8a851d0.js",
+    "main.css": "/rom-doener/static/css/main.29d1b310.css",
+    "main.js": "/rom-doener/static/js/main.6f5fcf37.js",
     "static/js/483.95d0865c.chunk.js": "/rom-doener/static/js/483.95d0865c.chunk.js",
     "index.html": "/rom-doener/index.html",
-    "main.4b7c7357.css.map": "/rom-doener/static/css/main.4b7c7357.css.map",
-    "main.d8a851d0.js.map": "/rom-doener/static/js/main.d8a851d0.js.map",
+    "main.29d1b310.css.map": "/rom-doener/static/css/main.29d1b310.css.map",
+    "main.6f5fcf37.js.map": "/rom-doener/static/js/main.6f5fcf37.js.map",
     "483.95d0865c.chunk.js.map": "/rom-doener/static/js/483.95d0865c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b7c7357.css",
-    "static/js/main.d8a851d0.js"
+    "static/css/main.29d1b310.css",
+    "static/js/main.6f5fcf37.js"
   ]
 }

@@ -27,8 +27,8 @@ function Navigation() {
                 <Hamburger toggleMenu={toggleMenu} />
                 <div className="links">
                     <NavLink className={location.pathname.includes("ideas") ? "navlink selected" : "navlink"} to="/ideas">Ideen</NavLink>
-                    <NavLink className={({isActive}) => (isActive ? "navlink selected" : "navlink")} to="/registry">Register</NavLink>
                     <NavLink className={({isActive}) => (isActive ? "navlink selected" : "navlink")} to="/discover">Karte</NavLink>
+                    <NavLink className={({isActive}) => (isActive ? "navlink selected" : "navlink")} to="/registry">Register</NavLink>
                     <NavLink className={({isActive}) => (isActive ? "navlink selected" : "navlink")} to="/about">Über</NavLink>
                 </div>
                 <Link className="logo" to="/">

@@ -1,6 +1,6 @@
 # Rom/Döner
 
-[Rom/Döner - Ideen für Frankfurt](https://mloelkes.github.io/rom-doener/)\
+[Rom/Döner - Ideen für Frankfurt](https://www.romdoener.de/)\
 Built with *React*.
 
 ## Setup

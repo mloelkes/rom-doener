@@ -372,6 +372,15 @@ button {
     background-color: var(--content-background);
 }
 
+.About {
+    background-color: #fff;
+
+}
+
+.About .cube {
+    width: 30%;
+}
+
 /* IdeasRow component */
 
 .IdeasRow {

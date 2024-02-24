@@ -362,9 +362,9 @@ button {
     transform: scale(1.2);
 }
 
-/* About page, PrivacyPolicy page, Imprint page, Registry page */
+/* PrivacyPolicy page, Imprint page, Registry page */
 
-.About, .PrivacyPolicy, .Imprint, .Registry, .Error {
+.PrivacyPolicy, .Imprint, .Registry, .Error {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -372,13 +372,27 @@ button {
     background-color: var(--content-background);
 }
 
-.About {
-    background-color: #fff;
+/* About page */
 
+.About header, .About .header-picture-container {
+    background-color: #fff;
 }
 
-.About .cube {
+.About .container, .About article {
+    background-color: var(--content-background);
+}
+
+.About .header-picture-container {
+    padding: 0 0 3rem 0;
+    border-bottom: 0;
+}
+
+.About .header-picture-container img {
     width: 30%;
+}
+
+.About header h1 {
+    margin-bottom: 0;
 }
 
 /* IdeasRow component */

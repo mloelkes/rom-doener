@@ -390,6 +390,10 @@ button {
     border-bottom: 0;
 }
 
+.About .header-picture-container video {
+    width: 70%;
+}
+
 .About header h1 {
     margin-bottom: 0;
 }

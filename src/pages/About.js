@@ -16,7 +16,7 @@ function About() {
                     <h1>Rom/Döner – Ein Ideenprojekt</h1>
                 </header>
                 <section className="header-picture-container">
-                    <video loop autoPlay muted style={ videoLoaded ? { } : { display: "none" } } onLoadedData={() => setVideoLoaded(true)}>
+                    <video loop autoPlay muted playsInline style={ videoLoaded ? { } : { display: "none" } } onLoadedData={() => setVideoLoaded(true)}>
                         <source src={process.env.PUBLIC_URL + "/images/Cube.mp4"} type="video/mp4"/>
                     </video>
                     <div className="loaderContainer" style={ videoLoaded ? { display: "none" } : { } }>

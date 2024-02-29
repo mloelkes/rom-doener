@@ -377,6 +377,9 @@ button {
 .About header, .About .header-picture-container {
     background-color: #fff;
 }
+.About .loaderContainer {
+    margin-top: 3rem;
+}
 
 .About .container, .About article {
     background-color: var(--content-background);
@@ -385,10 +388,6 @@ button {
 .About .header-picture-container {
     padding: 0 0 3rem 0;
     border-bottom: 0;
-}
-
-.About .header-picture-container img {
-    width: 30%;
 }
 
 .About header h1 {

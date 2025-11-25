@@ -308,8 +308,8 @@
         ]
     },
     {
-        "id": "piazzanovana",
-        "term": "Piazza Novana",
+        "id": "piazzanavona",
+        "term": "Piazza Navona",
         "ideas": [
             "78edbc52-801b-427e-b2ec-332d737ca3de"
         ]
@@ -557,7 +557,7 @@
     },
     {
         "id": "ubahnstationbockenheimerwarte",
-        "term": "U-Bahn-Station „Bockenheimer Warte“",
+        "term": "U-Bahn-Station Bockenheimer Warte",
         "ideas": [
             "53731126-288a-4bc8-bb9a-4672400a1da8"
         ]
@@ -573,7 +573,6 @@
         "id": "ubahn",
         "term": "U-Bahn",
         "ideas": [
-            "53731126-288a-4bc8-bb9a-4672400a1da8",
             "e1a98a70-90f9-47e8-9a9f-f3c0bc57132c"
         ]
     },
@@ -909,14 +908,14 @@
     },
     {
         "id": "ubahnstationeschenheimertor",
-        "term": "U-Bahn-Station „Eschenheimer Tor“",
+        "term": "U-Bahn-Station Eschenheimer Tor",
         "ideas": [
             "1aca6da0-4aca-4386-ae87-500a62dcd787"
         ]
     },
     {
         "id": "ubahnstationdornbusch",
-        "term": "U-Bahn-Station „Dornbusch“",
+        "term": "U-Bahn-Station Dornbusch",
         "ideas": [
             "1aca6da0-4aca-4386-ae87-500a62dcd787"
         ]
@@ -940,6 +939,13 @@
         "term": "Römer",
         "ideas": [
             "1aca6da0-4aca-4386-ae87-500a62dcd787"
+        ]
+    },
+    {
+        "id": "domroemer",
+        "term": "U-Bahn-Station Dom/Römer",
+        "ideas": [
+            "a58341ee-6ad2-4dd9-8ab2-f18b4136fdf9"
         ]
     }
 ]

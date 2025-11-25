@@ -111,7 +111,7 @@ function Idea() {
                 </section>
                 <article>
                     {ideaToDisplay}
-                    <p className="author">Idee von {idea?.author}</p>
+                    <p className="author">{idea?.author}</p>
                 </article>
                 <section className="random-ideas">
                     {randomIdeasList}

@@ -71,7 +71,7 @@ function Discover() {
         <div className="Discover">
             <Map
                 className="Map"
-                mapboxAccessToken="pk.eyJ1IjoibWxvZWxrZXMiLCJhIjoiY2w0ZHdjemIzMGNtaTNpbmFjNWxoMjgzcyJ9.KKxu07GlP5ftDrDSTGycPQ"
+                mapboxAccessToken="pk.eyJ1Ijoicm9tZG9lbmVyIiwiYSI6ImNtZmsyMnFoODE2dWoyanM0emFva281cjQifQ.lTeUDcOIsvaO9FIagKnn-g"
                 initialViewState={{
                     longitude: 8.680000,
                     latitude: 50.110000,

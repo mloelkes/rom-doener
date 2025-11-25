@@ -13,7 +13,7 @@ function PrivacyPolicy() {
                 <h2>Geltungsbereich und Umgang mit personenbezogenen Daten</h2>
                 <p>Diese Datenschutzerklärung informiert Nutzer über die Verarbeitung personenbezogener Daten bei der Nutzung dieser Website. Die gesetzlichen Regelungen zum Datenschutz gehen aus der europäischen Datenschutzgrundverordnung hervor. Das <a href="https://www.bussgeldkatalog.org/bdsg/">Bundesdatenschutzgesetz</a> (BDSG) und das Telemediengesetz (TMG) gelten ergänzend.</p>
                 <p>Verantwortlich für diese Website ist folgender Anbieter:</p>
-                <p>Kenneth Hujer<br/>Freiligrathstraße 56<br/>60385 Frankfurt am Main<br/>Telefon: 0157 53433551<br/>E-Mail: kennethhujer@gmail.com</p>
+                <p>Kenneth Hujer<br/>Freiligrathstraße 56<br/>60385 Frankfurt am Main<br/>E-Mail: kennethhujer@gmail.com</p>
                 <br/>
                 <h2>Personenbezogene Daten</h2>
                 <p>Zu den personenbezogenen Daten zählen alle Informationen, die sich auf eine natürliche Person beziehen. Dabei kann es sich zum Beispiel um den Namen, eine Anschrift, ein Geburtsdatum oder eine E-Mail-Adresse handeln. Diese Informationen werden nur gemäß der gesetzlichen Datenschutzbestimmungen auf der Website erhoben und verarbeitet.</p>
